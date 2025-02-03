@@ -1,0 +1,79 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 0.2103407382965088 seconds
+Received response: PropertyAccess
+Actual result:  GraphicsWindow . Show ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 0.19236302375793457 seconds
+Received response: SetPenColor
+Actual result:  . Show ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 1, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 1 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.18505072593688965 seconds
+Received response: SetPenColor
+Actual result:  Show ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 1, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 1 20
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Show
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 0.20611071586608887 seconds
+Received response: DrawRectangle(100, 100, 200, 200, 4)
+Actual result:  ( )
+SACREBLEU Score: {'score': 4.02724819242185, 'counts': [2, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.15
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 1 21
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Show(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.19958090782165527 seconds
+Received response: GraphicsWindow.Show()
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 7.333333333333334
+Average Sequence Matcher Similarity Precision: 14.375494071146244
+Average Cosine Similarity Precision: 0.0

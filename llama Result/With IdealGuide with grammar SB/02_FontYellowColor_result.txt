@@ -1,0 +1,198 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. 
+                
+Time taken: 0.19336652755737305 seconds
+Received response: Property Identifier . Identifier As Expression
+Actual result:  TextWindow . ForegroundColor = "Yellow"
+SACREBLEU Score: {'score': 6.870636427700047, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 0.846481724890614, 'sys_len': 6, 'ref_len': 7}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.23255813953488372
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. 
+                
+Time taken: 0.21984124183654785 seconds
+Received response: '. Identifier = Expression' 
+should be completed as '. Identifier = Expression' 
+becomes '. Identifier = Expression' 
+which is '. Identifier = Expression
+Actual result:  . ForegroundColor = "Yellow"
+SACREBLEU Score: {'score': 1.6504045595709425, 'counts': [2, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [7.407407407407407, 1.9230769230769231, 1.0, 0.5208333333333334], 'bp': 1.0, 'sys_len': 27, 'ref_len': 6}
+First element of precision:7.407407407407407
+Sequence Matcher Similarity Precision:0.10989010989010989
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 1 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. 
+                
+Time taken: 0.42514824867248535 seconds
+Received response: Identifier = VariableName
+Actual result:  ForegroundColor = "Yellow"
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.23076923076923078
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 1 28
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. 
+                
+Time taken: 0.1784968376159668 seconds
+Received response: Color
+Actual result:  = "Yellow"
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 1, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 1 30
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. 
+                
+Time taken: 0.18604230880737305 seconds
+Received response: "Red"
+Actual result:  "Yellow"
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 39
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. 
+                
+Time taken: 0.22185540199279785 seconds
+Received response: TextWindow.ForegroundColor = "Yellow"
+TextWindow.WriteLine("This is the first statement.")
+TextWindow.WriteLine("This is the second statement.")
+Actual result:  \n TextWindow . WriteLine ( "Hello World" )
+SACREBLEU Score: {'score': 12.092555992625888, 'counts': [7, 5, 3, 2], 'totals': [33, 32, 31, 30], 'precisions': [21.21212121212121, 15.625, 9.67741935483871, 6.666666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 11}
+First element of precision:21.21212121212121
+Sequence Matcher Similarity Precision:0.2765957446808511
+Cosine Similarity Precision:0.4351941398892446
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow"
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 0.20613622665405273 seconds
+Received response: Identifier . Identifier ( Expression ) 
+should be replaced with: 
+VariableName . PropertyName ( Value )
+Actual result:  TextWindow . WriteLine ( "Hello World" )
+SACREBLEU Score: {'score': 3.0098043843528286, 'counts': [3, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 9}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.20833333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 2 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow" 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 0.22356128692626953 seconds
+Received response: Color
+Actual result:  . WriteLine ( "Hello World" )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.0009118819655545162, 'sys_len': 1, 'ref_len': 8}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.17142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 2 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow" 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.2187967300415039 seconds
+Received response: TextWindow.ForegroundColor = "Yellow" 
+TextWindow.WriteLine("Hello, World!")
+Actual result:  WriteLine ( "Hello World" )
+SACREBLEU Score: {'score': 16.61742929957894, 'counts': [7, 4, 2, 1], 'totals': [18, 17, 16, 15], 'precisions': [38.888888888888886, 23.529411764705884, 12.5, 6.666666666666667], 'bp': 1.0, 'sys_len': 18, 'ref_len': 7}
+First element of precision:38.888888888888886
+Sequence Matcher Similarity Precision:0.4807692307692308
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 58	Cursor Position: 2 21
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow" 
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 0.27828335762023926 seconds
+Received response: 2 + 2
+Actual result:  ( "Hello World" )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 3, 'ref_len': 6}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.17391304347826086
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 2 22
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow" 
+TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. 
+                
+Time taken: 0.19604229927062988 seconds
+Received response: TextWindow.WriteLine("Hello, World!")
+Actual result:  "Hello World"
+SACREBLEU Score: {'score': 8.913765521398126, 'counts': [4, 1, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 10.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 4}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.5098039215686274
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 92	Cursor Position: 2 35
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.ForegroundColor = "Yellow" 
+TextWindow.WriteLine("Hello World"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.2073662281036377 seconds
+Received response:                 TextWindow.ForegroundColor = "Yellow" 
+TextWindow.WriteLine("Hello World")
+Actual result:  )
+SACREBLEU Score: {'score': 2.445593937240363, 'counts': [1, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:6.25
+Sequence Matcher Similarity Precision:0.043478260869565216
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 20.369648280187498
+Average Sequence Matcher Similarity Precision: 25.967591790784113
+Average Cosine Similarity Precision: 14.33042658554515

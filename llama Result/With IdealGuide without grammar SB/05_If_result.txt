@@ -1,0 +1,647 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'If Expression Then CRStmtCRs MoreThanZeroElseIf'
+                Complete the 'If Expression Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Small Basic programming language. Just show your answer in place of 'If Expression Then CRStmtCRs MoreThanZeroElseIf'. 
+                
+Time taken: 2.3678390979766846 seconds
+Received response: If x > 0 Then
+  Print "Number is positive"
+Else If x < 0
+Actual result:  If ( Clock . Hour < 12 ) Then \n TextWindow . WriteLine ( "Good Morning World" ) \n EndIf
+SACREBLEU Score: {'score': 2.218092274542824, 'counts': [5, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [31.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 0.6065306597126334, 'sys_len': 16, 'ref_len': 24}
+First element of precision:31.25
+Sequence Matcher Similarity Precision:0.3150684931506849
+Cosine Similarity Precision:0.2860387767736777
+
+Parse State: 10	Cursor Position: 1 4
+
+                This is the incomplete Small Basic programming language code:
+                If
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3386456966400146 seconds
+Received response: 2 + 2
+Actual result:  ( Clock . Hour < 12 )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.2635971381157267, 'sys_len': 3, 'ref_len': 7}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14814814814814814
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 1 5
+
+                This is the incomplete Small Basic programming language code:
+                If (
+                'Identifier . Identifier'
+                Complete the 'Identifier . Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier'. 
+                
+Time taken: 2.3440024852752686 seconds
+Received response: VariableName . VariableName
+Actual result:  Clock . Hour
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 1 10
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock
+                '. Identifier'
+                Complete the '. Identifier' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier'. 
+                
+Time taken: 2.3559494018554688 seconds
+Received response: '. Time'
+Actual result:  . Hour
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 1 11
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. 
+                
+Time taken: 2.3489792346954346 seconds
+Received response: GetTime
+Actual result:  Hour
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 17	Cursor Position: 1 16
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour
+                '< AdditiveExpr'
+                Complete the '< AdditiveExpr' part of the code in the Small Basic programming language. Just show your answer in place of '< AdditiveExpr'. 
+                
+Time taken: 2.3593146800994873 seconds
+Received response: 12
+Actual result:  < 12
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:1.0
+
+Parse State: 44	Cursor Position: 1 18
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour <
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.344766616821289 seconds
+Received response: 12
+Actual result:  12
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:1.0
+
+Parse State: 54	Cursor Position: 1 20
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.342172145843506 seconds
+Received response: Then
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 36	Cursor Position: 1 22
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12)
+                'Then CRStmtCRs MoreThanZeroElseIf'
+                Complete the 'Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Small Basic programming language. Just show your answer in place of 'Then CRStmtCRs MoreThanZeroElseIf'. 
+                
+Time taken: 2.347374200820923 seconds
+Received response: Then Print("Good morning")
+Actual result:  Then \n TextWindow . WriteLine ( "Good Morning World" ) \n EndIf
+SACREBLEU Score: {'score': 9.95265213836697, 'counts': [6, 3, 1, 0], 'totals': [8, 7, 6, 5], 'precisions': [75.0, 42.857142857142854, 16.666666666666668, 10.0], 'bp': 0.36787944117144233, 'sys_len': 8, 'ref_len': 16}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.5054945054945055
+Cosine Similarity Precision:0.5669467095138407
+
+Parse State: 63	Cursor Position: 1 29
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.354557752609253 seconds
+Received response: WriteLine("Good morning!")
+Actual result:  \n TextWindow . WriteLine ( "Good Morning World" ) \n
+SACREBLEU Score: {'score': 19.42057693312435, 'counts': [6, 4, 2, 1], 'totals': [8, 7, 6, 5], 'precisions': [75.0, 57.142857142857146, 33.333333333333336, 20.0], 'bp': 0.4723665527410147, 'sys_len': 8, 'ref_len': 14}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.6
+Cosine Similarity Precision:0.7745966692414835
+
+Parse State: 39	Cursor Position: 2 2
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.354018449783325 seconds
+Received response: Greet()
+Actual result:  TextWindow . WriteLine ( "Good Morning World" )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.09697196786440505, 'sys_len': 3, 'ref_len': 10}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.10909090909090909
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 2 12
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.3973379135131836 seconds
+Received response: TextWindow.WriteLine("Good morning")
+Actual result:  . WriteLine ( "Good Morning World" )
+SACREBLEU Score: {'score': 51.33450480401705, 'counts': [7, 5, 3, 2], 'totals': [9, 8, 7, 6], 'precisions': [77.77777777777777, 62.5, 42.857142857142854, 33.333333333333336], 'bp': 1.0, 'sys_len': 9, 'ref_len': 9}
+First element of precision:77.77777777777777
+Sequence Matcher Similarity Precision:0.684931506849315
+Cosine Similarity Precision:0.75
+
+Parse State: 30	Cursor Position: 2 13
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.3588883876800537 seconds
+Received response: TextWindow.WriteLine("Good morning")
+Actual result:  WriteLine ( "Good Morning World" )
+SACREBLEU Score: {'score': 35.49481056010054, 'counts': [6, 4, 2, 1], 'totals': [9, 8, 7, 6], 'precisions': [66.66666666666667, 50.0, 28.571428571428573, 16.666666666666668], 'bp': 1.0, 'sys_len': 9, 'ref_len': 8}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.676056338028169
+Cosine Similarity Precision:0.75
+
+Parse State: 58	Cursor Position: 2 22
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3443777561187744 seconds
+Received response: Clock.Hour
+Actual result:  ( "Good Morning World" )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.2635971381157267, 'sys_len': 3, 'ref_len': 7}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 2 23
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. 
+                
+Time taken: 2.3507702350616455 seconds
+Received response: Hello
+Actual result:  "Good Morning World"
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 2 43
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.340320110321045 seconds
+Received response: Then
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 2 45
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.376569986343384 seconds
+Received response:                 If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World")
+               
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 19, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.037383177570093455
+Cosine Similarity Precision:0.0
+
+Parse State: 87	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World")
+                'EndIf'
+                Complete the 'EndIf' part of the code in the Small Basic programming language. Just show your answer in place of 'EndIf'. 
+                
+Time taken: 2.3529911041259766 seconds
+Received response: EndIf
+Actual result:  EndIf
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9090909090909091
+Cosine Similarity Precision:1.0
+
+Parse State: 3	Cursor Position: 3 6
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. 
+                
+Time taken: 2.3819117546081543 seconds
+Received response: If (Clock.Hour < 12) Then   
+  TextWindow.WriteLine("Good Morning World") 
+
+Actual result:  \n If ( Clock . Hour >= 12 ) Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
+SACREBLEU Score: {'score': 37.53112735225093, 'counts': [17, 13, 9, 5], 'totals': [19, 18, 17, 16], 'precisions': [89.47368421052632, 72.22222222222223, 52.94117647058823, 31.25], 'bp': 0.6563555554708402, 'sys_len': 19, 'ref_len': 27}
+First element of precision:89.47368421052632
+Sequence Matcher Similarity Precision:0.7810650887573964
+Cosine Similarity Precision:0.8581163303210333
+
+Parse State: 11	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+                'If Expression Then CRStmtCRs MoreThanZeroElseIf'
+                Complete the 'If Expression Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Small Basic programming language. Just show your answer in place of 'If Expression Then CRStmtCRs MoreThanZeroElseIf'. 
+                
+Time taken: 2.4008548259735107 seconds
+Received response: If (Clock.Hour >= 12 And Clock.Hour < 18) Then   
+  TextWindow.WriteLine
+Actual result:  If ( Clock . Hour >= 12 ) Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
+SACREBLEU Score: {'score': 34.29323620203763, 'counts': [13, 10, 7, 5], 'totals': [19, 18, 17, 16], 'precisions': [68.42105263157895, 55.55555555555556, 41.1764705882353, 31.25], 'bp': 0.729212952525235, 'sys_len': 19, 'ref_len': 25}
+First element of precision:68.42105263157895
+Sequence Matcher Similarity Precision:0.6012269938650306
+Cosine Similarity Precision:0.7006490497453707
+
+Parse State: 10	Cursor Position: 4 4
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3617870807647705 seconds
+Received response: Clock.Hour
+Actual result:  ( Clock . Hour >= 12 )
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.18887560283756186, 'sys_len': 3, 'ref_len': 8}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6060606060606061
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 23	Cursor Position: 4 5
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (
+                'Identifier . Identifier'
+                Complete the 'Identifier . Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier'. 
+                
+Time taken: 2.3541576862335205 seconds
+Received response: Clock.Hour < 12
+Actual result:  Clock . Hour
+SACREBLEU Score: {'score': 39.76353643835252, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.7142857142857143
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 22	Cursor Position: 4 10
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock
+                '. Identifier'
+                Complete the '. Identifier' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier'. 
+                
+Time taken: 2.3454885482788086 seconds
+Received response: '. Hour'
+Actual result:  . Hour
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:1.0
+
+Parse State: 53	Cursor Position: 4 11
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. 
+                
+Time taken: 2.3449528217315674 seconds
+Received response: Clock.Hour
+Actual result:  Hour
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5333333333333333
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 17	Cursor Position: 4 16
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour
+                '>= AdditiveExpr'
+                Complete the '>= AdditiveExpr' part of the code in the Small Basic programming language. Just show your answer in place of '>= AdditiveExpr'. 
+                
+Time taken: 2.3795340061187744 seconds
+Received response: 12) Then   
+TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour
+Actual result:  >= 12
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 3}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.04878048780487805
+Cosine Similarity Precision:0.30151134457776363
+
+Parse State: 47	Cursor Position: 4 19
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >=
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3331832885742188 seconds
+Received response: 12
+Actual result:  12
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:1.0
+
+Parse State: 54	Cursor Position: 4 21
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.347682237625122 seconds
+Received response: Then
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 36	Cursor Position: 4 23
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12)
+                'Then CRStmtCRs MoreThanZeroElseIf'
+                Complete the 'Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Small Basic programming language. Just show your answer in place of 'Then CRStmtCRs MoreThanZeroElseIf'. 
+                
+Time taken: 2.4053192138671875 seconds
+Received response: Then 
+TextWindow.WriteLine("Good Afternoon World") 
+ElseIf (Clock.Hour < 18
+Actual result:  Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
+SACREBLEU Score: {'score': 34.57913759237496, 'counts': [10, 7, 5, 3], 'totals': [18, 17, 16, 15], 'precisions': [55.55555555555556, 41.1764705882353, 31.25, 20.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 16}
+First element of precision:55.55555555555556
+Sequence Matcher Similarity Precision:0.6714285714285714
+Cosine Similarity Precision:0.5976143046671968
+
+Parse State: 63	Cursor Position: 4 30
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.3660404682159424 seconds
+Received response: If (Clock.Hour < 12) Then   
+  TextWindow.WriteLine("Good Morning World") 
+
+Actual result:  \n TextWindow . WriteLine ( "Good Evening World" ) \n
+SACREBLEU Score: {'score': 31.747475711293127, 'counts': [9, 7, 5, 3], 'totals': [19, 18, 17, 16], 'precisions': [47.36842105263158, 38.888888888888886, 29.41176470588235, 18.75], 'bp': 1.0, 'sys_len': 19, 'ref_len': 14}
+First element of precision:47.36842105263158
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.565685424949238
+
+Parse State: 39	Cursor Position: 5 2
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.3721957206726074 seconds
+Received response: The completed code would be:
+
+If (Clock.Hour < 12) Then   
+    TextWindow.WriteLine
+Actual result:  TextWindow . WriteLine ( "Good Evening World" )
+SACREBLEU Score: {'score': 9.083627868206413, 'counts': [5, 2, 1, 0], 'totals': [18, 17, 16, 15], 'precisions': [27.77777777777778, 11.764705882352942, 6.25, 3.3333333333333335], 'bp': 1.0, 'sys_len': 18, 'ref_len': 10}
+First element of precision:27.77777777777778
+Sequence Matcher Similarity Precision:0.32061068702290074
+Cosine Similarity Precision:0.25819888974716115
+
+Parse State: 6	Cursor Position: 5 12
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.370680809020996 seconds
+Received response: .WriteLine
+Actual result:  . WriteLine ( "Good Evening World" )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [100.0, 100.0, 0.0, 0.0], 'bp': 0.0301973834223185, 'sys_len': 2, 'ref_len': 9}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.425531914893617
+Cosine Similarity Precision:0.5
+
+Parse State: 30	Cursor Position: 5 13
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.3582863807678223 seconds
+Received response: TextWindow.WriteLine("Good Afternoon World")
+Actual result:  WriteLine ( "Good Evening World" )
+SACREBLEU Score: {'score': 37.99178428257963, 'counts': [7, 5, 3, 1], 'totals': [10, 9, 8, 7], 'precisions': [70.0, 55.55555555555556, 37.5, 14.285714285714286], 'bp': 1.0, 'sys_len': 10, 'ref_len': 8}
+First element of precision:70.0
+Sequence Matcher Similarity Precision:0.6835443037974683
+Cosine Similarity Precision:0.6708203932499369
+
+Parse State: 58	Cursor Position: 5 22
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3612899780273438 seconds
+Received response: TextWindow.WriteLine("Good Afternoon World")
+Actual result:  ( "Good Evening World" )
+SACREBLEU Score: {'score': 26.269098944241577, 'counts': [6, 4, 2, 0], 'totals': [10, 9, 8, 7], 'precisions': [60.0, 44.44444444444444, 25.0, 7.142857142857143], 'bp': 1.0, 'sys_len': 10, 'ref_len': 7}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.5217391304347826
+Cosine Similarity Precision:0.5163977794943223
+
+Parse State: 83	Cursor Position: 5 23
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. 
+                
+Time taken: 2.3597500324249268 seconds
+Received response: TextWindow.WriteLine("Good Afternoon World")
+Actual result:  "Good Evening World"
+SACREBLEU Score: {'score': 11.868405219520975, 'counts': [4, 2, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [40.0, 22.22222222222222, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 5}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.49230769230769234
+Cosine Similarity Precision:0.5163977794943223
+
+Parse State: 92	Cursor Position: 5 43
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.342433452606201 seconds
+Received response: EndIf
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 5 45
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.362499713897705 seconds
+Received response: If (Clock.Hour < 12) Then   
+    TextWindow.WriteLine("Good Morning World") 
+
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 19, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 87	Cursor Position: 6 1
+
+                This is the incomplete Small Basic programming language code:
+                If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World")
+                'EndIf'
+                Complete the 'EndIf' part of the code in the Small Basic programming language. Just show your answer in place of 'EndIf'. 
+                
+Time taken: 2.3336679935455322 seconds
+Received response: EndIf
+Actual result:  EndIf
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9090909090909091
+Cosine Similarity Precision:1.0
+
+
+Average Precision: 47.28524577208788
+Average Sequence Matcher Similarity Precision: 42.251614214414786
+Average Cosine Similarity Precision: 45.819117283290126

@@ -1,0 +1,1008 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. 
+                
+Time taken: 2.351165294647217 seconds
+Received response: Property Identifier . Identifier As Expression
+Actual result:  GraphicsWindow . BackgroundColor = "Black"
+SACREBLEU Score: {'score': 6.870636427700047, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 0.846481724890614, 'sys_len': 6, 'ref_len': 7}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.20224719101123595
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. 
+                
+Time taken: 2.3480653762817383 seconds
+Received response: '. Identifier = 5'
+Actual result:  . BackgroundColor = "Black"
+SACREBLEU Score: {'score': 10.400597689005304, 'counts': [2, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 12.5, 8.333333333333334, 6.25], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.30434782608695654
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 1 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. 
+                
+Time taken: 2.3601276874542236 seconds
+Received response: Identifier = VariableName | Number | String | Boolean | FunctionCall | ArrayAccess | OperatorExpression
+Actual result:  BackgroundColor = "Black"
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 5}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.10852713178294573
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 1 32
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. 
+                
+Time taken: 2.33809232711792 seconds
+Received response: Red
+Actual result:  = "Black"
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 1, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 1 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. 
+                
+Time taken: 2.348259449005127 seconds
+Received response: "Black"
+Actual result:  "Black"
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9333333333333333
+Cosine Similarity Precision:1.0
+
+Parse State: 3	Cursor Position: 1 42
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. 
+                
+Time taken: 2.3648228645324707 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black"
+'CR MoreThanOneStmt'
+GraphicsWindow.DrawRectangle(10
+Actual result:  \n For i = 1 To 1000 \n GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( ) \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n EndFor
+SACREBLEU Score: {'score': 0.4599543564900089, 'counts': [7, 2, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [50.0, 15.384615384615385, 4.166666666666667, 2.272727272727273], 'bp': 0.049787068367863944, 'sys_len': 14, 'ref_len': 56}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.1557632398753894
+Cosine Similarity Precision:0.4618802153517006
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black"
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.3684327602386475 seconds
+Received response: For i = 1 To 10 Step 1
+  GraphicsWindow.DrawText("Hello,
+Actual result:  For i = 1 To 1000 \n GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( ) \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n EndFor
+SACREBLEU Score: {'score': 2.297622563205927, 'counts': [10, 5, 3, 2], 'totals': [15, 14, 13, 12], 'precisions': [66.66666666666667, 35.714285714285715, 23.076923076923077, 16.666666666666668], 'bp': 0.07427357821433388, 'sys_len': 15, 'ref_len': 54}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.23487544483985764
+Cosine Similarity Precision:0.4830458915396479
+
+Parse State: 8	Cursor Position: 2 5
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.3605456352233887 seconds
+Received response: For i = 1 To 10 Step 1
+EndFor
+Actual result:  i = 1 To 1000 \n GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( ) \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n EndFor
+SACREBLEU Score: {'score': 0.24872114675605325, 'counts': [6, 3, 2, 1], 'totals': [9, 8, 7, 6], 'precisions': [66.66666666666667, 37.5, 28.571428571428573, 16.666666666666668], 'bp': 0.007529784255650023, 'sys_len': 9, 'ref_len': 53}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.056
+Cosine Similarity Precision:0.33218191941495984
+
+Parse State: 34	Cursor Position: 2 7
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.372464418411255 seconds
+Received response: For i = 1 To 10 Step 1
+  GraphicsWindow.DrawText("Hello,
+Actual result:  = 1 To 1000 \n GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( ) \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n EndFor
+SACREBLEU Score: {'score': 1.1740852071642367, 'counts': [8, 3, 1, 0], 'totals': [15, 14, 13, 12], 'precisions': [53.333333333333336, 21.428571428571427, 7.6923076923076925, 4.166666666666667], 'bp': 0.0848672789700174, 'sys_len': 15, 'ref_len': 52}
+First element of precision:53.333333333333336
+Sequence Matcher Similarity Precision:0.02181818181818182
+Cosine Similarity Precision:0.4211174438061578
+
+Parse State: 61	Cursor Position: 2 9
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3569600582122803 seconds
+Received response: For i = 1 To 10
+Actual result:  1
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.23529411764705882
+Cosine Similarity Precision:0.0
+
+Parse State: 85	Cursor Position: 2 11
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.371101140975952 seconds
+Received response: To Expression OptStep CRStmtCRs EndFor
+For i = 1 To 10 Step
+Actual result:  To 1000 \n GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( ) \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n EndFor
+SACREBLEU Score: {'score': 0.20183665254802374, 'counts': [4, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [33.333333333333336, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 0.042143843509276385, 'sys_len': 12, 'ref_len': 50}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.08759124087591241
+Cosine Similarity Precision:0.2799462554779271
+
+Parse State: 95	Cursor Position: 2 14
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.34519100189209 seconds
+Received response: 10
+Actual result:  1000
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 2 21
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.3813462257385254 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000
+    Graphics
+Actual result:  \n GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( ) \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n
+SACREBLEU Score: {'score': 0.6395684552657339, 'counts': [4, 1, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [28.571428571428573, 7.6923076923076925, 4.166666666666667, 2.272727272727273], 'bp': 0.09469038101854274, 'sys_len': 14, 'ref_len': 47}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.19852941176470587
+Cosine Similarity Precision:0.22237479499833035
+
+Parse State: 39	Cursor Position: 3 2
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. 
+                
+Time taken: 2.3624062538146973 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000
+    Pen
+Actual result:  GraphicsWindow . BrushColor = GraphicsWindow . GetRandomColor ( )
+SACREBLEU Score: {'score': 6.285596338261262, 'counts': [3, 1, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [21.428571428571427, 7.6923076923076925, 4.166666666666667, 2.272727272727273], 'bp': 1.0, 'sys_len': 14, 'ref_len': 9}
+First element of precision:21.428571428571427
+Sequence Matcher Similarity Precision:0.46616541353383456
+Cosine Similarity Precision:0.3086066999241838
+
+Parse State: 6	Cursor Position: 3 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. 
+                
+Time taken: 2.358947992324829 seconds
+Received response: '. Identifier = "GraphicsWindow"'
+Actual result:  . BrushColor = GraphicsWindow . GetRandomColor ( )
+SACREBLEU Score: {'score': 7.267884212102741, 'counts': [3, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [37.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 8}
+First element of precision:37.5
+Sequence Matcher Similarity Precision:0.47619047619047616
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 30	Cursor Position: 3 17
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. 
+                
+Time taken: 2.3652381896972656 seconds
+Received response: GraphicsWindow.DrawRectangle(10, 10, 50, 50)
+Actual result:  BrushColor = GraphicsWindow . GetRandomColor ( )
+SACREBLEU Score: {'score': 8.054496384843702, 'counts': [4, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [33.333333333333336, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 7}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4731182795698925
+Cosine Similarity Precision:0.1825741858350554
+
+Parse State: 58	Cursor Position: 3 28
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. 
+                
+Time taken: 2.373600482940674 seconds
+Received response: Randomize()
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor =
+Actual result:  = GraphicsWindow . GetRandomColor ( )
+SACREBLEU Score: {'score': 9.238430210261097, 'counts': [5, 2, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [38.46153846153846, 16.666666666666668, 4.545454545454546, 2.5], 'bp': 1.0, 'sys_len': 13, 'ref_len': 6}
+First element of precision:38.46153846153846
+Sequence Matcher Similarity Precision:0.48484848484848486
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 82	Cursor Position: 3 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.3602099418640137 seconds
+Received response: GraphicsWindow.BrushColor = "Red"
+Actual result:  GraphicsWindow . GetRandomColor ( )
+SACREBLEU Score: {'score': 13.134549472120788, 'counts': [2, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 5}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.6376811594202898
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 22	Cursor Position: 3 44
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.370805025100708 seconds
+Received response: GraphicsWindow.FillRectangle(i * 2, i * 2, 10, 10)
+Actual result:  . GetRandomColor ( )
+SACREBLEU Score: {'score': 3.21858262703621, 'counts': [3, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [18.75, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 4}
+First element of precision:18.75
+Sequence Matcher Similarity Precision:0.2535211267605634
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 3 45
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.373272180557251 seconds
+Received response: GraphicsWindow.BrushColor = GraphicsWindow.Color
+Actual result:  GetRandomColor ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3582089552238806
+Cosine Similarity Precision:0.0
+
+Parse State: 79	Cursor Position: 3 59
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3611443042755127 seconds
+Received response: GraphicsWindow.FillRectangle(0, 0, 800, 600)
+Actual result:  ( )
+SACREBLEU Score: {'score': 4.02724819242185, 'counts': [2, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 3 60
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.362362861633301 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	Graphics
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02702702702702703
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 3 64
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.3748557567596436 seconds
+Received response: GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()
+GraphicsWindow.FillRectangle(0, 
+Actual result:  \n x = Math . GetRandomNumber ( 640 ) \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n
+SACREBLEU Score: {'score': 1.8877300214982058, 'counts': [9, 1, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [60.0, 7.142857142857143, 3.8461538461538463, 2.0833333333333335], 'bp': 0.2465969639416065, 'sys_len': 15, 'ref_len': 36}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.29596412556053814
+Cosine Similarity Precision:0.21650635094610968
+
+Parse State: 88	Cursor Position: 4 2
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. 
+                
+Time taken: 2.3586108684539795 seconds
+Received response: GraphicsWindow.FillRectangle(10, 10, 50, 50)
+Actual result:  x = Math . GetRandomNumber ( 640 )
+SACREBLEU Score: {'score': 4.456882760699063, 'counts': [3, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 8}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.25316455696202533
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 4 4
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. 
+                
+Time taken: 2.72841477394104 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	Graphics
+Actual result:  = Math . GetRandomNumber ( 640 )
+SACREBLEU Score: {'score': 3.377156414337854, 'counts': [2, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 7}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.20952380952380953
+Cosine Similarity Precision:0.0
+
+Parse State: 29	Cursor Position: 4 6
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.368089199066162 seconds
+Received response: GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+x = GraphicsWindow.GetRandomColor
+Actual result:  Math . GetRandomNumber ( 640 )
+SACREBLEU Score: {'score': 3.737437943747671, 'counts': [3, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [21.428571428571427, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 6}
+First element of precision:21.428571428571427
+Sequence Matcher Similarity Precision:0.25196850393700787
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 4 10
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.358123302459717 seconds
+Received response: Rand
+Actual result:  . GetRandomNumber ( 640 )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 4 11
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.3557181358337402 seconds
+Received response: Rand()
+Actual result:  GetRandomNumber ( 640 )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 79	Cursor Position: 4 26
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3406975269317627 seconds
+Received response: Math.GetRandomNumber(0, 800)
+Actual result:  ( 640 )
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [2, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 89	Cursor Position: 4 27
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3442094326019287 seconds
+Received response: Between 0 and 1
+Actual result:  640
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.21052631578947367
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 4 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.3430206775665283 seconds
+Received response: x = Math.GetRandomNumber(640)
+Actual result:  )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.12903225806451613
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 4 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.364816904067993 seconds
+Received response: y = Math.GetRandomNumber(480)
+GraphicsWindow.SetPenColor(GraphicsWindow.GetRandomColor())
+
+Actual result:  \n y = Math . GetRandomNumber ( 480 ) \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n
+SACREBLEU Score: {'score': 28.53285209484689, 'counts': [12, 8, 6, 5], 'totals': [18, 17, 16, 15], 'precisions': [66.66666666666667, 47.05882352941177, 37.5, 33.333333333333336], 'bp': 0.6411803884299546, 'sys_len': 18, 'ref_len': 26}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5027322404371585
+Cosine Similarity Precision:0.5555555555555555
+
+Parse State: 88	Cursor Position: 5 2
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. 
+                
+Time taken: 2.364708662033081 seconds
+Received response: GraphicsWindow.SetPixel(x, 480, GraphicsWindow.BrushColor)
+Actual result:  y = Math . GetRandomNumber ( 480 )
+SACREBLEU Score: {'score': 4.789232204309912, 'counts': [4, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [33.333333333333336, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 8}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.27956989247311825
+Cosine Similarity Precision:0.2182178902359924
+
+Parse State: 6	Cursor Position: 5 4
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. 
+                
+Time taken: 2.360600709915161 seconds
+Received response: GraphicsWindow.DrawRectangle(x, y, 2, 2)
+Actual result:  = Math . GetRandomNumber ( 480 )
+SACREBLEU Score: {'score': 4.456882760699063, 'counts': [3, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 7}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.273972602739726
+Cosine Similarity Precision:0.0
+
+Parse State: 29	Cursor Position: 5 6
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.359483480453491 seconds
+Received response: GraphicsWindow.SetPixel(x, y, GraphicsWindow.BrushColor)
+Actual result:  Math . GetRandomNumber ( 480 )
+SACREBLEU Score: {'score': 4.456882760699063, 'counts': [3, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 6}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.22988505747126436
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 5 10
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.344831705093384 seconds
+Received response: Math.GetRandomNumber(480)
+Actual result:  . GetRandomNumber ( 480 )
+SACREBLEU Score: {'score': 75.98356856515926, 'counts': [5, 4, 3, 2], 'totals': [6, 5, 4, 3], 'precisions': [83.33333333333333, 80.0, 75.0, 66.66666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 5}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.8235294117647058
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 53	Cursor Position: 5 11
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.355508327484131 seconds
+Received response: Math.GetRandomNumber(480)
+Actual result:  GetRandomNumber ( 480 )
+SACREBLEU Score: {'score': 50.81327481546149, 'counts': [4, 3, 2, 1], 'totals': [6, 5, 4, 3], 'precisions': [66.66666666666667, 60.0, 50.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 6, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.8163265306122449
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 79	Cursor Position: 5 26
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3514933586120605 seconds
+Received response: Math.GetRandomNumber(480)
+Actual result:  ( 480 )
+SACREBLEU Score: {'score': 30.213753973567677, 'counts': [3, 2, 1, 0], 'totals': [6, 5, 4, 3], 'precisions': [50.0, 40.0, 25.0, 16.666666666666668], 'bp': 1.0, 'sys_len': 6, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.30303030303030304
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 89	Cursor Position: 5 27
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.362848997116089 seconds
+Received response: y = Math.GetRandomNumber(480)
+Actual result:  480
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.24242424242424243
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 102	Cursor Position: 5 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.361168384552002 seconds
+Received response: y = Math.GetRandomNumber(480)
+Actual result:  )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.12903225806451613
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 5 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.384718894958496 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	Graphics
+Actual result:  \n GraphicsWindow . FillEllipse ( x , y , 10 , 10 ) \n
+SACREBLEU Score: {'score': 4.923586854897609, 'counts': [2, 1, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [14.285714285714286, 7.6923076923076925, 4.166666666666667, 2.272727272727273], 'bp': 0.8668778997501817, 'sys_len': 14, 'ref_len': 16}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.4251968503937008
+Cosine Similarity Precision:0.1543033499620919
+
+Parse State: 88	Cursor Position: 6 2
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.3557631969451904 seconds
+Received response: GraphicsWindow.SetPixel(x, y, GraphicsWindow.BrushColor)
+Actual result:  GraphicsWindow . FillEllipse ( x , y , 10 , 10 )
+SACREBLEU Score: {'score': 37.70063804549471, 'counts': [8, 5, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [66.66666666666667, 45.45454545454545, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 12}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.34285714285714286
+Cosine Similarity Precision:0.3333333333333334
+
+Parse State: 6	Cursor Position: 6 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.7115955352783203 seconds
+Received response: DrawOval(x, y, 5, 5)
+Actual result:  . FillEllipse ( x , y , 10 , 10 )
+SACREBLEU Score: {'score': 38.66252716278829, 'counts': [7, 4, 3, 2], 'totals': [10, 9, 8, 7], 'precisions': [70.0, 44.44444444444444, 37.5, 28.571428571428573], 'bp': 0.9048374180359595, 'sys_len': 10, 'ref_len': 11}
+First element of precision:70.0
+Sequence Matcher Similarity Precision:0.4074074074074074
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 6 17
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.3676211833953857 seconds
+Received response: GraphicsWindow.FillRectangle(x, y, 2, 2)
+Actual result:  FillEllipse ( x , y , 10 , 10 )
+SACREBLEU Score: {'score': 34.48444257953326, 'counts': [7, 4, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [58.333333333333336, 36.36363636363637, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 10}
+First element of precision:58.333333333333336
+Sequence Matcher Similarity Precision:0.4166666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 6 28
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.430330991744995 seconds
+Received response: x, y
+Actual result:  ( x , y , 10 , 10 )
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 3, 'ref_len': 9}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 6 29
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. 
+                
+Time taken: 2.3744990825653076 seconds
+Received response: GraphicsWindow.FillEllipse(x, y, 10, 10)
+Actual result:  x
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.047619047619047616
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 6 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.3520913124084473 seconds
+Received response: ', y, 5, 5)'
+Actual result:  , y , 10 , 10
+SACREBLEU Score: {'score': 19.070828081828378, 'counts': [4, 2, 1, 0], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334], 'bp': 1.0, 'sys_len': 9, 'ref_len': 6}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.5384615384615384
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 6 32
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x,
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. 
+                
+Time taken: 2.350594997406006 seconds
+Received response: y, 20)
+Actual result:  y
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 6 33
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.353353261947632 seconds
+Received response: ', 200)'
+Actual result:  , 10 , 10
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 6 35
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3678174018859863 seconds
+Received response: GraphicsWindow.FillEllipse(x, y, 20, 20, "White")
+Actual result:  10
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 6 37
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y, 10
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.3574037551879883 seconds
+Received response: ', 10)'
+Actual result:  , 10
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 103	Cursor Position: 6 39
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y, 10,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.342308521270752 seconds
+Received response: Text
+Actual result:  10
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 6 41
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y, 10, 10
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.419072389602661 seconds
+Received response: GraphicsWindow.FillEllipse(x, y, 10, 10)
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 6 43
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y, 10, 10)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.378026247024536 seconds
+Received response: ```smallbasic
+GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 100
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 114	Cursor Position: 7 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y, 10, 10)
+                'EndFor'
+                Complete the 'EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'EndFor'. 
+                
+Time taken: 2.369615077972412 seconds
+Received response: EndFor
+Actual result:  EndFor
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:1.0
+
+
+Average Precision: 33.24655899655899
+Average Sequence Matcher Similarity Precision: 31.355719037339718
+Average Cosine Similarity Precision: 20.113653276615075

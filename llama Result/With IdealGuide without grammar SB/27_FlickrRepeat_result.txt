@@ -1,0 +1,540 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.3616068363189697 seconds
+Received response: For Identifier = Expression To Expression [OptStep] [CRStmtCRs] EndFor
+Actual result:  For I = 1 To 20 \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndFor
+SACREBLEU Score: {'score': 0.5912235429488975, 'counts': [4, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [30.76923076923077, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 0.1353352832366127, 'sys_len': 13, 'ref_len': 39}
+First element of precision:30.76923076923077
+Sequence Matcher Similarity Precision:0.2374429223744292
+Cosine Similarity Precision:0.23717082451262844
+
+Parse State: 8	Cursor Position: 1 5
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.370408773422241 seconds
+Received response: 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+Identifier = Expression 
+ 
+Actual result:  I = 1 To 20 \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndFor
+SACREBLEU Score: {'score': 0.42370001394703977, 'counts': [3, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [27.272727272727273, 5.0, 2.7777777777777777, 1.5625], 'bp': 0.0859022330378763, 'sys_len': 11, 'ref_len': 38}
+First element of precision:27.272727272727273
+Sequence Matcher Similarity Precision:0.1864406779661017
+Cosine Similarity Precision:0.12524485821702988
+
+Parse State: 34	Cursor Position: 1 6
+
+                This is the incomplete Small Basic programming language code:
+                For I
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.3792896270751953 seconds
+Received response: For I = 1 To 10 Step 2
+  Print I
+EndFor
+Actual result:  = 1 To 20 \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndFor
+SACREBLEU Score: {'score': 1.410325870376463, 'counts': [4, 2, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 20.0, 11.11111111111111, 6.25], 'bp': 0.09407750044007386, 'sys_len': 11, 'ref_len': 37}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.21081851067789195
+
+Parse State: 61	Cursor Position: 1 7
+
+                This is the incomplete Small Basic programming language code:
+                For I=
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3418593406677246 seconds
+Received response: For I = 1 To 10
+Actual result:  1
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.23529411764705882
+Cosine Similarity Precision:0.0
+
+Parse State: 85	Cursor Position: 1 9
+
+                This is the incomplete Small Basic programming language code:
+                For I=1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.351717472076416 seconds
+Received response: To 10 Step 1
+EndFor
+Actual result:  To 20 \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndFor
+SACREBLEU Score: {'score': 0.031488378888092736, 'counts': [2, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 12.5, 8.333333333333334, 6.25], 'bp': 0.0024787521766663585, 'sys_len': 5, 'ref_len': 35}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.189873417721519
+Cosine Similarity Precision:0.2581988897471611
+
+Parse State: 95	Cursor Position: 1 12
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.340376853942871 seconds
+Received response: 10
+Actual result:  20
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.366291046142578 seconds
+Received response: Print("The rest of the numbers are: ") 
+For I = 21 To 100 
+
+Actual result:  \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n
+SACREBLEU Score: {'score': 2.9509356504710564, 'counts': [5, 2, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [27.77777777777778, 11.764705882352942, 3.125, 1.6666666666666667], 'bp': 0.45942582403592663, 'sys_len': 18, 'ref_len': 32}
+First element of precision:27.77777777777778
+Sequence Matcher Similarity Precision:0.0972972972972973
+Cosine Similarity Precision:0.0
+
+Parse State: 39	Cursor Position: 2 3
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. 
+                
+Time taken: 2.344932794570923 seconds
+Received response: I = 1
+Actual result:  pic = Flickr . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 3, 'ref_len': 12}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 2 7
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. 
+                
+Time taken: 2.362062931060791 seconds
+Received response: I = 1 To 20 
+  pic
+'= I * 2'
+Actual result:  = Flickr . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.20253164556962025
+Cosine Similarity Precision:0.0
+
+Parse State: 29	Cursor Position: 2 9
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.4098594188690186 seconds
+Received response: `Math.Sin(I * 3.14 / 180)`
+Actual result:  Flickr . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 4.456882760699063, 'counts': [3, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 10}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.18666666666666668
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 2 15
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.3484597206115723 seconds
+Received response: '. GetPictureFromFlickr ("")'
+Actual result:  . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 14.575161396875705, 'counts': [5, 2, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [62.5, 28.571428571428573, 8.333333333333334, 5.0], 'bp': 0.8824969025845955, 'sys_len': 8, 'ref_len': 9}
+First element of precision:62.5
+Sequence Matcher Similarity Precision:0.4788732394366197
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 2 16
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.375598430633545 seconds
+Received response: In Small Basic, the 'Identifier ( Expression )' part is likely referring to a method call.
+Actual result:  GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 2.6643211213888947, 'counts': [3, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [15.789473684210526, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 8}
+First element of precision:15.789473684210526
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 79	Cursor Position: 2 32
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.4019970893859863 seconds
+Received response: `Flickr.GetRandomPicture` is a function that returns a picture, but it seems like you
+Actual result:  ( "mountains, river" )
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 7}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.2037037037037037
+Cosine Similarity Precision:0.0
+
+Parse State: 89	Cursor Position: 2 33
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. 
+                
+Time taken: 2.376215934753418 seconds
+Received response: api_key
+Actual result:  "mountains, river"
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.23076923076923078
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 2 51
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.3784291744232178 seconds
+Received response:                 For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains,
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02631578947368421
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 2 57
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.3795454502105713 seconds
+Received response: ```smallbasic
+For I = 1 To 20 
+  pic = Flickr.GetRandomPicture
+Actual result:  \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n
+SACREBLEU Score: {'score': 2.5586897876995107, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 0.8187307530779819, 'sys_len': 15, 'ref_len': 18}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.16923076923076924
+Cosine Similarity Precision:0.1690308509457033
+
+Parse State: 88	Cursor Position: 3 3
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.3906068801879883 seconds
+Received response: The 'Identifier . Identifier ( Expression )' part of the code seems to be a method call.
+Actual result:  GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 2.6643211213888947, 'counts': [3, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [15.789473684210526, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 14}
+First element of precision:15.789473684210526
+Sequence Matcher Similarity Precision:0.18666666666666668
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 3 17
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.3654696941375732 seconds
+Received response: '. SetGraphicsWindowWidth ( 800 )'
+Actual result:  . DrawResizedImage ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 3.667862829704212, 'counts': [3, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 8.333333333333334, 5.0, 3.125], 'bp': 0.42437284567694994, 'sys_len': 7, 'ref_len': 13}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.32098765432098764
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 3 18
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.3701329231262207 seconds
+Received response: The completed code would be:
+
+For I = 1 To 20 
+  pic = Flickr.Get
+Actual result:  DrawResizedImage ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 12}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.14545454545454545
+Cosine Similarity Precision:0.15075567228888181
+
+Parse State: 58	Cursor Position: 3 34
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3709752559661865 seconds
+Received response: pic
+Actual result:  ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 4.5399929762484854e-05, 'sys_len': 1, 'ref_len': 11}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.1935483870967742
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 83	Cursor Position: 3 35
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. 
+                
+Time taken: 2.3754727840423584 seconds
+Received response: pic = Flickr.GetRandomPicture("mountains, river")     
+GraphicsWindow.DrawResizedImage(pic
+Actual result:  pic
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.06382978723404255
+Cosine Similarity Precision:0.6324555320336759
+
+Parse State: 91	Cursor Position: 3 38
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.3654673099517822 seconds
+Received response: ', 200, 200)'
+Actual result:  , 0 , 0 , 640 , 480
+SACREBLEU Score: {'score': 6.770186228657864, 'counts': [2, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 8.333333333333334, 5.0, 3.125], 'bp': 0.8668778997501817, 'sys_len': 7, 'ref_len': 8}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.42424242424242425
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 3 40
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.371328353881836 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 200, 200)
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 3 41
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.69964861869812 seconds
+Received response: ', 200)
+Actual result:  , 0 , 640 , 480
+SACREBLEU Score: {'score': 9.688464563433238, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 0.6065306597126334, 'sys_len': 4, 'ref_len': 6}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.34782608695652173
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 3 43
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.373197078704834 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 0, 0, GraphicsWindow.Width, GraphicsWindow
+Actual result:  0
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.04938271604938271
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 3 44
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.3491873741149902 seconds
+Received response: ', 200, 200)'
+Actual result:  , 640 , 480
+SACREBLEU Score: {'score': 7.809849842300637, 'counts': [2, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 4}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.48
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 3 46
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.371831178665161 seconds
+Received response: Width, Height
+Actual result:  640
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 3 49
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0, 640
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. 
+                
+Time taken: 2.351696491241455 seconds
+Received response: ', 480)'
+Actual result:  , 480
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.7142857142857143
+Cosine Similarity Precision:1.0
+
+Parse State: 103	Cursor Position: 3 51
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0, 640,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.335318088531494 seconds
+Received response: Width
+Actual result:  480
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 3 54
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.3602676391601562 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+Actual result:  )
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 3 56
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.3645455837249756 seconds
+Received response: For I = 1 To 20 
+  pic = Flickr.GetRandomPicture("mountains,
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06349206349206349
+Cosine Similarity Precision:0.0
+
+Parse State: 114	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                For I=1 To 20 
+  pic = Flickr.GetRandomPicture("mountains, river")     
+  GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+                'EndFor'
+                Complete the 'EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'EndFor'. 
+                
+Time taken: 2.3435463905334473 seconds
+Received response: EndFor
+Actual result:  EndFor
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:1.0
+
+
+Average Precision: 23.43176085073337
+Average Sequence Matcher Similarity Precision: 23.806253745868652
+Average Cosine Similarity Precision: 13.62820439878937

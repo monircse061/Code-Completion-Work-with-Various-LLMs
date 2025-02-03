@@ -1,0 +1,292 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.353968381881714 seconds
+Received response: For Identifier = Expression To Expression [OptStep] [CRStmtCRs] EndFor
+Actual result:  For i = 10 To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
+SACREBLEU Score: {'score': 2.549704254217688, 'counts': [4, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [30.76923076923077, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 0.583645478143574, 'sys_len': 13, 'ref_len': 20}
+First element of precision:30.76923076923077
+Sequence Matcher Similarity Precision:0.39416058394160586
+Cosine Similarity Precision:0.35856858280031806
+
+Parse State: 8	Cursor Position: 1 5
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.354882001876831 seconds
+Received response: 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+Identifier = Expression 
+ 
+Actual result:  i = 10 To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
+SACREBLEU Score: {'score': 2.153677533892338, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 0.48322508118982543, 'sys_len': 11, 'ref_len': 19}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.2987012987012987
+Cosine Similarity Precision:0.19802950859533489
+
+Parse State: 34	Cursor Position: 1 7
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.3669726848602295 seconds
+Received response: For i = 1 To 10 Step 2
+  Print i
+EndFor
+Actual result:  = 10 To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
+SACREBLEU Score: {'score': 3.2261087668855954, 'counts': [7, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [63.63636363636363, 5.0, 2.7777777777777777, 1.5625], 'bp': 0.5292133415000503, 'sys_len': 11, 'ref_len': 18}
+First element of precision:63.63636363636363
+Sequence Matcher Similarity Precision:0.56
+Cosine Similarity Precision:0.6666666666666669
+
+Parse State: 61	Cursor Position: 1 9
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 3.1856846809387207 seconds
+Received response: For i = 1 To 10
+Actual result:  10
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 85	Cursor Position: 1 12
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 2.3712782859802246 seconds
+Received response: For i = 10
+To i = 0 Step -1
+EndFor
+Actual result:  To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
+SACREBLEU Score: {'score': 3.3642024770782895, 'counts': [4, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 5.0, 2.7777777777777777, 1.5625], 'bp': 0.6347364189402819, 'sys_len': 11, 'ref_len': 16}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.6
+
+Parse State: 95	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3595993518829346 seconds
+Received response: For i = 10 To 20
+Actual result:  1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 105	Cursor Position: 1 17
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1
+                'Step Expression'
+                Complete the 'Step Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Step Expression'. 
+                
+Time taken: 2.3375585079193115 seconds
+Received response: -2
+Actual result:  Step - 1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 1, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 111	Cursor Position: 1 22
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step
+                '- Primary'
+                Complete the '- Primary' part of the code in the Small Basic programming language. Just show your answer in place of '- Primary'. 
+                
+Time taken: 2.3747262954711914 seconds
+Received response: For i = 10 To 1 Step -1
+  Print i
+EndFor
+Actual result:  - 1
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 2}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.13636363636363635
+Cosine Similarity Precision:0.0
+
+Parse State: 24	Cursor Position: 1 23
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. 
+                
+Time taken: 2.3485140800476074 seconds
+Received response: Print i
+Actual result:  1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 1 27
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.36541748046875 seconds
+Received response: Print "The rest of the code is being executed."
+Actual result:  \n TextWindow . WriteLine ( i ) \n
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 10}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.21951219512195122
+Cosine Similarity Precision:0.0
+
+Parse State: 39	Cursor Position: 2 2
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 2.3556067943573 seconds
+Received response: Print i
+Actual result:  TextWindow . WriteLine ( i )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 2, 'ref_len': 6}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.2777777777777778
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 2 12
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. 
+                
+Time taken: 2.3721957206726074 seconds
+Received response: `TextWindow.WriteLine(i)`
+Actual result:  . WriteLine ( i )
+SACREBLEU Score: {'score': 51.697315395717055, 'counts': [5, 4, 3, 2], 'totals': [8, 7, 6, 5], 'precisions': [62.5, 57.142857142857146, 50.0, 40.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 5}
+First element of precision:62.5
+Sequence Matcher Similarity Precision:0.6046511627906976
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 30	Cursor Position: 2 13
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. 
+                
+Time taken: 2.3423125743865967 seconds
+Received response: TextWindow.WriteLine(i)
+Actual result:  WriteLine ( i )
+SACREBLEU Score: {'score': 50.81327481546149, 'counts': [4, 3, 2, 1], 'totals': [6, 5, 4, 3], 'precisions': [66.66666666666667, 60.0, 50.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 6, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 58	Cursor Position: 2 22
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. 
+                
+Time taken: 2.3472580909729004 seconds
+Received response: i
+Actual result:  ( i )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 1, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 83	Cursor Position: 2 23
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. 
+                
+Time taken: 2.356703758239746 seconds
+Received response: TextWindow.WriteLine(i)
+Actual result:  i
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 2 24
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.362593173980713 seconds
+Received response:                 For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+Actual result:  )
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.057971014492753624
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 2 26
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. 
+                
+Time taken: 2.3698198795318604 seconds
+Received response:                 For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+                Text
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.04395604395604396
+Cosine Similarity Precision:0.0
+
+Parse State: 114	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+                'EndFor'
+                Complete the 'EndFor' part of the code in the Small Basic programming language. Just show your answer in place of 'EndFor'. 
+                
+Time taken: 2.3450305461883545 seconds
+Received response: EndFor
+Actual result:  EndFor
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:1.0
+
+
+Average Precision: 32.55656380656381
+Average Sequence Matcher Similarity Precision: 32.53814164954194
+Average Cosine Similarity Precision: 26.749047720139114
