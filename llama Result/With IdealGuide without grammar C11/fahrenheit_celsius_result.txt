@@ -1,0 +1,2035 @@
+Parse State: 23	Cursor Position: 745 1
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_03/fahrenheit_celsius.c" 2
+
+
+
+
+
+
+# 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 0.25127696990966797 seconds
+Received response: main
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 745 5
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_03/fahrenheit_celsius.c" 2
+
+
+
+
+
+
+# 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.22662854194641113 seconds
+Received response: temperature
+Actual result: main
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_03/fahrenheit_celsius.c" 2
+
+
+
+
+
+
+# 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.20778727531433105 seconds
+Received response: (int argc, char *argv[])
+Actual result: (void)
+SACREBLEU Score: {'score': 4.990049701936832, 'counts': [2, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 745 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_03/fahrenheit_celsius.c" 2
+
+
+
+
+
+
+# 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.18880057334899902 seconds
+Received response: void
+Actual result: void
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 187	Cursor Position: 745 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_03/fahrenheit_celsius.c" 2
+
+
+
+
+
+
+# 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.18525123596191406 seconds
+Received response: void
+Actual result: )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 746 1
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_03/fahrenheit_celsius.c" 2
+
+
+
+
+
+
+# 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.2278757095336914 seconds
+Received response: ```c
+int main(void)
+{
+    int fahrenheit, celsius;
+
+    printf("Enter temperature in Fahrenheit: ");
+    scanf("%d",
+Actual result: {floatfahr,celsius;intlower,upper,step;lower=0;upper=300;step=20;printf(");printf(");fahr=lower;while(fahr<=upper){celsius=(5.0/9.0)*(fahr-32.0);printf(",fahr,celsius);fahr=fahr+step;}return0;}
+SACREBLEU Score: {'score': 4.271714565178494, 'counts': [15, 10, 4, 1], 'totals': [33, 32, 31, 30], 'precisions': [45.45454545454545, 31.25, 12.903225806451612, 3.3333333333333335], 'bp': 0.27170718914656705, 'sys_len': 33, 'ref_len': 76}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.23300970873786409
+Cosine Similarity Precision:0.1646463899845355
+
+Parse State: 201	Cursor Position: 747 3
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+                'float'
+                Complete the 'float' part of the code in the C11 programming language. Just show your answer in place of 'float'. 
+                
+Time taken: 0.1830129623413086 seconds
+Received response: float
+Actual result: float
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 93	Cursor Position: 747 9
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.1894078254699707 seconds
+Received response: temp
+Actual result: fahr
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 747 13
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 0.2132558822631836 seconds
+Received response: init_declarator_declarator_varname: celsius
+Actual result: ,celsius
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.27450980392156865
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 110	Cursor Position: 747 15
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.19406461715698242 seconds
+Received response: celsius;
+Actual result: celsius
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.9333333333333333
+Cosine Similarity Precision:1.0
+
+Parse State: 60	Cursor Position: 747 22
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.2056407928466797 seconds
+Received response: int main(void)
+{
+  float fahr, celsius;
+  /* rest of the code */
+Actual result: ;
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.03076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 0.2238156795501709 seconds
+Received response: for (celsius = 0; celsius <= 300; celsius += 20) 
+  printf("%3.0f %6
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08450704225352113
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 748 7
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.18404817581176758 seconds
+Received response: lower_bound
+Actual result: lower
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.625
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 748 12
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 0.18642115592956543 seconds
+Received response: lower, celsius
+Actual result: ,upper
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 748 14
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.20446372032165527 seconds
+Received response: upper;
+Actual result: upper
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.9090909090909091
+Cosine Similarity Precision:1.0
+
+Parse State: 61	Cursor Position: 748 19
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 0.19201087951660156 seconds
+Received response: lower, upper
+Actual result: ,step
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.23529411764705882
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 748 21
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.1876814365386963 seconds
+Received response: upper_limit
+Actual result: step
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 748 25
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.20963740348815918 seconds
+Received response: lower = 0; 
+upper = 300; 
+step = 20;
+Actual result: ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.05405405405405406
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.20905041694641113 seconds
+Received response: lower = 0; 
+upper = 300; 
+step = 20;
+Actual result: lower
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.24390243902439024
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 181	Cursor Position: 750 9
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.20252609252929688 seconds
+Received response: lower = 0;
+Actual result: =
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 750 11
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.2024247646331787 seconds
+Received response: lower = 0;
+Actual result: 0
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 750 12
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.21496295928955078 seconds
+Received response: lower = 0; upper = 300; step = 20;
+Actual result: ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 751 3
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.20379161834716797 seconds
+Received response: upper = 300;
+Actual result: upper
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.5882352941176471
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 181	Cursor Position: 751 9
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.2765316963195801 seconds
+Received response: upper = 300
+Actual result: =
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 751 11
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.19320297241210938 seconds
+Received response: upper = 300;
+Actual result: 300
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 331	Cursor Position: 751 14
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.21375155448913574 seconds
+Received response: lower = 0;
+upper = 300;
+step = 20;
+Actual result: ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 752 3
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.20560526847839355 seconds
+Received response: lower = 0;
+upper = 300;
+step = 20;
+Actual result: step
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.21052631578947367
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 181	Cursor Position: 752 8
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.365551471710205 seconds
+Received response: step = 20;
+Actual result: =
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 752 10
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.354386806488037 seconds
+Received response: lower = 0;
+upper = 300;
+step = 20;
+Actual result: 20
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 331	Cursor Position: 752 12
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.388716459274292 seconds
+Received response: int main(void)
+{
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper =
+Actual result: ;
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 755 3
+
+                This is the incomplete C11 programming language code:
+                {
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.409644365310669 seconds
+Received response:   float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step
+Actual result: printf
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08888888888888889
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 755 9
+
+                This is the incomplete C11 programming language code:
+                {
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 2.4013500213623047 seconds
+Received response: ```c
+printf("%f %f\n", lower, upper);
+```
+
+However, it seems like you're trying to print the temperature conversion table
+Actual result: (")
+SACREBLEU Score: {'score': 2.2694309136445803, 'counts': [3, 1, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [8.333333333333334, 2.857142857142857, 1.4705882352941178, 0.7575757575757576], 'bp': 1.0, 'sys_len': 36, 'ref_len': 3}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.04838709677419355
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 755 10
+
+                This is the incomplete C11 programming language code:
+                {
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 2.369171619415283 seconds
+Received response: printf("Celsius to Fahrenheit\n");
+Actual result: "
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 755 27
+
+                This is the incomplete C11 programming language code:
+                {
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n"
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.3915698528289795 seconds
+Received response: printf("Fahr\tCelsius\n");
+for (celsius = 0; celsius <= 300; celsius += 20) {
+
+Actual result: )
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.02531645569620253
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 755 28
+
+                This is the incomplete C11 programming language code:
+                {
+  float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n")
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.394693374633789 seconds
+Received response: printf("Fahr\tCelsius\n") 
+for (celsius = lower; celsius <= upper; celsius += step) 
+  f
+Actual result: ;
+SACREBLEU Score: {'score': 1.387819277861591, 'counts': [1, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [3.7037037037037037, 1.9230769230769231, 1.0, 0.5208333333333334], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:3.7037037037037037
+Sequence Matcher Similarity Precision:0.02247191011235955
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 756 3
+
+                This is the incomplete C11 programming language code:
+                float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.353579044342041 seconds
+Received response: fahr = lower;
+Actual result: printf
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 756 9
+
+                This is the incomplete C11 programming language code:
+                float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 2.382808208465576 seconds
+Received response: ```c
+printf("%6.1f\t%6.1f\n", fahr, celsius);
+```
+
+This will print the temperature
+Actual result: (")
+SACREBLEU Score: {'score': 2.747878682374729, 'counts': [3, 1, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [10.0, 3.4482758620689653, 1.7857142857142858, 0.9259259259259259], 'bp': 1.0, 'sys_len': 30, 'ref_len': 3}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.07058823529411765
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 756 10
+
+                This is the incomplete C11 programming language code:
+                float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 2.386291265487671 seconds
+Received response: printf("Fahr\tCelsius\n");
+printf("%3d\t%6.1f\n", lower, (float)lower);
+Actual result: "
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.027777777777777776
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 756 29
+
+                This is the incomplete C11 programming language code:
+                float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n"
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.361877679824829 seconds
+Received response: printf("---------------\n");
+Actual result: )
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 756 30
+
+                This is the incomplete C11 programming language code:
+                float fahr, celsius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n")
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.356520414352417 seconds
+Received response: printf("---------------\n")
+Actual result: ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 758 3
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3716931343078613 seconds
+Received response: ```c
+for (int fahrenheit = 0; fahrenheit <= 300; fahrenheit += 20) {
+    double celsius =
+Actual result: fahr
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08602150537634409
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 758 8
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.374743938446045 seconds
+Received response: for (int fahr = lower; fahr <= upper; fahr += step)
+Actual result: =
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.038461538461538464
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 758 10
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3578670024871826 seconds
+Received response: fahr = 0;
+Actual result: lower
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 758 15
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.3735170364379883 seconds
+Received response: for (fahr = lower; fahr <= upper; fahr += step)
+Actual result: ;
+SACREBLEU Score: {'score': 2.445593937240363, 'counts': [1, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:6.25
+Sequence Matcher Similarity Precision:0.041666666666666664
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 759 3
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+                'while ( expression ) scoped_statement'
+                Complete the 'while ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'while ( expression ) scoped_statement'. 
+                
+Time taken: 2.4137911796569824 seconds
+Received response: ```c
+while (fahr <= upper) {
+    printf("%3d\t%6.2f\n", fahr, (5.
+Actual result: while(fahr<=upper){celsius=(5.0/9.0)*(fahr-32.0);printf(",fahr,celsius);fahr=fahr+step;}
+SACREBLEU Score: {'score': 28.546141080021446, 'counts': [15, 12, 9, 6], 'totals': [30, 29, 28, 27], 'precisions': [50.0, 41.37931034482759, 32.142857142857146, 22.22222222222222], 'bp': 0.8187307530779819, 'sys_len': 30, 'ref_len': 36}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.43137254901960786
+Cosine Similarity Precision:0.7431605356175383
+
+Parse State: 406	Cursor Position: 759 9
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 2.368252754211426 seconds
+Received response: ```c
+while (fahr <= upper) {
+    ...
+}
+```
+
+This will complete the while loop condition, which checks if the variable `
+Actual result: (fahr<=upper){celsius=(5.0/9.0)*(fahr-32.0);printf(",fahr,celsius);fahr=fahr+step;}
+SACREBLEU Score: {'score': 17.139507740074347, 'counts': [9, 6, 5, 4], 'totals': [33, 32, 31, 30], 'precisions': [27.272727272727273, 18.75, 16.129032258064516, 13.333333333333334], 'bp': 0.9411939401248326, 'sys_len': 33, 'ref_len': 35}
+First element of precision:27.272727272727273
+Sequence Matcher Similarity Precision:0.22772277227722773
+Cosine Similarity Precision:0.2396169191492615
+
+Parse State: 457	Cursor Position: 759 10
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3515400886535645 seconds
+Received response: fahr
+Actual result: fahr
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 154	Cursor Position: 759 15
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr
+                '<='
+                Complete the '<=' part of the code in the C11 programming language. Just show your answer in place of '<='. 
+                
+Time taken: 2.344935655593872 seconds
+Received response: <=
+Actual result: <=
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [100.0, 100.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 252	Cursor Position: 759 18
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <=
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.349736213684082 seconds
+Received response: upper
+Actual result: upper
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 485	Cursor Position: 759 23
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 2.3945200443267822 seconds
+Received response: ') scoped_statement' 
+while (fahr <= upper) {
+    printf("%3d\t%6.1f\n", fahr, (
+Actual result: ){celsius=(5.0/9.0)*(fahr-32.0);printf(",fahr,celsius);fahr=fahr+step;}
+SACREBLEU Score: {'score': 13.751656232892753, 'counts': [13, 6, 3, 1], 'totals': [29, 28, 27, 26], 'precisions': [44.827586206896555, 21.428571428571427, 11.11111111111111, 3.8461538461538463], 'bp': 0.9661049965255963, 'sys_len': 29, 'ref_len': 30}
+First element of precision:44.827586206896555
+Sequence Matcher Similarity Precision:0.304635761589404
+Cosine Similarity Precision:0.5934424260562083
+
+Parse State: 320	Cursor Position: 760 3
+
+                This is the incomplete C11 programming language code:
+                upper = 300;
+  step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 2.385084390640259 seconds
+Received response: ```c
+printf("%3d\t%6.1f\n", fahr, (5.0/9.0) * (f
+Actual result: {celsius=(5.0/9.0)*(fahr-32.0);printf(",fahr,celsius);fahr=fahr+step;}
+SACREBLEU Score: {'score': 31.69983158829335, 'counts': [13, 11, 8, 5], 'totals': [27, 26, 25, 24], 'precisions': [48.148148148148145, 42.30769230769231, 32.0, 20.833333333333332], 'bp': 0.9286029058931802, 'sys_len': 27, 'ref_len': 29}
+First element of precision:48.148148148148145
+Sequence Matcher Similarity Precision:0.23728813559322035
+Cosine Similarity Precision:0.5212860351426869
+
+Parse State: 201	Cursor Position: 761 5
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3766188621520996 seconds
+Received response: celsius = (5.0/9.0) * (fahr - 32.0);
+Actual result: celsius
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.32558139534883723
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 181	Cursor Position: 761 13
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.3806002140045166 seconds
+Received response: celsius = (fahr - 32) * 5.0 / 9.0
+Actual result: =
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 761 15
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius =
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 2.3790712356567383 seconds
+Received response: (celsius = (fahr - 32) * 5.0 / 9.0)
+Actual result: (5.0/9.0)
+SACREBLEU Score: {'score': 20.448007360218387, 'counts': [5, 3, 2, 1], 'totals': [13, 12, 11, 10], 'precisions': [38.46153846153846, 25.0, 18.181818181818183, 10.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 5}
+First element of precision:38.46153846153846
+Sequence Matcher Similarity Precision:0.4090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 761 16
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.3778014183044434 seconds
+Received response: (celsius = (5.0/9.0) * (fahr - 32.0))
+Actual result: 5.0
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.15
+Cosine Similarity Precision:0.0
+
+Parse State: 151	Cursor Position: 761 20
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0
+                '/'
+                Complete the '/' part of the code in the C11 programming language. Just show your answer in place of '/'. 
+                
+Time taken: 2.3772504329681396 seconds
+Received response: celsius = (5.0 / 9.0) * (fahr - 32.0);
+Actual result: /
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.05128205128205128
+Cosine Similarity Precision:0.0
+
+Parse State: 242	Cursor Position: 761 22
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 /
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.4007084369659424 seconds
+Received response: The missing part of the code is likely the conversion factor from Fahrenheit to Celsius, which is 9/5.0. 
+
+So, the completed
+Actual result: 9.0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.047244094488188976
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 761 25
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.3836567401885986 seconds
+Received response: Here's the completed code:
+
+```c
+step = 20;
+
+printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+f
+Actual result: )
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.019230769230769232
+Cosine Similarity Precision:0.0
+
+Parse State: 151	Cursor Position: 761 27
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0)
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 2.3842356204986572 seconds
+Received response: Here's the completed code:
+
+```c
+step = 20;
+
+printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+f
+Actual result: *
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 242	Cursor Position: 761 29
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) *
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 2.3784780502319336 seconds
+Received response: (celsius = (5.0 / 9.0) * (fahr - 32))
+Actual result: (fahr-32.0)
+SACREBLEU Score: {'score': 3.1251907639724417, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.375
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 165	Cursor Position: 761 30
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.376863718032837 seconds
+Received response: celsius = (5.0 / 9.0) * (fahr - 32.0)
+Actual result: fahr
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.1951219512195122
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 152	Cursor Position: 761 35
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr
+                '-'
+                Complete the '-' part of the code in the C11 programming language. Just show your answer in place of '-'. 
+                
+Time taken: 2.3613317012786865 seconds
+Received response: celsius = (5.0 / 9.0) * (fahr - lower);
+Actual result: -
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 246	Cursor Position: 761 37
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr -
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.3427066802978516 seconds
+Received response: '32'
+Actual result: 32.0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:1.0
+
+Parse State: 267	Cursor Position: 761 41
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.390270233154297 seconds
+Received response: The completed code would be:
+
+```c
+step = 20;
+
+printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+f
+Actual result: )
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.018867924528301886
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 761 42
+
+                This is the incomplete C11 programming language code:
+                step = 20;
+
+
+  printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.402632713317871 seconds
+Received response: printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+fahr = lower;
+while (fahr <= upper)
+{
+    c
+Actual result: ;
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 762 5
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3389534950256348 seconds
+Received response: celsius
+Actual result: printf
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 762 11
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 2.3869423866271973 seconds
+Received response: ```c
+printf("%6.1f\t%6.1f\n", fahr, celsius);
+```
+
+This will print the Fahrenheit
+Actual result: (",fahr,celsius)
+SACREBLEU Score: {'score': 16.637856417794126, 'counts': [7, 6, 4, 3], 'totals': [30, 29, 28, 27], 'precisions': [23.333333333333332, 20.689655172413794, 14.285714285714286, 11.11111111111111], 'bp': 1.0, 'sys_len': 30, 'ref_len': 7}
+First element of precision:23.333333333333332
+Sequence Matcher Similarity Precision:0.32989690721649484
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 235	Cursor Position: 762 12
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 2.3587002754211426 seconds
+Received response: %5.1f
+Actual result: "
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 762 30
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 2.3821308612823486 seconds
+Received response: ', celsius = (5.0 / 9.0) * (fahr - 32.0)'
+Actual result: ,fahr
+SACREBLEU Score: {'score': 2.908317710573757, 'counts': [2, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [12.5, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 2}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.21739130434782608
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 429	Cursor Position: 762 32
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n",
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3466954231262207 seconds
+Received response: fahr
+Actual result: fahr
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 352	Cursor Position: 762 36
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 2.3711795806884766 seconds
+Received response: ', celsius = (5.0 / 9.0) * (fahr - 32.0);'
+Actual result: ,celsius
+SACREBLEU Score: {'score': 4.5739135561238005, 'counts': [2, 1, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [11.764705882352942, 6.25, 3.3333333333333335, 1.7857142857142858], 'bp': 1.0, 'sys_len': 17, 'ref_len': 2}
+First element of precision:11.764705882352942
+Sequence Matcher Similarity Precision:0.32
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 429	Cursor Position: 762 38
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.353343963623047 seconds
+Received response: celsius
+Actual result: celsius
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 351	Cursor Position: 762 45
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.3905513286590576 seconds
+Received response: The completed code should look like this:
+
+```c
+printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+fahr = lower
+Actual result: )
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.01694915254237288
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 762 46
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.381293296813965 seconds
+Received response: printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+
+Actual result: ;
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.02
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 763 5
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3443922996520996 seconds
+Received response: fahr
+Actual result: fahr
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 181	Cursor Position: 763 10
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.3520753383636475 seconds
+Received response: fahr++
+Actual result: =
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 763 12
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3740034103393555 seconds
+Received response: fahr++;
+Actual result: fahr
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:1.0
+
+Parse State: 152	Cursor Position: 763 17
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr
+                '+'
+                Complete the '+' part of the code in the C11 programming language. Just show your answer in place of '+'. 
+                
+Time taken: 2.4319331645965576 seconds
+Received response: The completed code would be:
+
+```c
+printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+fahr = lower;
+while
+Actual result: +
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 246	Cursor Position: 763 19
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr +
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.3966002464294434 seconds
+Received response: The 'NAME VARIABLE' part of the code should be '1'. 
+
+Here's the completed line:
+
+fahr = fahr + 1;
+Actual result: step
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 763 23
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr + step
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.4083938598632812 seconds
+Received response: ```c
+printf("Fahr\tCelsius\n");
+printf("---------------\n");
+
+fahr = lower;
+while (fahr <= upper)
+
+Actual result: ;
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.020202020202020204
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 764 3
+
+                This is the incomplete C11 programming language code:
+                printf("Fahr\tCelsius\n");
+  printf("---------------\n");
+
+  fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr + step;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 2.334535837173462 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 766 3
+
+                This is the incomplete C11 programming language code:
+                fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr + step;
+  }
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 2.392273426055908 seconds
+Received response: ```c
+return 0;
+```
+
+This is the typical return statement used in C programs when no value needs to be returned. However, if
+Actual result: return0;
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 2}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.12213740458015267
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 766 10
+
+                This is the incomplete C11 programming language code:
+                fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr + step;
+  }
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.3783886432647705 seconds
+Received response: ```c
+#include <stdio.h>
+
+int main() {
+    int lower = 0;  // Lower temperature limit
+    int upper = 
+Actual result: 0
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.0196078431372549
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 766 11
+
+                This is the incomplete C11 programming language code:
+                fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr + step;
+  }
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.391436815261841 seconds
+Received response: int main() 
+{
+    int lower = 0, upper = 300, step = 20;
+    float fahr, celsius;
+
+
+Actual result: ;
+SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:4.3478260869565215
+Sequence Matcher Similarity Precision:0.023809523809523808
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 767 1
+
+                This is the incomplete C11 programming language code:
+                fahr = lower;
+  while (fahr <= upper)
+  {
+    celsius = (5.0 / 9.0) * (fahr - 32.0);
+    printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+    fahr = fahr + step;
+  }
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 2.4063897132873535 seconds
+Received response: int main() 
+{
+  int lower = 0; /* lower temperature value */
+  int upper = 300; /* upper temperature value */
+ 
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 21.455377690040137
+Average Sequence Matcher Similarity Precision: 26.386129670277867
+Average Cosine Similarity Precision: 23.834422804893933
