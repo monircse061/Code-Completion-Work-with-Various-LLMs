@@ -1,0 +1,1475 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.7049002647399902 seconds
+Received response: It appears that the code snippet is a part of the `stdio.h` header file and is showing the preprocessor directives and line numbers. The incomplete
+Actual result: char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.026490066225165563
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 741 6
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.196441650390625 seconds
+Received response: lower
+Actual result: lower
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 63	Cursor Position: 741 11
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.20867633819580078 seconds
+Received response: (char lower (char c))
+Actual result: (charc)
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [2, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 741 12
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 23.404590606689453 seconds
+Received response: int
+Actual result: char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 741 17
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 30.418057441711426 seconds
+Received response: c
+Actual result: c
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 741 18
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 28.481057167053223 seconds
+Received response: char lower(char c)
+Actual result: )
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 741 19
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 30.4521427154541 seconds
+Received response: ```c
+char lower(char c)
+{
+    return (c >= 'A' && c <= 'Z') ? (c + 'a'
+Actual result: ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 31.427720308303833 seconds
+Received response: int lower(char c)
+Actual result: int
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.3
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 5	Cursor Position: 743 5
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 27.404777765274048 seconds
+Received response: main
+Actual result: main
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 63	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 29.409789323806763 seconds
+Received response: (int)
+Actual result: (void)
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5454545454545454
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 24.475126266479492 seconds
+Received response: int main(void)
+Actual result: void
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 187	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 26.390318155288696 seconds
+Received response: int main(void)
+Actual result: )
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 744 1
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 28.47063136100769 seconds
+Received response: ```c
+int main(void)
+{
+    char c;
+    printf("Enter a character: ");
+    scanf("%c", &c);
+    printf
+Actual result: {chara='A';putchar(lower(a));return0;}
+SACREBLEU Score: {'score': 3.0759934809350447, 'counts': [9, 1, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [25.714285714285715, 2.9411764705882355, 1.5151515151515151, 0.78125], 'bp': 1.0, 'sys_len': 35, 'ref_len': 16}
+First element of precision:25.714285714285715
+Sequence Matcher Similarity Precision:0.18840579710144928
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 27.443533182144165 seconds
+Received response: int main(void)
+{
+    char c = 'a';
+    printf("%c\n", lower(c));
+    return 0;
+}
+
+However, the
+Actual result: char
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.08163265306122448
+Cosine Similarity Precision:0.3333333333333333
+
+Parse State: 93	Cursor Position: 745 8
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 28.436206579208374 seconds
+Received response: char lower(char c);
+
+int main(void)
+{
+  char c;
+  c = 'A';
+  printf("%c\n", lower(c));
+ 
+Actual result: a
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02247191011235955
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 745 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 28.43154811859131 seconds
+Received response: '= {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j
+Actual result: ='A'
+SACREBLEU Score: {'score': 0.8954307276600084, 'counts': [1, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [2.4390243902439024, 1.25, 0.6410256410256411, 0.32894736842105265], 'bp': 1.0, 'sys_len': 41, 'ref_len': 2}
+First element of precision:2.4390243902439024
+Sequence Matcher Similarity Precision:0.03636363636363636
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 745 12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 28.450849771499634 seconds
+Received response: #define _X(c) #c
+#define X(c) _X(c)
+#define CONSTANT X(LOWER)
+
+char lower(char c);
+
+int main(void
+Actual result: 'A'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 38, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 745 15
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A'
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 27.683837890625 seconds
+Received response: int main(void)
+{
+  char a = 'A';
+  lower(a);
+  printf("%c\n", a);  // print the lowercase version
+Actual result: ;
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.02040816326530612
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 27.48831295967102 seconds
+Received response: char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+  char result = lower(a);  // Assign the result of
+Actual result: putchar
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07207207207207207
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 747 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 28.456846237182617 seconds
+Received response: ```c
+putchar(lower(a));
+```
+
+In this code, `lower(a)` is a function call that passes the character `a` to
+Actual result: (lower(a))
+SACREBLEU Score: {'score': 12.276168155242136, 'counts': [6, 5, 4, 3], 'totals': [37, 36, 35, 34], 'precisions': [16.216216216216218, 13.88888888888889, 11.428571428571429, 8.823529411764707], 'bp': 1.0, 'sys_len': 37, 'ref_len': 6}
+First element of precision:16.216216216216218
+Sequence Matcher Similarity Precision:0.17391304347826086
+Cosine Similarity Precision:0.5
+
+Parse State: 235	Cursor Position: 747 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 24.47432518005371 seconds
+Received response: putchar('A' + 32);
+Actual result: lower
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 747 16
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 25.44193196296692 seconds
+Received response: The correct completion of the code is:
+
+```c
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar
+Actual result: (a)
+SACREBLEU Score: {'score': 1.5784309053930103, 'counts': [3, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [9.67741935483871, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 3}
+First element of precision:9.67741935483871
+Sequence Matcher Similarity Precision:0.03571428571428571
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 747 17
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 25.401883125305176 seconds
+Received response: lower(a)
+Actual result: a
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 747 18
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 20.43940258026123 seconds
+Received response: int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a)); // Added a closing parenthesis here
+}
+Actual result: )
+SACREBLEU Score: {'score': 1.387819277861591, 'counts': [1, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [3.7037037037037037, 1.9230769230769231, 1.0, 0.5208333333333334], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:3.7037037037037037
+Sequence Matcher Similarity Precision:0.021505376344086023
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 747 19
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a)
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 24.408732414245605 seconds
+Received response: putchar(lower(a));
+Actual result: )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 747 20
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a))
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 20.571508169174194 seconds
+Received response: return putchar(lower(a));
+Actual result: ;
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 749 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 24.41723108291626 seconds
+Received response: return 0;
+Actual result: return0;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.9411764705882353
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 749 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 20.41504669189453 seconds
+Received response: return 0;
+Actual result: 0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 749 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 22.45031714439392 seconds
+Received response: return 0;
+Actual result: ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 1
+
+                This is the incomplete C11 programming language code:
+                char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 19.451523542404175 seconds
+Received response: } 
+
+int lower(char c) {
+  if (c >= 'A' && c <= 'Z') {
+    return c - 'A'
+Actual result: }
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.0273972602739726
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 752 1
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 23.41557025909424 seconds
+Received response: tolower(a)
+Actual result: char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 752 6
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 19.4004545211792 seconds
+Received response: tolower
+Actual result: lower
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.8333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 752 11
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 21.87373685836792 seconds
+Received response: (char c)
+Actual result: (charc)
+SACREBLEU Score: {'score': 18.99589214128981, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.9333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 752 12
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 17.604729413986206 seconds
+Received response: tolower
+Actual result: char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 752 17
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 20.611997365951538 seconds
+Received response: tolower
+Actual result: c
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 752 18
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 17.655986785888672 seconds
+Received response: char lower(char c) 
+{ 
+  if (c >= 'A' && c <= 'Z') 
+    return c - 'A'
+Actual result: )
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 753 1
+
+                This is the incomplete C11 programming language code:
+                {
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 26.634366512298584 seconds
+Received response: ```c
+char lower(char c)
+{
+    if (c >= 'A' && c <= 'Z') {
+        return c + 32
+Actual result: {return(c>='A'&&c<='Z')?c+='a'-'A':c;}
+SACREBLEU Score: {'score': 43.22006447670228, 'counts': [17, 13, 10, 9], 'totals': [29, 28, 27, 26], 'precisions': [58.62068965517241, 46.42857142857143, 37.03703703703704, 34.61538461538461], 'bp': 1.0, 'sys_len': 29, 'ref_len': 23}
+First element of precision:58.62068965517241
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 201	Cursor Position: 754 3
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 24.43982982635498 seconds
+Received response: ```c
+char lower(char c)
+{
+    return (c >= 'A' && c <= 'Z') ? (c + 32)
+Actual result: return(c>='A'&&c<='Z')?c+='a'-'A':c;
+SACREBLEU Score: {'score': 46.74955271500788, 'counts': [17, 14, 12, 11], 'totals': [30, 29, 28, 27], 'precisions': [56.666666666666664, 48.275862068965516, 42.857142857142854, 40.74074074074074], 'bp': 1.0, 'sys_len': 30, 'ref_len': 21}
+First element of precision:56.666666666666664
+Sequence Matcher Similarity Precision:0.4716981132075472
+Cosine Similarity Precision:0.3779644730092272
+
+Parse State: 338	Cursor Position: 754 10
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 23.44970393180847 seconds
+Received response: ```c
+char a = 'A';
+
+putchar(lower(a));
+
+return 0;
+}
+
+char lower(char c)
+{
+  return (c >=
+Actual result: (c>='A'&&c<='Z')
+SACREBLEU Score: {'score': 8.984797156831853, 'counts': [8, 4, 2, 1], 'totals': [33, 32, 31, 30], 'precisions': [24.242424242424242, 12.5, 6.451612903225806, 3.3333333333333335], 'bp': 1.0, 'sys_len': 33, 'ref_len': 12}
+First element of precision:24.242424242424242
+Sequence Matcher Similarity Precision:0.1346153846153846
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 754 11
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 24.4212064743042 seconds
+Received response: lower(c)
+Actual result: c
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 754 13
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c
+                '>='
+                Complete the '>=' part of the code in the C11 programming language. Just show your answer in place of '>='. 
+                
+Time taken: 17.428232669830322 seconds
+Received response: ```c
+char a = 'A';
+
+putchar(lower(a));
+
+return 0;
+}
+
+char lower(char c)
+{
+  return (c >=
+Actual result: >=
+SACREBLEU Score: {'score': 2.246199289207964, 'counts': [2, 1, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [6.0606060606060606, 3.125, 1.6129032258064515, 0.8333333333333334], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:6.0606060606060606
+Sequence Matcher Similarity Precision:0.044444444444444446
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 754 16
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 25.415751218795776 seconds
+Received response: 'Z') ? c + 32 : c;
+Actual result: 'A'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 159	Cursor Position: 754 20
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A'
+                '&& inclusive_or_expression'
+                Complete the '&& inclusive_or_expression' part of the code in the C11 programming language. Just show your answer in place of '&& inclusive_or_expression'. 
+                
+Time taken: 23.415154457092285 seconds
+Received response: && (c <= 'Z'))
+Actual result: &&c<='Z'
+SACREBLEU Score: {'score': 35.49481056010054, 'counts': [6, 4, 2, 1], 'totals': [9, 8, 7, 6], 'precisions': [66.66666666666667, 50.0, 28.571428571428573, 16.666666666666668], 'bp': 1.0, 'sys_len': 9, 'ref_len': 6}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:0.0
+
+Parse State: 263	Cursor Position: 754 23
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' &&
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 20.42657732963562 seconds
+Received response: char a = 'A';
+
+putchar(lower(a));
+
+return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A'
+Actual result: c
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.022727272727272728
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 754 25
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c
+                '<='
+                Complete the '<=' part of the code in the C11 programming language. Just show your answer in place of '<='. 
+                
+Time taken: 24.397680521011353 seconds
+Received response: 'Z') ? c : lower(c + 1);
+Actual result: <=
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 754 28
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 22.426647663116455 seconds
+Received response: 'Z') ? (c + 32) : c;
+Actual result: 'Z'
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.2608695652173913
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 754 31
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z'
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 22.43837857246399 seconds
+Received response: ```c
+char a = 'A';
+
+putchar(lower(a));
+
+return 0;
+}
+
+char lower(char c)
+{
+  return (c >=
+Actual result: )
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.02247191011235955
+Cosine Similarity Precision:0.0
+
+Parse State: 160	Cursor Position: 754 33
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z')
+                '? expression : conditional_expression'
+                Complete the '? expression : conditional_expression' part of the code in the C11 programming language. Just show your answer in place of '? expression : conditional_expression'. 
+                
+Time taken: 29.41071343421936 seconds
+Received response: `c + ('a' - 'A')`
+Actual result: ?c+='a'-'A':c
+SACREBLEU Score: {'score': 9.535414040914192, 'counts': [2, 1, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [22.22222222222222, 12.5, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 7}
+First element of precision:22.22222222222222
+Sequence Matcher Similarity Precision:0.6
+Cosine Similarity Precision:0.0
+
+Parse State: 265	Cursor Position: 754 35
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ?
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 20.418447256088257 seconds
+Received response: lower(c) ? 
+                'a' + (c - 'A')
+Actual result: c
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.045454545454545456
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 754 37
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c
+                '+='
+                Complete the '+=' part of the code in the C11 programming language. Just show your answer in place of '+='. 
+                
+Time taken: 22.432390451431274 seconds
+Received response: ```c
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c + ('a' -
+Actual result: +=
+SACREBLEU Score: {'score': 1.4763939041893883, 'counts': [2, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [6.666666666666667, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.027777777777777776
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 754 40
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c +=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 26.37904667854309 seconds
+Received response: 'a'
+Actual result: 'a'
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 152	Cursor Position: 754 44
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a'
+                '-'
+                Complete the '-' part of the code in the C11 programming language. Just show your answer in place of '-'. 
+                
+Time taken: 21.49597454071045 seconds
+Received response: ```c
+char a = 'A';
+
+putchar(lower(a));
+
+return 0;
+}
+
+char lower(char c)
+{
+  return (c >=
+Actual result: -
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 246	Cursor Position: 754 46
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' -
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 27.77911615371704 seconds
+Received response: 'a'
+Actual result: 'A'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 366	Cursor Position: 754 50
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A'
+                ': conditional_expression'
+                Complete the ': conditional_expression' part of the code in the C11 programming language. Just show your answer in place of ': conditional_expression'. 
+                
+Time taken: 24.439025402069092 seconds
+Received response: ?: conditional_expression 
+
+Should be replaced with:
+
+?: c, c 
+
+However, the correct way to implement this in C11 would be:
+
+?: c
+Actual result: :c
+SACREBLEU Score: {'score': 2.398696258505924, 'counts': [2, 1, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [6.451612903225806, 3.3333333333333335, 1.7241379310344827, 0.8928571428571429], 'bp': 1.0, 'sys_len': 31, 'ref_len': 2}
+First element of precision:6.451612903225806
+Sequence Matcher Similarity Precision:0.030534351145038167
+Cosine Similarity Precision:0.0
+
+Parse State: 431	Cursor Position: 754 52
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' :
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 26.46529269218445 seconds
+Received response: char a = 'A';
+
+putchar(lower(a));
+
+return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A'
+Actual result: c
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.022727272727272728
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 754 53
+
+                This is the incomplete C11 programming language code:
+                char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' : c
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 26.452115774154663 seconds
+Received response: return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' : c;
+Actual result: ;
+SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:4.3478260869565215
+Sequence Matcher Similarity Precision:0.038461538461538464
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 755 1
+
+                This is the incomplete C11 programming language code:
+                putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' : c;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 25.374506950378418 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 21.744081645542636
+Average Sequence Matcher Similarity Precision: 26.998576028609317
+Average Cosine Similarity Precision: 8.279915325114185
