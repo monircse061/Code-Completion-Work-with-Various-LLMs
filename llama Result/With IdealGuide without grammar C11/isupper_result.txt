@@ -1,0 +1,3143 @@
+Parse State: 23	Cursor Position: 2203 1
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 31.390502214431763 seconds
+Received response: char
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 2203 5
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 32.702473878860474 seconds
+Received response: isupper
+Actual result: is_upper_v1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.7777777777777778
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 2203 16
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 35.71013069152832 seconds
+Received response: (int c)
+Actual result: (intc)
+SACREBLEU Score: {'score': 18.99589214128981, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 2203 17
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 31.86448884010315 seconds
+Received response: char
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 2203 21
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 34.661810636520386 seconds
+Received response: char c
+Actual result: c
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 2203 22
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 31.645453214645386 seconds
+Received response: int is_upper_v1(int c)
+Actual result: )
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 2203 23
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 34.91014742851257 seconds
+Received response: return __toupper_l(c, LC_CTYPE) == c;
+Actual result: ;
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.05263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 2204 1
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 34.81660008430481 seconds
+Received response: char
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 2204 5
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 34.63160276412964 seconds
+Received response: isupper
+Actual result: is_upper_v2
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.7777777777777778
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 2204 16
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 36.84577536582947 seconds
+Received response: (int c)
+Actual result: (intc)
+SACREBLEU Score: {'score': 18.99589214128981, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 2204 17
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 33.23792767524719 seconds
+Received response: char
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 2204 21
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 35.72639012336731 seconds
+Received response: is_upper_v2(int c)
+Actual result: c
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 2204 22
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 34.80334663391113 seconds
+Received response: int is_upper_v2(int c)
+Actual result: )
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 2204 23
+
+                This is the incomplete C11 programming language code:
+                extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 35.16690707206726 seconds
+Received response: int is_upper_v1(int c) {
+    return __toupper_l(c, LC_CTYPE) == c;
+}
+
+int is_upper_v2(int
+Actual result: ;
+SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 1}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 2206 1
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 30.745530366897583 seconds
+Received response: ```c
+int is_upper_v1(int c) {
+    return 'A' <= c && c <= 'Z';
+}
+
+int is_upper_v
+Actual result: int
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.07228915662650602
+Cosine Similarity Precision:0.8660254037844387
+
+Parse State: 5	Cursor Position: 2206 5
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 33.07424020767212 seconds
+Received response: main
+Actual result: main
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 63	Cursor Position: 2206 9
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 28.68509316444397 seconds
+Received response: (int argc, char *argv[])
+Actual result: (intargc,char*argv[])
+SACREBLEU Score: {'score': 66.06328636027612, 'counts': [8, 6, 5, 4], 'totals': [10, 9, 8, 7], 'precisions': [80.0, 66.66666666666667, 62.5, 57.142857142857146], 'bp': 1.0, 'sys_len': 10, 'ref_len': 9}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.9333333333333333
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 186	Cursor Position: 2206 10
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 26.71859073638916 seconds
+Received response: main(int argc, char *argv[])
+Actual result: int
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.1935483870967742
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 298	Cursor Position: 2206 14
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 29.11371111869812 seconds
+Received response: argc, char *argv[])
+Actual result: argc
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.34782608695652173
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 300	Cursor Position: 2206 18
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 29.35773754119873 seconds
+Received response: char *argv[]
+Actual result: ,char*argv[]
+SACREBLEU Score: {'score': 81.87307530779823, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9166666666666666
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 391	Cursor Position: 2206 20
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc,
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 25.636062622070312 seconds
+Received response: char
+Actual result: char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:1.0
+
+Parse State: 298	Cursor Position: 2206 25
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 32.60698318481445 seconds
+Received response: The completed code should be:
+
+```c
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_
+Actual result: *
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 2206 26
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 31.39476466178894 seconds
+Received response: char *
+Actual result: argv
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 113	Cursor Position: 2206 30
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 33.04013109207153 seconds
+Received response: The completed code should look like this:
+
+```c
+int main(int argc, char *argv[]) {
+    // function implementations and main logic
+}
+
+Actual result: []
+SACREBLEU Score: {'score': 2.246199289207964, 'counts': [2, 1, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [6.0606060606060606, 3.125, 1.6129032258064515, 0.8333333333333334], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:6.0606060606060606
+Sequence Matcher Similarity Precision:0.029850746268656716
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 2206 31
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 30.598206758499146 seconds
+Received response: The completed code would be:
+
+```c
+# 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_
+Actual result: ]
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 2206 32
+
+                This is the incomplete C11 programming language code:
+                # 327 "/usr/include/ctype.h" 3 4
+
+# 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[]
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 31.40190362930298 seconds
+Received response: int main(int argc, char *argv[]) {
+    // Rest of the code...
+}
+Actual result: )
+SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:4.3478260869565215
+Sequence Matcher Similarity Precision:0.03125
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 2207 1
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 30.714229106903076 seconds
+Received response: ```c
+int main(int argc, char *argv[])
+{
+    int c;
+    printf("Enter a character: ");
+    scanf("%c",
+Actual result: {if(is_upper_v1('c')){puts(");}else{puts(");}if(is_upper_v2('c')){puts(");}else{puts(");}exit(0);}
+SACREBLEU Score: {'score': 3.6394718592450617, 'counts': [12, 5, 1, 0], 'totals': [37, 36, 35, 34], 'precisions': [32.432432432432435, 13.88888888888889, 2.857142857142857, 1.4705882352941178], 'bp': 0.5517862176452085, 'sys_len': 37, 'ref_len': 59}
+First element of precision:32.432432432432435
+Sequence Matcher Similarity Precision:0.16080402010050251
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 2208 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+                'if ( expression ) scoped_statement else scoped_statement'
+                Complete the 'if ( expression ) scoped_statement else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'if ( expression ) scoped_statement else scoped_statement'. 
+                
+Time taken: 35.66693449020386 seconds
+Received response: ```c
+if (is_upper_v1(c) == 1) {
+    printf("%c is an uppercase letter.\n", c);
+}
+Actual result: if(is_upper_v1('c')){puts(");}else{puts(");}
+SACREBLEU Score: {'score': 25.349220911040174, 'counts': [17, 11, 7, 5], 'totals': [37, 36, 35, 34], 'precisions': [45.945945945945944, 30.555555555555557, 20.0, 14.705882352941176], 'bp': 1.0, 'sys_len': 37, 'ref_len': 26}
+First element of precision:45.945945945945944
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.28571428571428564
+
+Parse State: 404	Cursor Position: 2208 6
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if
+                '( expression ) scoped_statement else scoped_statement'
+                Complete the '( expression ) scoped_statement else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement else scoped_statement'. 
+                
+Time taken: 34.12571907043457 seconds
+Received response: ```c
+if (is_upper_v1(c) || is_upper_v2(c)) {
+    // scoped_statement
+    printf("%c is an
+Actual result: (is_upper_v1('c')){puts(");}else{puts(");}
+SACREBLEU Score: {'score': 20.326213373677703, 'counts': [14, 9, 6, 4], 'totals': [38, 37, 36, 35], 'precisions': [36.8421052631579, 24.324324324324323, 16.666666666666668, 11.428571428571429], 'bp': 1.0, 'sys_len': 38, 'ref_len': 25}
+First element of precision:36.8421052631579
+Sequence Matcher Similarity Precision:0.32061068702290074
+Cosine Similarity Precision:0.1543033499620919
+
+Parse State: 455	Cursor Position: 2208 7
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 28.642791271209717 seconds
+Received response: int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (
+   
+Actual result: is_upper_v1
+SACREBLEU Score: {'score': 9.327870647412652, 'counts': [5, 4, 3, 2], 'totals': [37, 36, 35, 34], 'precisions': [13.513513513513514, 11.11111111111111, 8.571428571428571, 5.882352941176471], 'bp': 1.0, 'sys_len': 37, 'ref_len': 5}
+First element of precision:13.513513513513514
+Sequence Matcher Similarity Precision:0.20952380952380953
+Cosine Similarity Precision:0.15249857033260467
+
+Parse State: 147	Cursor Position: 2208 18
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 34.66781806945801 seconds
+Received response: ```c
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1(argv[1]))
+```
+
+In this code,
+Actual result: ('c')
+SACREBLEU Score: {'score': 1.1524538390587937, 'counts': [2, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [5.2631578947368425, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715], 'bp': 1.0, 'sys_len': 38, 'ref_len': 3}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.04395604395604396
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2208 19
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1(
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 29.740342617034912 seconds
+Received response: int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is
+Actual result: 'c'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 38, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.021052631578947368
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2208 22
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 30.823931217193604 seconds
+Received response: int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+Actual result: )
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.03389830508474576
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 2208 23
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_7/exercise_7_09/isupper.c" 2
+
+
+# 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c')
+                ') scoped_statement else scoped_statement'
+                Complete the ') scoped_statement else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement else scoped_statement'. 
+                
+Time taken: 34.67947506904602 seconds
+Received response: ```c
+if (is_upper_v1('c')) {
+    printf("Character 'c' is uppercase.\n");
+} else {
+    printf
+Actual result: ){puts(");}else{puts(");}
+SACREBLEU Score: {'score': 17.898985505005108, 'counts': [12, 7, 4, 3], 'totals': [33, 32, 31, 30], 'precisions': [36.36363636363637, 21.875, 12.903225806451612, 10.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 16}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.2033898305084746
+Cosine Similarity Precision:0.1414213562373095
+
+Parse State: 320	Cursor Position: 2209 3
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 29.651430368423462 seconds
+Received response: ```c
+printf("Character 'c' is uppercase.\n");
+```
+Actual result: {puts(");}
+SACREBLEU Score: {'score': 8.475426399505565, 'counts': [4, 3, 1, 0], 'totals': [20, 19, 18, 17], 'precisions': [20.0, 15.789473684210526, 5.555555555555555, 2.9411764705882355], 'bp': 1.0, 'sys_len': 20, 'ref_len': 7}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.2033898305084746
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2210 5
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 26.667707920074463 seconds
+Received response: ```c
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+ 
+Actual result: puts
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 39, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2210 9
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 33.282920122146606 seconds
+Received response: ```c
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("The character
+Actual result: (")
+SACREBLEU Score: {'score': 2.4092489848483223, 'counts': [3, 1, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [8.823529411764707, 3.0303030303030303, 1.5625, 0.8064516129032258], 'bp': 1.0, 'sys_len': 34, 'ref_len': 3}
+First element of precision:8.823529411764707
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2210 10
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 27.747934818267822 seconds
+Received response: "Is this a capital C?"
+Actual result: "
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2210 50
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase."
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 25.83024287223816 seconds
+Received response: int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is
+Actual result: )
+SACREBLEU Score: {'score': 0.969094302009921, 'counts': [1, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [2.6315789473684212, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715], 'bp': 1.0, 'sys_len': 38, 'ref_len': 1}
+First element of precision:2.6315789473684212
+Sequence Matcher Similarity Precision:0.021505376344086023
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 2210 51
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.")
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 31.12045907974243 seconds
+Received response: puts("is_upper_v1: This letter is uppercase.\n");
+Actual result: ;
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.04
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2211 3
+
+                This is the incomplete C11 programming language code:
+                # 6 "chapter_7/exercise_7_09/isupper.c"
+int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 27.899421453475952 seconds
+Received response: } 
+else 
+{
+  puts("is_upper_v1: This letter is not uppercase.");
+}
+return 0;
+Actual result: }
+SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.025974025974025976
+Cosine Similarity Precision:0.0
+
+Parse State: 512	Cursor Position: 2212 3
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c);
+int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+                'else scoped_statement'
+                Complete the 'else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'else scoped_statement'. 
+                
+Time taken: 29.53360629081726 seconds
+Received response: else {
+  puts("is_upper_v1: This letter is not uppercase.");
+}
+Actual result: else{puts(");}
+SACREBLEU Score: {'score': 27.653555158457866, 'counts': [8, 7, 5, 3], 'totals': [21, 20, 19, 18], 'precisions': [38.095238095238095, 35.0, 26.31578947368421, 16.666666666666668], 'bp': 1.0, 'sys_len': 21, 'ref_len': 8}
+First element of precision:38.095238095238095
+Sequence Matcher Similarity Precision:0.3684210526315789
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 320	Cursor Position: 2213 3
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v2(int c);
+
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 28.25443387031555 seconds
+Received response: ```c
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+```
+
+This code will print "
+Actual result: {puts(");}
+SACREBLEU Score: {'score': 14.046789948305587, 'counts': [7, 6, 4, 2], 'totals': [32, 31, 30, 29], 'precisions': [21.875, 19.35483870967742, 13.333333333333334, 6.896551724137931], 'bp': 1.0, 'sys_len': 32, 'ref_len': 7}
+First element of precision:21.875
+Sequence Matcher Similarity Precision:0.1834862385321101
+Cosine Similarity Precision:0.2773500981126146
+
+Parse State: 201	Cursor Position: 2214 5
+
+                This is the incomplete C11 programming language code:
+                int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 25.643378496170044 seconds
+Received response: char is_upper_v1(char c) 
+{
+  return (c >= 'A' && c <= 'Z');
+}
+Actual result: puts
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.030303030303030304
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2214 9
+
+                This is the incomplete C11 programming language code:
+                int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 28.653757572174072 seconds
+Received response: ```c
+int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper
+Actual result: (")
+SACREBLEU Score: {'score': 2.3372496156461082, 'counts': [3, 1, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [8.571428571428571, 2.9411764705882355, 1.5151515151515151, 0.78125], 'bp': 1.0, 'sys_len': 35, 'ref_len': 3}
+First element of precision:8.571428571428571
+Sequence Matcher Similarity Precision:0.0449438202247191
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2214 10
+
+                This is the incomplete C11 programming language code:
+                int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 26.66592574119568 seconds
+Received response: "it is lower case."
+Actual result: "
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2214 50
+
+                This is the incomplete C11 programming language code:
+                int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase."
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 23.64677882194519 seconds
+Received response:                 int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1
+Actual result: )
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 2214 51
+
+                This is the incomplete C11 programming language code:
+                int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.")
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 27.650287866592407 seconds
+Received response: return 0;
+Actual result: ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2215 3
+
+                This is the incomplete C11 programming language code:
+                int main(int argc, char *argv[])
+{
+  if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 23.607250690460205 seconds
+Received response: return 0;
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 2217 3
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+                'if ( expression ) scoped_statement else scoped_statement'
+                Complete the 'if ( expression ) scoped_statement else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'if ( expression ) scoped_statement else scoped_statement'. 
+                
+Time taken: 29.82188129425049 seconds
+Received response: ```c
+if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+ 
+Actual result: if(is_upper_v2('c')){puts(");}else{puts(");}
+SACREBLEU Score: {'score': 40.231918944960825, 'counts': [18, 15, 12, 9], 'totals': [34, 33, 32, 31], 'precisions': [52.94117647058823, 45.45454545454545, 37.5, 29.032258064516128], 'bp': 1.0, 'sys_len': 34, 'ref_len': 26}
+First element of precision:52.94117647058823
+Sequence Matcher Similarity Precision:0.5151515151515151
+Cosine Similarity Precision:0.35856858280031806
+
+Parse State: 404	Cursor Position: 2217 6
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if
+                '( expression ) scoped_statement else scoped_statement'
+                Complete the '( expression ) scoped_statement else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement else scoped_statement'. 
+                
+Time taken: 31.178444385528564 seconds
+Received response: ```c
+if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+ 
+Actual result: (is_upper_v2('c')){puts(");}else{puts(");}
+SACREBLEU Score: {'score': 37.03725358233026, 'counts': [17, 14, 11, 8], 'totals': [34, 33, 32, 31], 'precisions': [50.0, 42.42424242424242, 34.375, 25.806451612903224], 'bp': 1.0, 'sys_len': 34, 'ref_len': 25}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.49230769230769234
+Cosine Similarity Precision:0.25819888974716115
+
+Parse State: 455	Cursor Position: 2217 7
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 25.65904712677002 seconds
+Received response: char letter = 'c'; 
+
+if (is_upper_v1(letter))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+
+Actual result: is_upper_v2
+SACREBLEU Score: {'score': 6.814385179012217, 'counts': [4, 3, 2, 1], 'totals': [34, 33, 32, 31], 'precisions': [11.764705882352942, 9.090909090909092, 6.25, 3.225806451612903], 'bp': 1.0, 'sys_len': 34, 'ref_len': 5}
+First element of precision:11.764705882352942
+Sequence Matcher Similarity Precision:0.17699115044247787
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2217 18
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 30.663270235061646 seconds
+Received response: ```c
+if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+ 
+Actual result: ('c')
+SACREBLEU Score: {'score': 4.05185766962521, 'counts': [3, 2, 1, 0], 'totals': [34, 33, 32, 31], 'precisions': [8.823529411764707, 6.0606060606060606, 3.125, 1.6129032258064515], 'bp': 1.0, 'sys_len': 34, 'ref_len': 3}
+First element of precision:8.823529411764707
+Sequence Matcher Similarity Precision:0.10752688172043011
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2217 19
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2(
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 27.630499601364136 seconds
+Received response: is_upper_v2('C')
+Actual result: 'c'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.21052631578947367
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2217 22
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 23.626851797103882 seconds
+Received response: is_upper_v2('c')
+Actual result: )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 2217 23
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c')
+                ') scoped_statement else scoped_statement'
+                Complete the ') scoped_statement else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement else scoped_statement'. 
+                
+Time taken: 29.698062658309937 seconds
+Received response: ```c
+if (is_upper_v1('c'))
+  {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+ 
+Actual result: ){puts(");}else{puts(");}
+SACREBLEU Score: {'score': 17.948136499931035, 'counts': [11, 7, 5, 3], 'totals': [34, 33, 32, 31], 'precisions': [32.35294117647059, 21.21212121212121, 15.625, 9.67741935483871], 'bp': 1.0, 'sys_len': 34, 'ref_len': 16}
+First element of precision:32.35294117647059
+Sequence Matcher Similarity Precision:0.2831858407079646
+Cosine Similarity Precision:0.282842712474619
+
+Parse State: 320	Cursor Position: 2218 3
+
+                This is the incomplete C11 programming language code:
+                {
+    puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 28.017817974090576 seconds
+Received response: ```c
+if (is_upper_v2('c'))
+{
+    puts("is_upper_v2: This letter is uppercase.");
+}
+else
+{
+
+Actual result: {puts(");}
+SACREBLEU Score: {'score': 12.416350645592026, 'counts': [7, 6, 4, 2], 'totals': [36, 35, 34, 33], 'precisions': [19.444444444444443, 17.142857142857142, 11.764705882352942, 6.0606060606060606], 'bp': 1.0, 'sys_len': 36, 'ref_len': 7}
+First element of precision:19.444444444444443
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.30151134457776363
+
+Parse State: 201	Cursor Position: 2219 5
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 27.9858980178833 seconds
+Received response: ```c
+#include <stdio.h>
+
+int is_upper_v1(char c) {
+    if (c >= 'A' && c <= 'Z
+Actual result: puts
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.04878048780487805
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2219 9
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 30.67048716545105 seconds
+Received response: ```c
+if (is_upper_v2('c'))
+{
+  puts("is_upper_v2: This letter is uppercase.");
+}
+else
+{
+
+Actual result: (")
+SACREBLEU Score: {'score': 2.6988233895132607, 'counts': [3, 2, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [8.333333333333334, 5.714285714285714, 1.4705882352941178, 0.7575757575757576], 'bp': 1.0, 'sys_len': 36, 'ref_len': 3}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.06593406593406594
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2219 10
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 26.818479776382446 seconds
+Received response: STRING_LITERAL = "is_upper_v2: This letter is uppercase."
+Actual result: "
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.034482758620689655
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2219 50
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase."
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 25.61232566833496 seconds
+Received response: }
+Actual result: )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 2219 51
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.")
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 23.660585641860962 seconds
+Received response: puts("is_upper_v1: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v1: This letter is
+Actual result: ;
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2220 3
+
+                This is the incomplete C11 programming language code:
+                }
+  else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 26.630777597427368 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 512	Cursor Position: 2221 3
+
+                This is the incomplete C11 programming language code:
+                else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+                'else scoped_statement'
+                Complete the 'else scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'else scoped_statement'. 
+                
+Time taken: 23.646060466766357 seconds
+Received response: ```c
+else
+  {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('
+Actual result: else{puts(");}
+SACREBLEU Score: {'score': 17.10145668852757, 'counts': [8, 7, 5, 3], 'totals': [33, 32, 31, 30], 'precisions': [24.242424242424242, 21.875, 16.129032258064516, 10.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 8}
+First element of precision:24.242424242424242
+Sequence Matcher Similarity Precision:0.2692307692307692
+Cosine Similarity Precision:0.4714045207910316
+
+Parse State: 320	Cursor Position: 2222 3
+
+                This is the incomplete C11 programming language code:
+                {
+    puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 29.112102508544922 seconds
+Received response: ```c
+{
+    puts("is_upper_v1: This letter is lowercase.");
+}
+
+if (is_upper_v2('c'))
+{
+    puts
+Actual result: {puts(");}
+SACREBLEU Score: {'score': 12.416350645592026, 'counts': [7, 6, 4, 2], 'totals': [36, 35, 34, 33], 'precisions': [19.444444444444443, 17.142857142857142, 11.764705882352942, 6.0606060606060606], 'bp': 1.0, 'sys_len': 36, 'ref_len': 7}
+First element of precision:19.444444444444443
+Sequence Matcher Similarity Precision:0.19230769230769232
+Cosine Similarity Precision:0.6030226891555273
+
+Parse State: 201	Cursor Position: 2223 5
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 27.085440397262573 seconds
+Received response: char is_upper_v2(char c)
+Actual result: puts
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2223 9
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 27.66606879234314 seconds
+Received response: ```c
+puts("is_upper_v1: This letter is lowercase.");
+}
+
+if (is_upper_v2('c'))
+{
+  puts("is
+Actual result: (")
+SACREBLEU Score: {'score': 2.550799653951183, 'counts': [3, 2, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [7.894736842105263, 5.405405405405405, 1.3888888888888888, 0.7142857142857143], 'bp': 1.0, 'sys_len': 38, 'ref_len': 3}
+First element of precision:7.894736842105263
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2223 10
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 26.645994663238525 seconds
+Received response: "is_upper_v2: This letter is lowercase."
+Actual result: "
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.04878048780487805
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2223 50
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v2: This letter is lowercase."
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 24.65829038619995 seconds
+Received response: else
+{
+    puts("is_upper_v2: This letter is lowercase.");
+}
+Actual result: )
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.03278688524590164
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 2223 51
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v1: This letter is lowercase.");
+  }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v2: This letter is lowercase.")
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 26.657591581344604 seconds
+Received response: else
+{
+    puts("is_upper_v2: This letter is lowercase.");
+}
+Actual result: ;
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.03278688524590164
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2224 3
+
+                This is the incomplete C11 programming language code:
+                }
+
+  if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v2: This letter is lowercase.");
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 24.593775033950806 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2226 3
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 22.619035720825195 seconds
+Received response: char letter = 'c';
+Actual result: exit
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2226 7
+
+                This is the incomplete C11 programming language code:
+                if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+
+  exit
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 27.81617760658264 seconds
+Received response: ```c
+if (is_upper_v2('c'))
+  {
+    puts("is_upper_v2: This letter is uppercase.");
+  }
+ 
+Actual result: (0)
+SACREBLEU Score: {'score': 1.2944532586971997, 'counts': [2, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [5.882352941176471, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 3}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.04395604395604396
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2228 7
+
+                This is the incomplete C11 programming language code:
+                puts("is_upper_v2: This letter is uppercase.");
+  }
+  else
+  {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 26.635045766830444 seconds
+Received response: EXIT_SUCCESS
+Actual result: 0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2230 19
+
+                This is the incomplete C11 programming language code:
+                else
+  {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 23.638957738876343 seconds
+Received response: exit(0);
+Actual result: )
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 2230 20
+
+                This is the incomplete C11 programming language code:
+                else
+  {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  )
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 25.609275579452515 seconds
+Received response: exit(0)
+Actual result: ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2231 1
+
+                This is the incomplete C11 programming language code:
+                {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 26.03715205192566 seconds
+Received response: int main() {
+    puts("is_upper_v2: This letter is lowercase.");
+  }
+
+  exit(
+# 29 "chapter_7/ex
+Actual result: }
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.020618556701030927
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 2233 1
+
+                This is the incomplete C11 programming language code:
+                }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 27.621237993240356 seconds
+Received response: main
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 2233 5
+
+                This is the incomplete C11 programming language code:
+                }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 23.624658584594727 seconds
+Received response: main
+Actual result: is_upper_v1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 2233 16
+
+                This is the incomplete C11 programming language code:
+                }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 26.617510557174683 seconds
+Received response: (char c)
+Actual result: (intc)
+SACREBLEU Score: {'score': 18.99589214128981, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 2233 17
+
+                This is the incomplete C11 programming language code:
+                }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 23.61371612548828 seconds
+Received response: char
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 2233 21
+
+                This is the incomplete C11 programming language code:
+                }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 24.606680870056152 seconds
+Received response: char c
+Actual result: c
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 2233 22
+
+                This is the incomplete C11 programming language code:
+                }
+
+  exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 23.625616788864136 seconds
+Received response: int is_upper_v1(int c)
+Actual result: )
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 2234 1
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 27.64315891265869 seconds
+Received response: ```c
+int is_upper_v1(int c)
+{
+    return (c >= 'A' && c <= 'Z');
+}
+```
+
+This
+Actual result: {return(c>='A'&&c<='Z');}
+SACREBLEU Score: {'score': 44.50866059065563, 'counts': [16, 15, 14, 13], 'totals': [34, 33, 32, 31], 'precisions': [47.05882352941177, 45.45454545454545, 43.75, 41.935483870967744], 'bp': 1.0, 'sys_len': 34, 'ref_len': 16}
+First element of precision:47.05882352941177
+Sequence Matcher Similarity Precision:0.49504950495049505
+Cosine Similarity Precision:0.3779644730092272
+
+Parse State: 201	Cursor Position: 2235 3
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 31.684909105300903 seconds
+Received response: ```c
+return (c >= 'A' && c <= 'Z');
+```
+Actual result: return(c>='A'&&c<='Z');
+SACREBLEU Score: {'score': 63.950284469035694, 'counts': [14, 13, 12, 11], 'totals': [21, 20, 19, 18], 'precisions': [66.66666666666667, 65.0, 63.1578947368421, 61.111111111111114], 'bp': 1.0, 'sys_len': 21, 'ref_len': 14}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.7419354838709677
+Cosine Similarity Precision:1.0
+
+Parse State: 338	Cursor Position: 2235 10
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 26.654968738555908 seconds
+Received response: ```c
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+```
+Actual result: (c>='A'&&c<='Z')
+SACREBLEU Score: {'score': 33.16403718880062, 'counts': [12, 11, 10, 9], 'totals': [33, 32, 31, 30], 'precisions': [36.36363636363637, 34.375, 32.25806451612903, 30.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 12}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.38095238095238093
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 2235 11
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 29.73471450805664 seconds
+Received response: return (c >= 'A' && c <= 'Z');
+Actual result: c
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 2235 13
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c
+                '>='
+                Complete the '>=' part of the code in the C11 programming language. Just show your answer in place of '>='. 
+                
+Time taken: 25.668926239013672 seconds
+Received response: The completed code would be:
+
+```c
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= '
+Actual result: >=
+SACREBLEU Score: {'score': 2.246199289207964, 'counts': [2, 1, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [6.0606060606060606, 3.125, 1.6129032258064515, 0.8333333333333334], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:6.0606060606060606
+Sequence Matcher Similarity Precision:0.044444444444444446
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 2235 16
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 30.613228797912598 seconds
+Received response: 'A' && c <= 'Z')
+Actual result: 'A'
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.3157894736842105
+Cosine Similarity Precision:0.0
+
+Parse State: 159	Cursor Position: 2235 20
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A'
+                '&& inclusive_or_expression'
+                Complete the '&& inclusive_or_expression' part of the code in the C11 programming language. Just show your answer in place of '&& inclusive_or_expression'. 
+                
+Time taken: 29.670081615447998 seconds
+Received response: The completed code would be:
+
+```c
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && (c <=
+Actual result: &&c<='Z'
+SACREBLEU Score: {'score': 5.256886485157954, 'counts': [5, 3, 1, 0], 'totals': [33, 32, 31, 30], 'precisions': [15.151515151515152, 9.375, 3.225806451612903, 1.6666666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 6}
+First element of precision:15.151515151515152
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 263	Cursor Position: 2235 23
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' &&
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 29.653273344039917 seconds
+Received response: char 'A' && 'Z'
+Actual result: c
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 2235 25
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c
+                '<='
+                Complete the '<=' part of the code in the C11 programming language. Just show your answer in place of '<='. 
+                
+Time taken: 26.67190432548523 seconds
+Received response: The completed code would be:
+
+```c
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= '
+Actual result: <=
+SACREBLEU Score: {'score': 2.246199289207964, 'counts': [2, 1, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [6.0606060606060606, 3.125, 1.6129032258064515, 0.8333333333333334], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:6.0606060606060606
+Sequence Matcher Similarity Precision:0.044444444444444446
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 2235 28
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 30.632023334503174 seconds
+Received response: 'Z');
+Actual result: 'Z'
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.75
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 2235 31
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z'
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 27.06989026069641 seconds
+Received response: The completed code would be:
+
+```c
+exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3
+Actual result: )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 2235 32
+
+                This is the incomplete C11 programming language code:
+                exit(
+# 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z')
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 30.675312757492065 seconds
+Received response: return (c >= 'A' && c <= 'Z') ? 1 : 0;
+Actual result: ;
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.05128205128205128
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2236 1
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c" 3 4
+      0
+# 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 28.74171233177185 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 2238 1
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 23.64452362060547 seconds
+Received response: bool
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 2238 5
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 23.61728596687317 seconds
+Received response: char is_upper_v1(int c)
+Actual result: is_upper_v2
+SACREBLEU Score: {'score': 26.269098944241588, 'counts': [4, 3, 2, 1], 'totals': [10, 9, 8, 7], 'precisions': [40.0, 33.333333333333336, 25.0, 14.285714285714286], 'bp': 1.0, 'sys_len': 10, 'ref_len': 5}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.5882352941176471
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 2238 16
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 26.63352942466736 seconds
+Received response: (int c)
+Actual result: (intc)
+SACREBLEU Score: {'score': 18.99589214128981, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 2238 17
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 22.005024909973145 seconds
+Received response: char
+Actual result: int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 2238 21
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 23.626260995864868 seconds
+Received response: char c
+Actual result: c
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 2238 22
+
+                This is the incomplete C11 programming language code:
+                # 29 "chapter_7/exercise_7_09/isupper.c"
+                  );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 22.62972903251648 seconds
+Received response: int is_upper_v2(int c)
+Actual result: )
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 2239 1
+
+                This is the incomplete C11 programming language code:
+                );
+}
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 24.703745126724243 seconds
+Received response: ```c
+int is_upper_v2(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+```
+
+In
+Actual result: {return(strchr(",c)!=((void*)0));}
+SACREBLEU Score: {'score': 8.186841244220629, 'counts': [10, 5, 2, 0], 'totals': [34, 33, 32, 31], 'precisions': [29.41176470588235, 15.151515151515152, 6.25, 1.6129032258064515], 'bp': 1.0, 'sys_len': 34, 'ref_len': 21}
+First element of precision:29.41176470588235
+Sequence Matcher Similarity Precision:0.24528301886792453
+Cosine Similarity Precision:0.2182178902359924
+
+Parse State: 201	Cursor Position: 2240 3
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 26.639732599258423 seconds
+Received response: return (c >= 'A' && c <= 'Z');
+Actual result: return(strchr(",c)!=((void*)0));
+SACREBLEU Score: {'score': 6.219512039648859, 'counts': [6, 2, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [42.857142857142854, 15.384615384615385, 4.166666666666667, 2.272727272727273], 'bp': 0.6996725373751302, 'sys_len': 14, 'ref_len': 19}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.3548387096774194
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 338	Cursor Position: 2240 10
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 22.62291383743286 seconds
+Received response: (c >= 'A' && c <= 'Z')
+Actual result: (strchr(",c)!=((void*)0))
+SACREBLEU Score: {'score': 3.1572564565455266, 'counts': [4, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [33.333333333333336, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 0.6592406302004437, 'sys_len': 12, 'ref_len': 17}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.1702127659574468
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 2240 11
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 22.668753623962402 seconds
+Received response: int is_upper_v2(int c)
+{
+  return (
+          (c >= 'A' && c <= 'Z') || 
+          (c
+Actual result: strchr
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08791208791208792
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 2240 17
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 28.646591901779175 seconds
+Received response: The missing part of the code is likely a list of arguments for the `strchr` function. Here's the completed code:
+
+```c
+int
+Actual result: (",c)
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 5}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.015748031496062992
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 2240 18
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 25.62160325050354 seconds
+Received response: char *"STRING_LITERAL" = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+Actual result: "
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.03636363636363636
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 2240 46
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 25.66060209274292 seconds
+Received response: The correct completion of the code in the C11 programming language is:
+
+```c
+int is_upper_v2(int c)
+{
+  return (str
+Actual result: ,c
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 2}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.017094017094017096
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 2240 48
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 25.63595485687256 seconds
+Received response: char *strchr(const char *s, int c);
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c
+Actual result: c
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.018018018018018018
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 2240 49
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 25.64059853553772 seconds
+Received response: strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c)
+Actual result: )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 2240 51
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c)
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 21.67085289955139 seconds
+Received response: strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != NULL
+Actual result: !=
+SACREBLEU Score: {'score': 7.495553473355842, 'counts': [2, 1, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 10.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 2}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.08163265306122448
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 2242 53
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 27.071369171142578 seconds
+Received response: ```c
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != NULL);
+}
+```
+
+In this
+Actual result: ((void*)0)
+SACREBLEU Score: {'score': 1.4500372328365223, 'counts': [4, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [11.11111111111111, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788], 'bp': 1.0, 'sys_len': 36, 'ref_len': 7}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.05263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 2242 54
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    (
+                '( type_name ) cast_expression'
+                Complete the '( type_name ) cast_expression' part of the code in the C11 programming language. Just show your answer in place of '( type_name ) cast_expression'. 
+                
+Time taken: 35.62658357620239 seconds
+Received response: char
+Actual result: (void*)0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 2242 55
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 24.62287950515747 seconds
+Received response: char);
+Actual result: void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 137	Cursor Position: 2242 60
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 31.649221897125244 seconds
+Received response: The incomplete code is likely a part of a C11 programming language code snippet. Here's the completed code:
+
+```c
+int is_upper_v2
+Actual result: *
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 269	Cursor Position: 2242 61
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void *
+                ') cast_expression'
+                Complete the ') cast_expression' part of the code in the C11 programming language. Just show your answer in place of ') cast_expression'. 
+                
+Time taken: 31.701143503189087 seconds
+Received response: The completed code would be:
+
+```c
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+
+Actual result: )0
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.017241379310344827
+Cosine Similarity Precision:0.0
+
+Parse State: 369	Cursor Position: 2242 62
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void *)
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 30.994370222091675 seconds
+Received response: NULL);
+}
+Actual result: 0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 2242 63
+
+                This is the incomplete C11 programming language code:
+                int is_upper_v1(int c)
+{
+  return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void *)0
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 25.660486221313477 seconds
+Received response: The completed code would be:
+
+```c
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+
+Actual result: )
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.017391304347826087
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 2244 57
+
+                This is the incomplete C11 programming language code:
+                return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void *)0)
+# 39 "chapter_7/exercise_7_09/isupper.c"
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 31.805097341537476 seconds
+Received response: ```c
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+          ((void *)0)
+
+Actual result: )
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.018691588785046728
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 2244 58
+
+                This is the incomplete C11 programming language code:
+                return (c >= 'A' && c <= 'Z');
+}
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void *)0)
+# 39 "chapter_7/exercise_7_09/isupper.c"
+                                                        )
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 34.68948268890381 seconds
+Received response: return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != NULL);
+Actual result: ;
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.034482758620689655
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 2245 1
+
+                This is the incomplete C11 programming language code:
+                }
+
+int is_upper_v2(int c)
+{
+  return (strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) != 
+# 39 "chapter_7/exercise_7_09/isupper.c" 3 4
+                                                    ((void *)0)
+# 39 "chapter_7/exercise_7_09/isupper.c"
+                                                        );
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 28.642446279525757 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 19.11411817127519
+Average Sequence Matcher Similarity Precision: 22.170766894318092
+Average Cosine Similarity Precision: 9.367466040986736
