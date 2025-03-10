@@ -1,0 +1,1410 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 2.7708845138549805 seconds
+Received response: ```c
+int main() {
+    int a = 5;
+    int b = 10;
+    printf("Before swapping: a = %
+Actual result: int
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.06976744186046512
+Cosine Similarity Precision:0.8017837257372732
+
+Parse State: 5	Cursor Position: 741 5
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.7195725440979004 seconds
+Received response: swap
+Actual result: main
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 741 9
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 2.7316112518310547 seconds
+Received response: (int argc, char *argv[])
+Actual result: (void)
+SACREBLEU Score: {'score': 4.990049701936832, 'counts': [2, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 741 10
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 2.7088818550109863 seconds
+Received response: ```c
+int main(void)
+```
+
+In C11, the `main` function should have a return type of `int` and can optionally
+Actual result: void
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.07272727272727272
+Cosine Similarity Precision:0.2182178902359924
+
+Parse State: 187	Cursor Position: 741 14
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.676300048828125 seconds
+Received response: void
+Actual result: )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 742 1
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 2.7158396244049072 seconds
+Received response: ```c
+int main(void)
+{
+    int a = 5;
+    int b = 10;
+
+    printf("Before swapping: a =
+Actual result: {intx=2,y=3;printf(",x,y);{inttemp;temp=x;x=y;y=temp;};;printf(",x,y);return0;}
+SACREBLEU Score: {'score': 5.270075677155272, 'counts': [11, 3, 2, 1], 'totals': [28, 27, 26, 25], 'precisions': [39.285714285714285, 11.11111111111111, 7.6923076923076925, 4.0], 'bp': 0.48954165955695317, 'sys_len': 28, 'ref_len': 48}
+First element of precision:39.285714285714285
+Sequence Matcher Similarity Precision:0.21818181818181817
+Cosine Similarity Precision:0.1556997888323046
+
+Parse State: 201	Cursor Position: 743 3
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 3.079556703567505 seconds
+Received response: ```c
+int main(void)
+{
+    int a = 5, b = 10;
+    printf("Before swapping: a = %d
+Actual result: int
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.07228915662650602
+Cosine Similarity Precision:0.6324555320336759
+
+Parse State: 93	Cursor Position: 743 7
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.7065792083740234 seconds
+Received response: `a`
+Actual result: x
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.6324555320336759
+
+Parse State: 59	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 2.6750190258026123 seconds
+Received response: = { 5 };
+Actual result: =2
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.6324555320336759
+
+Parse State: 108	Cursor Position: 743 11
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.70072340965271 seconds
+Received response: The 'CONSTANT' part of the code should be a valid C11 integer literal. Here's the completed code:
+
+```c
+int main(void
+Actual result: 2
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 743 12
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 2.6955740451812744 seconds
+Received response: int main(void)
+{
+  int x = 2, y;
+Actual result: ,y=3
+SACREBLEU Score: {'score': 6.837203339116283, 'counts': [3, 1, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [23.076923076923077, 8.333333333333334, 4.545454545454546, 2.5], 'bp': 1.0, 'sys_len': 13, 'ref_len': 4}
+First element of precision:23.076923076923077
+Sequence Matcher Similarity Precision:0.05555555555555555
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.6802423000335693 seconds
+Received response: y
+Actual result: y
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 743 16
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 2.6979165077209473 seconds
+Received response: = 5
+Actual result: =3
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 743 18
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.7650563716888428 seconds
+Received response: The 'CONSTANT' part of the code should be a valid C11 expression that assigns a value to the variable 'y'. 
+
+Here's the
+Actual result: 3
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 743 19
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.698859930038452 seconds
+Received response: int main(void)
+{
+  int x = 2, y = 3
+  return 0;
+Actual result: ;
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.041666666666666664
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.643968343734741 seconds
+Received response: swap(x, y);
+Actual result: printf
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 2.592449903488159 seconds
+Received response: ```c
+printf("%d %d\n", x, y);
+```
+
+This will print the values of `x` and `y` to
+Actual result: (",x,y)
+SACREBLEU Score: {'score': 13.353491599779176, 'counts': [7, 6, 4, 3], 'totals': [37, 36, 35, 34], 'precisions': [18.91891891891892, 16.666666666666668, 11.428571428571429, 8.823529411764707], 'bp': 1.0, 'sys_len': 37, 'ref_len': 7}
+First element of precision:18.91891891891892
+Sequence Matcher Similarity Precision:0.16279069767441862
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 745 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 2.634316921234131 seconds
+Received response: printf("x = %d, y = %d\n", x, y);
+Actual result: "
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 745 26
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 2.6907613277435303 seconds
+Received response: ```c
+printf("x: %d, y: %d\n", x, y);
+```
+
+This will print the values of `x
+Actual result: ,x
+SACREBLEU Score: {'score': 2.0506623206233634, 'counts': [2, 1, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [5.555555555555555, 2.857142857142857, 1.4705882352941178, 0.7575757575757576], 'bp': 1.0, 'sys_len': 36, 'ref_len': 2}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.02631578947368421
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 745 28
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n",
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.672767400741577 seconds
+Received response: printf("x: %d, y: %d\n", x, y);
+Actual result: x
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 745 29
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 2.70249605178833 seconds
+Received response: ', y)'
+
+So the completed code would be:
+
+```c
+int main(void)
+{
+  int x = 2, y = 3
+Actual result: ,y
+SACREBLEU Score: {'score': 2.4829886830705856, 'counts': [2, 1, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [6.666666666666667, 3.4482758620689653, 1.7857142857142858, 0.9259259259259259], 'bp': 1.0, 'sys_len': 30, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.04819277108433735
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 745 31
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.714777946472168 seconds
+Received response: printf("x: %d, y: %d\n", x, y);
+Actual result: y
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 745 32
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.6999528408050537 seconds
+Received response: );
+Actual result: )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 745 33
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.742216110229492 seconds
+Received response: printf("x: %d, y: %d\n", x, y);
+Actual result: ;
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 747 3
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 3.2124807834625244 seconds
+Received response: ```c
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y:
+Actual result: {inttemp;temp=x;x=y;y=temp;}
+SACREBLEU Score: {'score': 4.327969719414173, 'counts': [8, 2, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [27.586206896551722, 7.142857142857143, 1.8518518518518519, 0.9615384615384616], 'bp': 1.0, 'sys_len': 29, 'ref_len': 16}
+First element of precision:27.586206896551722
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 5
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  {
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 1.7806198596954346 seconds
+Received response: swap.c
+```c
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d
+Actual result: int
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.08823529411764706
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 93	Cursor Position: 747 9
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.6518759727478027 seconds
+Received response: swap
+Actual result: temp
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 747 13
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.6458654403686523 seconds
+Received response: temp = x; x = y; y = temp;
+Actual result: ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 15
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.647892475128174 seconds
+Received response: temp = x;
+Actual result: temp
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:1.0
+
+Parse State: 181	Cursor Position: 747 20
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.6112945079803467 seconds
+Received response: temp = x;
+Actual result: =
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 747 22
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.585810899734497 seconds
+Received response: temp = x;
+Actual result: x
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 747 23
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 3.13322114944458 seconds
+Received response: temp = x;
+Actual result: ;
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 25
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.5992791652679443 seconds
+Received response: swap_y
+Actual result: x
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 747 27
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.622044563293457 seconds
+Received response: temp = x; x = y; y = temp
+Actual result: =
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 747 29
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.616654872894287 seconds
+Received response: temp = x; x = y; y = temp;
+Actual result: y
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 747 30
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.621514081954956 seconds
+Received response: x = y;
+Actual result: ;
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 32
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.590851068496704 seconds
+Received response: y = temp;
+Actual result: y
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 747 34
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 2.5874252319335938 seconds
+Received response: temp = x; x = y; y = temp
+Actual result: =
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 747 36
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.5927765369415283 seconds
+Received response: y = temp;
+Actual result: temp
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:1.0
+
+Parse State: 331	Cursor Position: 747 40
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.5853207111358643 seconds
+Received response: temp = x; x = y; y = temp;
+Actual result: ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 42
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 2.556196451187134 seconds
+Received response: }
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 747 43
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; }
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.647711992263794 seconds
+Received response: printf("x: %d, y: %d\n", x, y);
+Actual result: ;
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 747 44
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.6441590785980225 seconds
+Received response: printf("x: %d, y: %d\n", x, y);
+Actual result: ;
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.671924352645874 seconds
+Received response: swap
+Actual result: printf
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 748 9
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 2.7443056106567383 seconds
+Received response: The incomplete code is attempting to swap the values of `x` and `y` using a temporary variable. However, the swap operation is not being
+Actual result: (",x,y)
+SACREBLEU Score: {'score': 1.633898440122165, 'counts': [3, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [10.0, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 7}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.027972027972027972
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 748 10
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 2.674121618270874 seconds
+Received response: The completed code would be:
+
+```c
+printf("x: %d, y: %d\n", x, y);
+```
+
+However,
+Actual result: "
+SACREBLEU Score: {'score': 1.0253311603116817, 'counts': [1, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:2.7777777777777777
+Sequence Matcher Similarity Precision:0.024691358024691357
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 748 26
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 2.7058658599853516 seconds
+Received response: ```c
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y:
+Actual result: ,x
+SACREBLEU Score: {'score': 1.5301683686839007, 'counts': [2, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [6.896551724137931, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 2}
+First element of precision:6.896551724137931
+Sequence Matcher Similarity Precision:0.03125
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 748 28
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n",
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.681140184402466 seconds
+Received response: y
+Actual result: x
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 748 29
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 2.699122428894043 seconds
+Received response: ```c
+printf("x: %d, y: %d\n", x, y);
+```
+
+Should be completed as follows:
+
+```c
+Actual result: ,y
+SACREBLEU Score: {'score': 1.9381886040198417, 'counts': [2, 1, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [5.2631578947368425, 2.7027027027027026, 1.3888888888888888, 0.7142857142857143], 'bp': 1.0, 'sys_len': 38, 'ref_len': 2}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.04938271604938271
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 748 31
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.6319704055786133 seconds
+Received response: y
+Actual result: y
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:1.0
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 748 32
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 2.650097131729126 seconds
+Received response: );
+Actual result: )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 748 33
+
+                This is the incomplete C11 programming language code:
+                # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.6915695667266846 seconds
+Received response: ```c
+printf("x: %d, y: %d\n", x, y);
+```
+
+The completed code should look like this:
+
+
+Actual result: ;
+SACREBLEU Score: {'score': 1.0253311603116817, 'counts': [1, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:2.7777777777777777
+Sequence Matcher Similarity Precision:0.023255813953488372
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 2.6786019802093506 seconds
+Received response: ```c
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y:
+Actual result: return0;
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 2}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.6570494174957275 seconds
+Received response: ```c
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y:
+Actual result: 0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 750 11
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.6530556678771973 seconds
+Received response: return 0;
+Actual result: ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 751 1
+
+                This is the incomplete C11 programming language code:
+                {
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 2.6915159225463867 seconds
+Received response: ```c
+int main() {
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %
+Actual result: }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 16.818132852859872
+Average Sequence Matcher Similarity Precision: 18.761598702595645
+Average Cosine Similarity Precision: 8.062970925046061
