@@ -1,0 +1,2538 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4074435234069824 seconds
+Received response: Idxs = Text.Split("Hello, World!", " ")
+Actual result:  friends [ "Rob" ] [ "Name" ] = "Robert"
+SACREBLEU Score: {'score': 3.657015913414383, 'counts': [5, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [31.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 15}
+First element of precision:31.25
+Sequence Matcher Similarity Precision:0.20253164556962025
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 8
+
+                This is the incomplete Small Basic programming language code:
+                friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4017796516418457 seconds
+Received response: friends[1]
+Actual result:  [ "Rob" ] [ "Name" ]
+SACREBLEU Score: {'score': 4.238556455648295, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 0.22313016014842982, 'sys_len': 4, 'ref_len': 10}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.12903225806451613
+Cosine Similarity Precision:0.0
+
+Parse State: 32	Cursor Position: 1 9
+
+                This is the incomplete Small Basic programming language code:
+                friends[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4039573669433594 seconds
+Received response: friends["Hello, World!"]
+Actual result:  "Rob"
+SACREBLEU Score: {'score': 5.669791110976001, 'counts': [2, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [22.22222222222222, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 3}
+First element of precision:22.22222222222222
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1 14
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4233567714691162 seconds
+Received response: friends["Rob"] = 123
+Actual result:  ] [ "Name" ]
+SACREBLEU Score: {'score': 15.619699684601276, 'counts': [4, 2, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [50.0, 28.571428571428573, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 6}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 84	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42381787300109863 seconds
+Received response: friends["Rob"] = "Hello, Rob!"
+Actual result:  [ "Name" ]
+SACREBLEU Score: {'score': 8.737167851715874, 'counts': [4, 2, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [30.76923076923077, 16.666666666666668, 4.545454545454546, 2.5], 'bp': 1.0, 'sys_len': 13, 'ref_len': 5}
+First element of precision:30.76923076923077
+Sequence Matcher Similarity Precision:0.24390243902439024
+Cosine Similarity Precision:0.0
+
+Parse State: 32	Cursor Position: 1 16
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4249260425567627 seconds
+Received response: friends["Rob"] = "Hello, Rob!"
+Actual result:  "Name"
+SACREBLEU Score: {'score': 3.673526562988939, 'counts': [2, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 3}
+First element of precision:15.384615384615385
+Sequence Matcher Similarity Precision:0.21621621621621623
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1 22
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39613914489746094 seconds
+Received response: "Rob"]["Name"]
+Actual result:  ]
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 1 24
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.38267016410827637 seconds
+Received response: "Rob"
+Actual result:  = "Robert"
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.625
+Cosine Similarity Precision:0.0
+
+Parse State: 56	Cursor Position: 1 26
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4069554805755615 seconds
+Received response: friends["Rob"]["Name"] = "Rob"
+Actual result:  "Robert"
+SACREBLEU Score: {'score': 3.125190763972442, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 35
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.46950674057006836 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Age"] = 25
+friends["Rob"]["City"] = "New York"
+Actual result:  \n friends [ "Rob" ] [ "Phone" ] = "555-6789" \n \n friends [ "VJ" ] [ "Name" ] = "Vijaye" \n friends [ "VJ" ] [ "Phone" ] = "555-4567" \n \n friends [ "Ash" ] [ "Name" ] = "Ashley" \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 3.530629669481895, 'counts': [36, 27, 20, 13], 'totals': [44, 43, 42, 41], 'precisions': [81.81818181818181, 62.7906976744186, 47.61904761904762, 31.70731707317073], 'bp': 0.06690072635748036, 'sys_len': 44, 'ref_len': 163}
+First element of precision:81.81818181818181
+Sequence Matcher Similarity Precision:0.06394316163410302
+Cosine Similarity Precision:0.45273316673448827
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert"
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42539191246032715 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Age"] = 30
+Actual result:  friends [ "Rob" ] [ "Phone" ] = "555-6789"
+SACREBLEU Score: {'score': 33.56891925037239, 'counts': [13, 10, 8, 6], 'totals': [28, 27, 26, 25], 'precisions': [46.42857142857143, 37.03703703703704, 30.76923076923077, 24.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 17}
+First element of precision:46.42857142857143
+Sequence Matcher Similarity Precision:0.46601941747572817
+Cosine Similarity Precision:0.5163977794943223
+
+Parse State: 6	Cursor Position: 2 8
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.429764986038208 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Name"]
+Actual result:  [ "Rob" ] [ "Phone" ]
+SACREBLEU Score: {'score': 24.343304284910328, 'counts': [9, 7, 5, 4], 'totals': [26, 25, 24, 23], 'precisions': [34.61538461538461, 28.0, 20.833333333333332, 17.391304347826086], 'bp': 1.0, 'sys_len': 26, 'ref_len': 10}
+First element of precision:34.61538461538461
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.39223227027636803
+
+Parse State: 32	Cursor Position: 2 9
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45371317863464355 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Age"] = 25
+Actual result:  "Rob"
+SACREBLEU Score: {'score': 4.970745472800839, 'counts': [3, 2, 1, 0], 'totals': [28, 27, 26, 25], 'precisions': [10.714285714285714, 7.407407407407407, 3.8461538461538463, 2.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 3}
+First element of precision:10.714285714285714
+Sequence Matcher Similarity Precision:0.15151515151515152
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 60	Cursor Position: 2 14
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3941650390625 seconds
+Received response: ["Id"] = 123
+Actual result:  ] [ "Phone" ]
+SACREBLEU Score: {'score': 18.575057999133602, 'counts': [4, 2, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [57.142857142857146, 33.333333333333336, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 6}
+First element of precision:57.142857142857146
+Sequence Matcher Similarity Precision:0.23076923076923078
+Cosine Similarity Precision:0.0
+
+Parse State: 84	Cursor Position: 2 15
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42540931701660156 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Name"]
+Actual result:  [ "Phone" ]
+SACREBLEU Score: {'score': 4.085892079136997, 'counts': [4, 2, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [15.384615384615385, 8.0, 2.0833333333333335, 1.0869565217391304], 'bp': 1.0, 'sys_len': 26, 'ref_len': 5}
+First element of precision:15.384615384615385
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 32	Cursor Position: 2 16
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42557835578918457 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Age"] = 25
+Actual result:  "Phone"
+SACREBLEU Score: {'score': 1.5880117714047368, 'counts': [2, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [7.142857142857143, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 3}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.08823529411764706
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 2 23
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43950438499450684 seconds
+Received response: friends["Rob"]["Phone"] = "123-456-7890"
+Actual result:  ]
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.047619047619047616
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 2 25
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43979358673095703 seconds
+Received response: friends["Rob"]["Phone"] = "555-1234"
+Actual result:  = "555-6789"
+SACREBLEU Score: {'score': 15.13851459876605, 'counts': [5, 3, 2, 1], 'totals': [17, 16, 15, 14], 'precisions': [29.41176470588235, 18.75, 13.333333333333334, 7.142857142857143], 'bp': 1.0, 'sys_len': 17, 'ref_len': 6}
+First element of precision:29.41176470588235
+Sequence Matcher Similarity Precision:0.3673469387755102
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 56	Cursor Position: 2 27
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44112062454223633 seconds
+Received response: friends["Rob"]["Phone"] = "123-456-7890"
+Actual result:  "555-6789"
+SACREBLEU Score: {'score': 2.664321121388895, 'counts': [3, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [15.789473684210526, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 5}
+First element of precision:15.789473684210526
+Sequence Matcher Similarity Precision:0.3137254901960784
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 39
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5438418388366699 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+friends["Alice"]["Name"] = "Alice Smith"
+friends["Alice"]["Phone"] = "555-1234"
+Actual result:  \n \n friends [ "VJ" ] [ "Name" ] = "Vijaye" \n friends [ "VJ" ] [ "Phone" ] = "555-4567" \n \n friends [ "Ash" ] [ "Name" ] = "Ashley" \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 18.54530945947561, 'counts': [56, 44, 36, 28], 'totals': [65, 64, 63, 62], 'precisions': [86.15384615384616, 68.75, 57.142857142857146, 45.16129032258065], 'bp': 0.296595917000972, 'sys_len': 65, 'ref_len': 144}
+First element of precision:86.15384615384616
+Sequence Matcher Similarity Precision:0.15411558669001751
+Cosine Similarity Precision:0.5890275078618326
+
+Parse State: 3	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5378448963165283 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+friends["Alice"]["Name"] = "Alice Smith"
+friends["Alice"]["Phone"] = "555-1234"
+Actual result:  \n friends [ "VJ" ] [ "Name" ] = "Vijaye" \n friends [ "VJ" ] [ "Phone" ] = "555-4567" \n \n friends [ "Ash" ] [ "Name" ] = "Ashley" \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 19.12480394696373, 'counts': [56, 44, 36, 28], 'totals': [65, 64, 63, 62], 'precisions': [86.15384615384616, 68.75, 57.142857142857146, 45.16129032258065], 'bp': 0.3058637968003963, 'sys_len': 65, 'ref_len': 142}
+First element of precision:86.15384615384616
+Sequence Matcher Similarity Precision:0.15492957746478872
+Cosine Similarity Precision:0.5890275078618326
+
+Parse State: 11	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.48693323135375977 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+friends["Rob"]["Email"] = "rob@example.com"
+Actual result:  friends [ "VJ" ] [ "Name" ] = "Vijaye"
+SACREBLEU Score: {'score': 17.9598114508421, 'counts': [13, 10, 8, 6], 'totals': [51, 50, 49, 48], 'precisions': [25.49019607843137, 20.0, 16.3265306122449, 12.5], 'bp': 1.0, 'sys_len': 51, 'ref_len': 15}
+First element of precision:25.49019607843137
+Sequence Matcher Similarity Precision:0.33986928104575165
+Cosine Similarity Precision:0.3481553119113957
+
+Parse State: 6	Cursor Position: 4 8
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.36782240867614746 seconds
+Received response: friends["Rob"]
+Actual result:  [ "VJ" ] [ "Name" ]
+SACREBLEU Score: {'score': 11.786767588753085, 'counts': [4, 2, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [66.66666666666667, 40.0, 12.5, 8.333333333333334], 'bp': 0.513417119032592, 'sys_len': 6, 'ref_len': 10}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.17647058823529413
+Cosine Similarity Precision:0.0
+
+Parse State: 32	Cursor Position: 4 9
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5018515586853027 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+friends["Rob"]["Email"] = "rob@example.com"
+Actual result:  "VJ"
+SACREBLEU Score: {'score': 0.8496070958802302, 'counts': [2, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [3.9215686274509802, 1.0, 0.5102040816326531, 0.2604166666666667], 'bp': 1.0, 'sys_len': 51, 'ref_len': 3}
+First element of precision:3.9215686274509802
+Sequence Matcher Similarity Precision:0.05042016806722689
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 4 13
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4695141315460205 seconds
+Received response: friends["VJ"]["Name"] = "VJ"
+friends["VJ"]["Phone"] = "555-1234"
+Actual result:  ] [ "Name" ]
+SACREBLEU Score: {'score': 14.291173574075163, 'counts': [6, 5, 4, 3], 'totals': [32, 31, 30, 29], 'precisions': [18.75, 16.129032258064516, 13.333333333333334, 10.344827586206897], 'bp': 1.0, 'sys_len': 32, 'ref_len': 6}
+First element of precision:18.75
+Sequence Matcher Similarity Precision:0.2077922077922078
+Cosine Similarity Precision:0.24253562503633297
+
+Parse State: 84	Cursor Position: 4 14
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39919233322143555 seconds
+Received response: friends["VJ"] = {}
+Actual result:  [ "Name" ]
+SACREBLEU Score: {'score': 13.485111859503684, 'counts': [4, 2, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 25.0, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 5}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.20689655172413793
+Cosine Similarity Precision:0.0
+
+Parse State: 32	Cursor Position: 4 15
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42232537269592285 seconds
+Received response: friends["VJ"]["Name"] = "VJ"
+Actual result:  "Name"
+SACREBLEU Score: {'score': 9.78237574896145, 'counts': [3, 2, 1, 0], 'totals': [15, 14, 13, 12], 'precisions': [20.0, 14.285714285714286, 7.6923076923076925, 4.166666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.34285714285714286
+Cosine Similarity Precision:0.4082482904638631
+
+Parse State: 60	Cursor Position: 4 21
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40631961822509766 seconds
+Received response: friends["VJ"]["Name"] = "VJ"
+Actual result:  ]
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 4 23
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3697483539581299 seconds
+Received response: "VJ"
+Actual result:  = "Vijaye"
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 56	Cursor Position: 4 25
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4257340431213379 seconds
+Received response: friends["VJ"]["Name"] = "VJ"
+Actual result:  "Vijaye"
+SACREBLEU Score: {'score': 3.125190763972442, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.21621621621621623
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 4 34
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43872904777526855 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  \n friends [ "VJ" ] [ "Phone" ] = "555-4567" \n \n friends [ "Ash" ] [ "Name" ] = "Ashley" \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 0.15402769193720633, 'counts': [16, 14, 13, 12], 'totals': [17, 16, 15, 14], 'precisions': [94.11764705882354, 87.5, 86.66666666666667, 85.71428571428571], 'bp': 0.0017416171924170018, 'sys_len': 17, 'ref_len': 125}
+First element of precision:94.11764705882354
+Sequence Matcher Similarity Precision:0.11192214111922141
+Cosine Similarity Precision:0.5313689313240572
+
+Parse State: 11	Cursor Position: 5 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye"
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4380776882171631 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  friends [ "VJ" ] [ "Phone" ] = "555-4567"
+SACREBLEU Score: {'score': 88.43946454355333, 'counts': [16, 14, 13, 12], 'totals': [17, 16, 15, 14], 'precisions': [94.11764705882354, 87.5, 86.66666666666667, 85.71428571428571], 'bp': 1.0, 'sys_len': 17, 'ref_len': 17}
+First element of precision:94.11764705882354
+Sequence Matcher Similarity Precision:0.8311688311688312
+Cosine Similarity Precision:0.7999999999999999
+
+Parse State: 6	Cursor Position: 5 8
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5598194599151611 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-1234"
+
+friends
+Actual result:  [ "VJ" ] [ "Phone" ]
+SACREBLEU Score: {'score': 13.270926434092189, 'counts': [10, 9, 8, 7], 'totals': [65, 64, 63, 62], 'precisions': [15.384615384615385, 14.0625, 12.698412698412698, 11.290322580645162], 'bp': 1.0, 'sys_len': 65, 'ref_len': 10}
+First element of precision:15.384615384615385
+Sequence Matcher Similarity Precision:0.16470588235294117
+Cosine Similarity Precision:0.4040610178208842
+
+Parse State: 32	Cursor Position: 5 9
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43529653549194336 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  "VJ"
+SACREBLEU Score: {'score': 8.513012360883549, 'counts': [3, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 3}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 60	Cursor Position: 5 13
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4370291233062744 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  ] [ "Phone" ]
+SACREBLEU Score: {'score': 28.175950490399515, 'counts': [6, 5, 4, 3], 'totals': [17, 16, 15, 14], 'precisions': [35.294117647058826, 31.25, 26.666666666666668, 21.428571428571427], 'bp': 1.0, 'sys_len': 17, 'ref_len': 6}
+First element of precision:35.294117647058826
+Sequence Matcher Similarity Precision:0.3673469387755102
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 84	Cursor Position: 5 14
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42368483543395996 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  [ "Phone" ]
+SACREBLEU Score: {'score': 21.409092659758045, 'counts': [5, 4, 3, 2], 'totals': [17, 16, 15, 14], 'precisions': [29.41176470588235, 25.0, 20.0, 14.285714285714286], 'bp': 1.0, 'sys_len': 17, 'ref_len': 5}
+First element of precision:29.41176470588235
+Sequence Matcher Similarity Precision:0.3829787234042553
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 32	Cursor Position: 5 15
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42479419708251953 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  "Phone"
+SACREBLEU Score: {'score': 8.513012360883549, 'counts': [3, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 3}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.32558139534883723
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 60	Cursor Position: 5 22
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43186187744140625 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  ]
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.05405405405405406
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 5 24
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43500781059265137 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  = "555-4567"
+SACREBLEU Score: {'score': 15.13851459876605, 'counts': [5, 3, 2, 1], 'totals': [17, 16, 15, 14], 'precisions': [29.41176470588235, 18.75, 13.333333333333334, 7.142857142857143], 'bp': 1.0, 'sys_len': 17, 'ref_len': 6}
+First element of precision:29.41176470588235
+Sequence Matcher Similarity Precision:0.4166666666666667
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 56	Cursor Position: 5 26
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45236992835998535 seconds
+Received response: friends["VJ"]["Phone"] = "555-1234"
+Actual result:  "555-4567"
+SACREBLEU Score: {'score': 9.147827112247601, 'counts': [4, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [23.529411764705884, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 5}
+First element of precision:23.529411764705884
+Sequence Matcher Similarity Precision:0.34782608695652173
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 3	Cursor Position: 5 38
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7203562259674072 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Alice"]["Name"] = "Alice"
+friends["Alice"]["Phone"] = "555-1234"
+
+friends["Bob"]["Name"] = "Bob"
+friends["Bob"]["Phone"] = "555-9876"
+Actual result:  \n \n friends [ "Ash" ] [ "Name" ] = "Ashley" \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 24.950075624275506, 'counts': [53, 36, 26, 20], 'totals': [128, 127, 126, 125], 'precisions': [41.40625, 28.346456692913385, 20.634920634920636, 16.0], 'bp': 1.0, 'sys_len': 128, 'ref_len': 106}
+First element of precision:41.40625
+Sequence Matcher Similarity Precision:0.23089430894308943
+Cosine Similarity Precision:0.5555555555555555
+
+Parse State: 3	Cursor Position: 6 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7406203746795654 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+'CR MoreThanOneStmt'
+friends["Rob"]["Email"] = "robert@example.com"
+friends["VJ"]["Email"] = "vijaye@example.com"
+Actual result:  \n friends [ "Ash" ] [ "Name" ] = "Ashley" \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 30.35578758488299, 'counts': [53, 34, 26, 20], 'totals': [104, 103, 102, 101], 'precisions': [50.96153846153846, 33.00970873786408, 25.49019607843137, 19.801980198019802], 'bp': 1.0, 'sys_len': 104, 'ref_len': 104}
+First element of precision:50.96153846153846
+Sequence Matcher Similarity Precision:0.19210977701543738
+Cosine Similarity Precision:0.4450613003199941
+
+Parse State: 11	Cursor Position: 7 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5672147274017334 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+Idxs = "Rob"
+Actual result:  friends [ "Ash" ] [ "Name" ] = "Ashley"
+SACREBLEU Score: {'score': 13.16897466027655, 'counts': [13, 10, 8, 6], 'totals': [69, 68, 67, 66], 'precisions': [18.840579710144926, 14.705882352941176, 11.940298507462687, 9.090909090909092], 'bp': 1.0, 'sys_len': 69, 'ref_len': 15}
+First element of precision:18.840579710144926
+Sequence Matcher Similarity Precision:0.25906735751295334
+Cosine Similarity Precision:0.4423258684646914
+
+Parse State: 6	Cursor Position: 7 8
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5540182590484619 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Rob"]
+Actual result:  [ "Ash" ] [ "Name" ]
+SACREBLEU Score: {'score': 8.698811596015739, 'counts': [9, 7, 5, 4], 'totals': [70, 69, 68, 67], 'precisions': [12.857142857142858, 10.144927536231885, 7.352941176470588, 5.970149253731344], 'bp': 1.0, 'sys_len': 70, 'ref_len': 10}
+First element of precision:12.857142857142858
+Sequence Matcher Similarity Precision:0.1016949152542373
+Cosine Similarity Precision:0.19245008972987523
+
+Parse State: 32	Cursor Position: 7 9
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.6280601024627686 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Alice"]["Name"] = "Alice"
+friends["Alice"]["Phone"] = "555-1234"
+Actual result:  "Ash"
+SACREBLEU Score: {'score': 0.44494988135165836, 'counts': [2, 0, 0, 0], 'totals': [96, 95, 94, 93], 'precisions': [2.0833333333333335, 0.5263157894736842, 0.26595744680851063, 0.13440860215053763], 'bp': 1.0, 'sys_len': 96, 'ref_len': 3}
+First element of precision:2.0833333333333335
+Sequence Matcher Similarity Precision:0.03619909502262444
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 7 14
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.46384406089782715 seconds
+Received response: friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+Actual result:  ] [ "Name" ]
+SACREBLEU Score: {'score': 14.291173574075163, 'counts': [6, 5, 4, 3], 'totals': [32, 31, 30, 29], 'precisions': [18.75, 16.129032258064516, 13.333333333333334, 10.344827586206897], 'bp': 1.0, 'sys_len': 32, 'ref_len': 6}
+First element of precision:18.75
+Sequence Matcher Similarity Precision:0.1927710843373494
+Cosine Similarity Precision:0.2773500981126146
+
+Parse State: 84	Cursor Position: 7 15
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.465451717376709 seconds
+Received response: friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+Actual result:  [ "Name" ]
+SACREBLEU Score: {'score': 10.858943671423319, 'counts': [5, 4, 3, 2], 'totals': [32, 31, 30, 29], 'precisions': [15.625, 12.903225806451612, 10.0, 6.896551724137931], 'bp': 1.0, 'sys_len': 32, 'ref_len': 5}
+First element of precision:15.625
+Sequence Matcher Similarity Precision:0.19753086419753085
+Cosine Similarity Precision:0.2773500981126146
+
+Parse State: 32	Cursor Position: 7 16
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44690537452697754 seconds
+Received response: friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+Actual result:  "Name"
+SACREBLEU Score: {'score': 4.317900023606588, 'counts': [3, 2, 1, 0], 'totals': [32, 31, 30, 29], 'precisions': [9.375, 6.451612903225806, 3.3333333333333335, 1.7241379310344827], 'bp': 1.0, 'sys_len': 32, 'ref_len': 3}
+First element of precision:9.375
+Sequence Matcher Similarity Precision:0.15584415584415584
+Cosine Similarity Precision:0.2773500981126146
+
+Parse State: 60	Cursor Position: 7 22
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4745783805847168 seconds
+Received response: friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+Actual result:  ]
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.027777777777777776
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 7 24
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41587162017822266 seconds
+Received response: friends["Ash"]["Name"] = "Ashley"
+Actual result:  = "Ashley"
+SACREBLEU Score: {'score': 16.451929399933107, 'counts': [4, 3, 2, 1], 'totals': [15, 14, 13, 12], 'precisions': [26.666666666666668, 21.428571428571427, 15.384615384615385, 8.333333333333334], 'bp': 1.0, 'sys_len': 15, 'ref_len': 4}
+First element of precision:26.666666666666668
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.5
+
+Parse State: 56	Cursor Position: 7 26
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.37947559356689453 seconds
+Received response: Ashley
+Actual result:  "Ashley"
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 1, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:1.0
+
+Parse State: 3	Cursor Position: 7 35
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7230007648468018 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+Actual result:  \n friends [ "Ash" ] [ "Phone" ] = "555-2345" \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 27.1617039849241, 'counts': [41, 28, 21, 18], 'totals': [96, 95, 94, 93], 'precisions': [42.708333333333336, 29.473684210526315, 22.340425531914892, 19.35483870967742], 'bp': 1.0, 'sys_len': 96, 'ref_len': 87}
+First element of precision:42.708333333333336
+Sequence Matcher Similarity Precision:0.07645875251509054
+Cosine Similarity Precision:0.5237022127099913
+
+Parse State: 11	Cursor Position: 8 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley"
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7381787300109863 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+
+friends["Rob"]["Age"] = 30
+friends["VJ"]["Age"] = 25
+friends["Ash"]["Age"] = 28
+Actual result:  friends [ "Ash" ] [ "Phone" ] = "555-2345"
+SACREBLEU Score: {'score': 10.241819541897641, 'counts': [16, 14, 13, 12], 'totals': [135, 134, 133, 132], 'precisions': [11.851851851851851, 10.447761194029852, 9.774436090225564, 9.090909090909092], 'bp': 1.0, 'sys_len': 135, 'ref_len': 17}
+First element of precision:11.851851851851851
+Sequence Matcher Similarity Precision:0.19642857142857142
+Cosine Similarity Precision:0.6507913734559686
+
+Parse State: 6	Cursor Position: 8 8
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7341189384460449 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-1234"
+
+friends
+Actual result:  [ "Ash" ] [ "Phone" ]
+SACREBLEU Score: {'score': 8.823360577385577, 'counts': [10, 9, 8, 7], 'totals': [97, 96, 95, 94], 'precisions': [10.309278350515465, 9.375, 8.421052631578947, 7.446808510638298], 'bp': 1.0, 'sys_len': 97, 'ref_len': 10}
+First element of precision:10.309278350515465
+Sequence Matcher Similarity Precision:0.10699588477366255
+Cosine Similarity Precision:0.36466247874473634
+
+Parse State: 32	Cursor Position: 8 9
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4213526248931885 seconds
+Received response: friends["Ash"]["Phone"] = "555-1234"
+Actual result:  "Ash"
+SACREBLEU Score: {'score': 8.513012360883549, 'counts': [3, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 3}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.23809523809523808
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 60	Cursor Position: 8 14
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43613576889038086 seconds
+Received response: friends["Ash"]["Phone"] = "555-1234"
+Actual result:  ] [ "Phone" ]
+SACREBLEU Score: {'score': 28.175950490399515, 'counts': [6, 5, 4, 3], 'totals': [17, 16, 15, 14], 'precisions': [35.294117647058826, 31.25, 26.666666666666668, 21.428571428571427], 'bp': 1.0, 'sys_len': 17, 'ref_len': 6}
+First element of precision:35.294117647058826
+Sequence Matcher Similarity Precision:0.36
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 84	Cursor Position: 8 15
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4237027168273926 seconds
+Received response: friends["Ash"]["Phone"] = "555-1234"
+Actual result:  [ "Phone" ]
+SACREBLEU Score: {'score': 21.409092659758045, 'counts': [5, 4, 3, 2], 'totals': [17, 16, 15, 14], 'precisions': [29.41176470588235, 25.0, 20.0, 14.285714285714286], 'bp': 1.0, 'sys_len': 17, 'ref_len': 5}
+First element of precision:29.41176470588235
+Sequence Matcher Similarity Precision:0.375
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 32	Cursor Position: 8 16
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4369523525238037 seconds
+Received response: friends["Ash"]["Phone"] = "555-1234"
+Actual result:  "Phone"
+SACREBLEU Score: {'score': 8.513012360883549, 'counts': [3, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 3}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.3181818181818182
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 60	Cursor Position: 8 23
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39229631423950195 seconds
+Received response: "555-1234"
+Actual result:  ]
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 8 25
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4053936004638672 seconds
+Received response: "555-1234"
+Actual result:  = "555-2345"
+SACREBLEU Score: {'score': 34.98330125272251, 'counts': [4, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 50.0, 33.333333333333336, 25.0], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.782608695652174
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 56	Cursor Position: 8 27
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42108821868896484 seconds
+Received response: friends["Ash"]["Phone"] = "555-1234"
+Actual result:  "555-2345"
+SACREBLEU Score: {'score': 9.147827112247601, 'counts': [4, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [23.529411764705884, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 5}
+First element of precision:23.529411764705884
+Sequence Matcher Similarity Precision:0.425531914893617
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 3	Cursor Position: 8 39
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7777042388916016 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-2345"
+
+'CR MoreThanOneStmt
+friends["Rob"]["Email"] = "rob@example.com"
+friends["VJ"]["Email"] = "vijaye@example.com"
+friends["Ash"]["Email"] = "ashley@example.com"
+Actual result:  \n \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 7.630183221187007, 'counts': [28, 14, 8, 6], 'totals': [155, 154, 153, 152], 'precisions': [18.06451612903226, 9.090909090909092, 5.228758169934641, 3.9473684210526314], 'bp': 1.0, 'sys_len': 155, 'ref_len': 68}
+First element of precision:18.06451612903226
+Sequence Matcher Similarity Precision:0.10837438423645321
+Cosine Similarity Precision:0.3075346380392736
+
+Parse State: 3	Cursor Position: 9 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7953283786773682 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-2345"
+
+'CR MoreThanOneStmt
+friends["Rob"]["Email"] = "rob@example.com"
+friends["VJ"]["Email"] = "vijaye@example.com"
+friends["Ash"]["Email"] = "ashley@example.com"
+Actual result:  \n TextWindow . Write ( "Enter the nickname: " ) \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 7.630183221187007, 'counts': [28, 14, 8, 6], 'totals': [155, 154, 153, 152], 'precisions': [18.06451612903226, 9.090909090909092, 5.228758169934641, 3.9473684210526314], 'bp': 1.0, 'sys_len': 155, 'ref_len': 66}
+First element of precision:18.06451612903226
+Sequence Matcher Similarity Precision:0.10891089108910891
+Cosine Similarity Precision:0.3075346380392736
+
+Parse State: 11	Cursor Position: 10 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.6560256481170654 seconds
+Received response: friends["Rob"]["Name"] = "Robert"
+friends["Rob"]["Phone"] = "555-6789"
+
+friends["VJ"]["Name"] = "Vijaye"
+friends["VJ"]["Phone"] = "555-4567"
+
+friends["Ash"]["Name"] = "Ashley"
+friends["Ash"]["Phone"] = "555-2345"
+
+friends["Rob"].Name
+Actual result:  TextWindow . Write ( "Enter the nickname: " )
+SACREBLEU Score: {'score': 0.45398059821694364, 'counts': [3, 0, 0, 0], 'totals': [104, 103, 102, 101], 'precisions': [2.8846153846153846, 0.4854368932038835, 0.24509803921568626, 0.12376237623762376], 'bp': 1.0, 'sys_len': 104, 'ref_len': 11}
+First element of precision:2.8846153846153846
+Sequence Matcher Similarity Precision:0.07168458781362007
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 10 11
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5007741451263428 seconds
+Received response: TextWindow.WriteLine("Friends List:")
+For Each friend In friends
+    TextWindow.WriteLine("Name: " & friend["Name"] & ", Phone: " & friend["Phone"])
+Next
+Actual result:  . Write ( "Enter the nickname: " )
+SACREBLEU Score: {'score': 3.9830420674981903, 'counts': [6, 3, 1, 0], 'totals': [45, 44, 43, 42], 'precisions': [13.333333333333334, 6.818181818181818, 2.3255813953488373, 1.1904761904761905], 'bp': 1.0, 'sys_len': 45, 'ref_len': 10}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.2127659574468085
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 10 12
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7292115688323975 seconds
+Received response: TextWindow.WriteLine("Friends List:")
+TextWindow.WriteLine("Rob: " & friends["Rob"]["Name"] & " - " & friends["Rob"]["Phone"])
+TextWindow.WriteLine("VJ: " & friends["VJ"]["Name"] & " - " & friends["VJ"]["Phone"])
+TextWindow.WriteLine("Ash: " & friends["Ash"]["Name"] & " - " & friends["Ash"]["Phone"])
+Actual result:  Write ( "Enter the nickname: " )
+SACREBLEU Score: {'score': 1.3848936360780013, 'counts': [5, 3, 1, 0], 'totals': [121, 120, 119, 118], 'precisions': [4.132231404958677, 2.5, 0.8403361344537815, 0.423728813559322], 'bp': 1.0, 'sys_len': 121, 'ref_len': 9}
+First element of precision:4.132231404958677
+Sequence Matcher Similarity Precision:0.09580838323353294
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 10 17
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5813393592834473 seconds
+Received response: friends["Rob"]["Name"] & " - " & friends["Rob"]["Phone"] & " | " & friends["VJ"]["Name"] & " - " & friends["VJ"]["Phone"] & " | " & friends["Ash"]["Name"] & " - " & friends["Ash"]["Phone"]
+Actual result:  ( "Enter the nickname: " )
+SACREBLEU Score: {'score': 0.46981119395512716, 'counts': [2, 0, 0, 0], 'totals': [91, 90, 89, 88], 'precisions': [2.197802197802198, 0.5555555555555556, 0.2808988764044944, 0.14204545454545456], 'bp': 1.0, 'sys_len': 91, 'ref_len': 8}
+First element of precision:2.197802197802198
+Sequence Matcher Similarity Precision:0.08372093023255814
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 10 18
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.732642412185669 seconds
+Received response: TextWindow.Write("Friends List:\n\nRob: " & friends["Rob"]["Name"] & " - " & friends["Rob"]["Phone"] & "\nVJ: " & friends["VJ"]["Name"] & " - " & friends["VJ"]["Phone"] & "\nAsh: " & friends["Ash"]["Name"] & " - " & friends["Ash"]["Phone"])
+Actual result:  "Enter the nickname: "
+SACREBLEU Score: {'score': 0.7146877489869256, 'counts': [3, 1, 0, 0], 'totals': [111, 110, 109, 108], 'precisions': [2.7027027027027026, 0.9090909090909091, 0.45871559633027525, 0.23148148148148148], 'bp': 1.0, 'sys_len': 111, 'ref_len': 6}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.06844106463878327
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 10 40
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8652634620666504 seconds
+Received response: TextWindow.Write("Enter the nickname: ")
+nickname = TextWindow.Read()
+If nickname = "Rob" Then
+    TextWindow.WriteLine("Name: " + friends["Rob"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["Rob"]["Phone"])
+ElseIf nickname = "VJ" Then
+    TextWindow.WriteLine("Name: " + friends["VJ"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["VJ"]["Phone"])
+ElseIf nickname = "Ash" Then
+    TextWindow.WriteLine("Name: " + friends["Ash"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["Ash"]["Phone"])
+Else
+    TextWindow.WriteLine("Nickname not found.")
+EndIf
+Actual result:  )
+SACREBLEU Score: {'score': 0.2003175547611043, 'counts': [1, 0, 0, 0], 'totals': [178, 177, 176, 175], 'precisions': [0.5617977528089888, 0.2824858757062147, 0.14204545454545456, 0.07142857142857142], 'bp': 1.0, 'sys_len': 178, 'ref_len': 1}
+First element of precision:0.5617977528089888
+Sequence Matcher Similarity Precision:0.006944444444444444
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 10 42
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8067543506622314 seconds
+Received response: nickname = TextWindow.Read()
+If nickname = "Rob" Then
+    TextWindow.Write("Name: " + friends["Rob"]["Name"])
+    TextWindow.Write("Phone: " + friends["Rob"]["Phone"])
+ElseIf nickname = "VJ" Then
+    TextWindow.Write("Name: " + friends["VJ"]["Name"])
+    TextWindow.Write("Phone: " + friends["VJ"]["Phone"])
+ElseIf nickname = "Ash" Then
+    TextWindow.Write("Name: " + friends["Ash"]["Name"])
+    TextWindow.Write("Phone: " + friends["Ash"]["Phone"])
+Else
+    TextWindow.Write("Nickname not found.")
+EndIf
+Actual result:  \n nickname = TextWindow . Read ( ) \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 18.44570957865153, 'counts': [43, 34, 27, 22], 'totals': [167, 166, 165, 164], 'precisions': [25.748502994011975, 20.481927710843372, 16.363636363636363, 13.414634146341463], 'bp': 1.0, 'sys_len': 167, 'ref_len': 53}
+First element of precision:25.748502994011975
+Sequence Matcher Similarity Precision:0.3988439306358382
+Cosine Similarity Precision:0.7517754588364841
+
+Parse State: 11	Cursor Position: 11 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ")
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41915464401245117 seconds
+Received response: Identifier = TextWindow.Read()
+Actual result:  nickname = TextWindow . Read ( )
+SACREBLEU Score: {'score': 80.91067115702207, 'counts': [6, 5, 4, 3], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 83.33333333333333, 80.0, 75.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.6666666666666669
+
+Parse State: 6	Cursor Position: 11 10
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39872288703918457 seconds
+Received response: nickname = TextWindow.Read()
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 80.91067115702207, 'counts': [6, 5, 4, 3], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 83.33333333333333, 80.0, 75.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 6}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.7692307692307693
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 29	Cursor Position: 11 12
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4116389751434326 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1702127659574468
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 11 22
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3765387535095215 seconds
+Received response: .ReadText()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 35.35533905932737, 'counts': [3, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.6363636363636364
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 11 23
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3890247344970703 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 11 27
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40676045417785645 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 11 28
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39316606521606445 seconds
+Received response: TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 11 31
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.805755615234375 seconds
+Received response: ```smallbasic
+If nickname = "Rob" Then
+    TextWindow.WriteLine("Name: " + friends["Rob"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["Rob"]["Phone"])
+ElseIf nickname = "VJ" Then
+    TextWindow.WriteLine("Name: " + friends["VJ"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["VJ"]["Phone"])
+ElseIf nickname = "Ash" Then
+    TextWindow.WriteLine("Name: " + friends["Ash"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["Ash"]["Phone"])
+Else
+    TextWindow.WriteLine("Nickname not found.")
+EndIf
+```
+Actual result:  \n \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 18.16718438997755, 'counts': [38, 32, 28, 24], 'totals': [167, 166, 165, 164], 'precisions': [22.75449101796407, 19.27710843373494, 16.96969696969697, 14.634146341463415], 'bp': 1.0, 'sys_len': 167, 'ref_len': 44}
+First element of precision:22.75449101796407
+Sequence Matcher Similarity Precision:0.35066864784546803
+Cosine Similarity Precision:0.8977584024968697
+
+Parse State: 3	Cursor Position: 12 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8194949626922607 seconds
+Received response: ```smallbasic
+If nickname = "Rob" Then
+    TextWindow.WriteLine("Name: " + friends["Rob"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["Rob"]["Phone"])
+ElseIf nickname = "VJ" Then
+    TextWindow.WriteLine("Name: " + friends["VJ"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["VJ"]["Phone"])
+ElseIf nickname = "Ash" Then
+    TextWindow.WriteLine("Name: " + friends["Ash"]["Name"])
+    TextWindow.WriteLine("Phone: " + friends["Ash"]["Phone"])
+Else
+    TextWindow.WriteLine("Nickname not found.")
+EndIf
+```
+Actual result:  \n TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] ) \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 18.16718438997755, 'counts': [38, 32, 28, 24], 'totals': [167, 166, 165, 164], 'precisions': [22.75449101796407, 19.27710843373494, 16.96969696969697, 14.634146341463415], 'bp': 1.0, 'sys_len': 167, 'ref_len': 42}
+First element of precision:22.75449101796407
+Sequence Matcher Similarity Precision:0.3492537313432836
+Cosine Similarity Precision:0.8977584024968697
+
+Parse State: 11	Cursor Position: 13 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40079712867736816 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  TextWindow . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] )
+SACREBLEU Score: {'score': 32.91929878079057, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.32919298780790557, 'sys_len': 9, 'ref_len': 19}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.5263157894736842
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 6	Cursor Position: 13 11
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5187368392944336 seconds
+Received response: TextWindow.Write("Enter the nickname: ")
+nickname = TextWindow.Read()
+
+TextWindow.WriteLine("Name: " & friends[nickname]["Name"])
+TextWindow.WriteLine("Phone: " & friends[nickname]["Phone"])
+Actual result:  . WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] )
+SACREBLEU Score: {'score': 25.36085949673172, 'counts': [17, 15, 13, 11], 'totals': [56, 55, 54, 53], 'precisions': [30.357142857142858, 27.272727272727273, 24.074074074074073, 20.754716981132077], 'bp': 1.0, 'sys_len': 56, 'ref_len': 18}
+First element of precision:30.357142857142858
+Sequence Matcher Similarity Precision:0.24096385542168675
+Cosine Similarity Precision:0.6289709020331509
+
+Parse State: 30	Cursor Position: 13 12
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4722156524658203 seconds
+Received response: TextWindow.WriteLine("Name: " & friends[nickname]["Name"])
+TextWindow.WriteLine("Phone: " & friends[nickname]["Phone"])
+Actual result:  WriteLine ( "Name: " + friends [ nickname ] [ "Name" ] )
+SACREBLEU Score: {'score': 35.09686697682249, 'counts': [16, 14, 12, 10], 'totals': [38, 37, 36, 35], 'precisions': [42.10526315789474, 37.83783783783784, 33.333333333333336, 28.571428571428573], 'bp': 1.0, 'sys_len': 38, 'ref_len': 17}
+First element of precision:42.10526315789474
+Sequence Matcher Similarity Precision:0.5227272727272727
+Cosine Similarity Precision:0.7715167498104596
+
+Parse State: 58	Cursor Position: 13 21
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40210723876953125 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  ( "Name: " + friends [ nickname ] [ "Name" ] )
+SACREBLEU Score: {'score': 45.94258240359269, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.4594258240359267, 'sys_len': 9, 'ref_len': 16}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6944444444444444
+Cosine Similarity Precision:0.9428090415820636
+
+Parse State: 83	Cursor Position: 13 22
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5281574726104736 seconds
+Received response: TextWindow.WriteLine("Name: " & friends[nickname]["Name"] & ", Phone: " & friends[nickname]["Phone"])
+Actual result:  "Name: "
+SACREBLEU Score: {'score': 6.610740210196061, 'counts': [4, 3, 2, 1], 'totals': [35, 34, 33, 32], 'precisions': [11.428571428571429, 8.823529411764707, 6.0606060606060606, 3.125], 'bp': 1.0, 'sys_len': 35, 'ref_len': 4}
+First element of precision:11.428571428571429
+Sequence Matcher Similarity Precision:0.14545454545454545
+Cosine Similarity Precision:0.47140452079103173
+
+Parse State: 18	Cursor Position: 13 31
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: "
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3939807415008545 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  + friends [ nickname ] [ "Name" ]
+SACREBLEU Score: {'score': 89.483931681437, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.8948393168143697, 'sys_len': 9, 'ref_len': 10}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.847457627118644
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 48	Cursor Position: 13 33
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " +
+                'Identifier Idxs'
+                Complete the 'Identifier Idxs' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40727829933166504 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  friends [ nickname ] [ "Name" ]
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 9}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8771929824561403
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 22	Cursor Position: 13 40
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3958606719970703 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  [ nickname ] [ "Name" ]
+SACREBLEU Score: {'score': 86.33400213704509, 'counts': [8, 7, 6, 5], 'totals': [9, 8, 7, 6], 'precisions': [88.88888888888889, 87.5, 85.71428571428571, 83.33333333333333], 'bp': 1.0, 'sys_len': 9, 'ref_len': 8}
+First element of precision:88.88888888888889
+Sequence Matcher Similarity Precision:0.7346938775510204
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 32	Cursor Position: 13 41
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4097294807434082 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  nickname
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.47058823529411764
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 60	Cursor Position: 13 49
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.392775297164917 seconds
+Received response: ["Name"]
+Actual result:  ] [ "Name" ]
+SACREBLEU Score: {'score': 81.87307530779823, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.7619047619047619
+Cosine Similarity Precision:1.0
+
+Parse State: 84	Cursor Position: 13 50
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4235072135925293 seconds
+Received response: "Name: " + friends[nickname]["Name"]
+Actual result:  [ "Name" ]
+SACREBLEU Score: {'score': 26.584835766658767, 'counts': [5, 4, 3, 2], 'totals': [14, 13, 12, 11], 'precisions': [35.714285714285715, 30.76923076923077, 25.0, 18.181818181818183], 'bp': 1.0, 'sys_len': 14, 'ref_len': 5}
+First element of precision:35.714285714285715
+Sequence Matcher Similarity Precision:0.3829787234042553
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 32	Cursor Position: 13 51
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4233884811401367 seconds
+Received response: TextWindow.WriteLine("Name: " + friends[nickname]["Name"])
+Actual result:  "Name"
+SACREBLEU Score: {'score': 7.535838128770536, 'counts': [3, 2, 1, 0], 'totals': [19, 18, 17, 16], 'precisions': [15.789473684210526, 11.11111111111111, 5.882352941176471, 3.125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 3}
+First element of precision:15.789473684210526
+Sequence Matcher Similarity Precision:0.2153846153846154
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 60	Cursor Position: 13 57
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43721628189086914 seconds
+Received response: TextWindow.WriteLine("Name: " + friends[nickname]["Name"])
+Actual result:  ]
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 13 58
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4713099002838135 seconds
+Received response: TextWindow.WriteLine("Name: " + friends[nickname]["Name"] + " Phone: " + friends[nickname]["Phone"])
+Actual result:  )
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.0392156862745098
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 13 60
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"])
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4386923313140869 seconds
+Received response: TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"])
+Actual result:  \n TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 90.00876262522596, 'counts': [19, 18, 17, 16], 'totals': [19, 18, 17, 16], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.9000876262522591, 'sys_len': 19, 'ref_len': 21}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:0.9999999999999999
+
+Parse State: 11	Cursor Position: 14 1
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"])
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4024076461791992 seconds
+Received response: friends[nickname]["Name"]
+Actual result:  TextWindow . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 21.74757062134855, 'counts': [8, 6, 4, 3], 'totals': [9, 8, 7, 6], 'precisions': [88.88888888888889, 75.0, 57.142857142857146, 50.0], 'bp': 0.32919298780790557, 'sys_len': 9, 'ref_len': 19}
+First element of precision:88.88888888888889
+Sequence Matcher Similarity Precision:0.4536082474226804
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 6	Cursor Position: 14 11
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4214167594909668 seconds
+Received response: WriteLine("Phone: " + friends[nickname]["Phone"])
+Actual result:  . WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 94.28731438548752, 'counts': [17, 16, 15, 14], 'totals': [17, 16, 15, 14], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.9428731438548749, 'sys_len': 17, 'ref_len': 18}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8909090909090909
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 30	Cursor Position: 14 12
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4390542507171631 seconds
+Received response: TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"])
+Actual result:  WriteLine ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 88.52140475440834, 'counts': [17, 16, 15, 14], 'totals': [19, 18, 17, 16], 'precisions': [89.47368421052632, 88.88888888888889, 88.23529411764706, 87.5], 'bp': 1.0, 'sys_len': 19, 'ref_len': 17}
+First element of precision:89.47368421052632
+Sequence Matcher Similarity Precision:0.8235294117647058
+Cosine Similarity Precision:0.9354143466934851
+
+Parse State: 58	Cursor Position: 14 21
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40122056007385254 seconds
+Received response: friends[nickname]["Phone"]
+Actual result:  ( "Phone: " + friends [ nickname ] [ "Phone" ] )
+SACREBLEU Score: {'score': 45.94258240359269, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.4594258240359267, 'sys_len': 9, 'ref_len': 16}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6933333333333334
+Cosine Similarity Precision:0.9428090415820636
+
+Parse State: 83	Cursor Position: 14 22
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4400813579559326 seconds
+Received response: TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"])
+Actual result:  "Phone: "
+SACREBLEU Score: {'score': 12.673718536830808, 'counts': [4, 3, 2, 1], 'totals': [19, 18, 17, 16], 'precisions': [21.05263157894737, 16.666666666666668, 11.764705882352942, 6.25], 'bp': 1.0, 'sys_len': 19, 'ref_len': 4}
+First element of precision:21.05263157894737
+Sequence Matcher Similarity Precision:0.2571428571428571
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 18	Cursor Position: 14 32
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: "
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.391185998916626 seconds
+Received response: friends[nickname]["Phone"]
+Actual result:  + friends [ nickname ] [ "Phone" ]
+SACREBLEU Score: {'score': 89.483931681437, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.8948393168143697, 'sys_len': 9, 'ref_len': 10}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8524590163934426
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 48	Cursor Position: 14 34
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " +
+                'Identifier Idxs'
+                Complete the 'Identifier Idxs' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4065582752227783 seconds
+Received response: friends[nickname]["Phone"]
+Actual result:  friends [ nickname ] [ "Phone" ]
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [9, 8, 7, 6], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 9}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8813559322033898
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 22	Cursor Position: 14 41
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends
+                '[ Expression ] Idxs'
+                Complete the '[ Expression ] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4104900360107422 seconds
+Received response: friends[nickname]["Phone"]
+Actual result:  [ nickname ] [ "Phone" ]
+SACREBLEU Score: {'score': 86.33400213704509, 'counts': [8, 7, 6, 5], 'totals': [9, 8, 7, 6], 'precisions': [88.88888888888889, 87.5, 85.71428571428571, 83.33333333333333], 'bp': 1.0, 'sys_len': 9, 'ref_len': 8}
+First element of precision:88.88888888888889
+Sequence Matcher Similarity Precision:0.7450980392156863
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 32	Cursor Position: 14 42
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4028761386871338 seconds
+Received response: friends["VJ"]["Phone"]
+Actual result:  nickname
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.12903225806451613
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 14 50
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[nickname
+                '] Idxs'
+                Complete the '] Idxs' part of the code in the Small Basic programming language. Just show your answer in place of '] Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4498250484466553 seconds
+Received response: ```
+TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"])
+```
+Actual result:  ] [ "Phone" ]
+SACREBLEU Score: {'score': 18.556675930109115, 'counts': [6, 5, 4, 3], 'totals': [25, 24, 23, 22], 'precisions': [24.0, 20.833333333333332, 17.391304347826086, 13.636363636363637], 'bp': 1.0, 'sys_len': 25, 'ref_len': 6}
+First element of precision:24.0
+Sequence Matcher Similarity Precision:0.2682926829268293
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 84	Cursor Position: 14 51
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[nickname]
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39426422119140625 seconds
+Received response: "Phone"]
+Actual result:  [ "Phone" ]
+SACREBLEU Score: {'score': 77.88007830714052, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.7788007830714049, 'sys_len': 4, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:1.0
+
+Parse State: 32	Cursor Position: 14 52
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[nickname][
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3925449848175049 seconds
+Received response: "Phone"]
+Actual result:  "Phone"
+SACREBLEU Score: {'score': 59.460355750136046, 'counts': [3, 2, 1, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 66.66666666666667, 50.0, 50.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.875
+Cosine Similarity Precision:1.0
+
+Parse State: 60	Cursor Position: 14 59
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43794679641723633 seconds
+Received response: ```
+TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"])
+```
+Actual result:  ]
+SACREBLEU Score: {'score': 1.5061893230938672, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 14 60
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"]
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4228801727294922 seconds
+Received response: TextWindow.WriteLine("Phone: " + friends[nickname]["Phone"])
+Actual result:  )
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 38.54650262236658
+Average Sequence Matcher Similarity Precision: 32.729973429336745
+Average Cosine Similarity Precision: 38.99890562728395

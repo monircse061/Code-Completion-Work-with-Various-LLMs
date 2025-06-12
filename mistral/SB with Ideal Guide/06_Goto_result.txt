@@ -1,0 +1,1157 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier :'
+                Complete the 'Identifier :' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier :'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4230961799621582 seconds
+Received response: ```
+Identifier : TextWindow.WriteLine("Hello, World!")
+```
+Actual result:  begin :
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 2}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 6
+
+                This is the incomplete Small Basic programming language code:
+                begin
+                ':'
+                Complete the ':' part of the code in the Small Basic programming language. Just show your answer in place of ':'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4225654602050781 seconds
+Received response: ```
+TextWindow.WriteLine("Hello, World!")
+```
+Actual result:  :
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 8
+
+                This is the incomplete Small Basic programming language code:
+                begin:
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45618367195129395 seconds
+Received response: ```small
+'CR MoreThanOneStmt
+Print "Hello, World!"
+Print "This is a Small Basic program."
+```
+Actual result:  \n TextWindow . Write ( "Enter a number: " ) \n num = TextWindow . ReadNumber ( ) \n remainder = Math . Remainder ( num , 2 ) \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
+SACREBLEU Score: {'score': 0.3163893067793803, 'counts': [8, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [30.76923076923077, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 0.1302289090080826, 'sys_len': 26, 'ref_len': 79}
+First element of precision:30.76923076923077
+Sequence Matcher Similarity Precision:0.021052631578947368
+Cosine Similarity Precision:0.06350006350009525
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                begin:
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40419459342956543 seconds
+Received response: Text. Length ( "Hello, World!" )
+Actual result:  TextWindow . Write ( "Enter a number: " )
+SACREBLEU Score: {'score': 11.208466750961147, 'counts': [5, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.4594594594594595
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 2 11
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4117863178253174 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  . Write ( "Enter a number: " )
+SACREBLEU Score: {'score': 27.901593935858266, 'counts': [6, 4, 2, 1], 'totals': [11, 10, 9, 8], 'precisions': [54.54545454545455, 40.0, 22.22222222222222, 12.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 10}
+First element of precision:54.54545454545455
+Sequence Matcher Similarity Precision:0.40625
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 30	Cursor Position: 2 12
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40877413749694824 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  Write ( "Enter a number: " )
+SACREBLEU Score: {'score': 17.542198478193427, 'counts': [5, 3, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 30.0, 11.11111111111111, 6.25], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.3870967741935484
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 58	Cursor Position: 2 17
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4212477207183838 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  ( "Enter a number: " )
+SACREBLEU Score: {'score': 10.600313379512592, 'counts': [4, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 8}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.21428571428571427
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 2 18
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4066309928894043 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  "Enter a number: "
+SACREBLEU Score: {'score': 4.456882760699064, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 6}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 2 36
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4400172233581543 seconds
+Received response: TextWindow.Write("Enter a number: ")
+Actual result:  )
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 38
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5730047225952148 seconds
+Received response: ```smallbasic
+TextWindow.Write("Enter a number: ")
+number = TextWindow.ReadNumber()
+If number > 1 Then
+    TextWindow.WriteLine("The number is greater than 1.")
+Else
+    TextWindow.WriteLine("The number is 1 or less.")
+EndIf
+```
+Actual result:  \n num = TextWindow . ReadNumber ( ) \n remainder = Math . Remainder ( num , 2 ) \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
+SACREBLEU Score: {'score': 30.143464532459717, 'counts': [33, 21, 16, 13], 'totals': [60, 59, 58, 57], 'precisions': [55.0, 35.59322033898305, 27.586206896551722, 22.80701754385965], 'bp': 0.9048374180359595, 'sys_len': 60, 'ref_len': 66}
+First element of precision:55.0
+Sequence Matcher Similarity Precision:0.42127659574468085
+Cosine Similarity Precision:0.6982120021884473
+
+Parse State: 11	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ")
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40656256675720215 seconds
+Received response: number = TextWindow.ReadNumber()
+Actual result:  num = TextWindow . ReadNumber ( )
+SACREBLEU Score: {'score': 80.91067115702207, 'counts': [6, 5, 4, 3], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 83.33333333333333, 80.0, 75.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.8787878787878788
+Cosine Similarity Precision:0.6666666666666669
+
+Parse State: 6	Cursor Position: 3 5
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4226667881011963 seconds
+Received response: TextWindow.Write("Enter a number: ")
+num = TextWindow.ReadNumber()
+Actual result:  = TextWindow . ReadNumber ( )
+SACREBLEU Score: {'score': 26.46015952359329, 'counts': [6, 5, 4, 3], 'totals': [18, 17, 16, 15], 'precisions': [33.333333333333336, 29.41176470588235, 25.0, 20.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 6}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5416666666666666
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 29	Cursor Position: 3 7
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3896450996398926 seconds
+Received response: TextWindow.ReadNumber(num)
+Actual result:  TextWindow . ReadNumber ( )
+SACREBLEU Score: {'score': 53.7284965911771, 'counts': [5, 3, 2, 1], 'totals': [6, 5, 4, 3], 'precisions': [83.33333333333333, 60.0, 50.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 6, 'ref_len': 5}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.8518518518518519
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 22	Cursor Position: 3 17
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.399519681930542 seconds
+Received response: .Read()
+Actual result:  . ReadNumber ( )
+SACREBLEU Score: {'score': 35.35533905932737, 'counts': [3, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.5833333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 3 18
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3830993175506592 seconds
+Received response: Read()
+Actual result:  ReadNumber ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 79	Cursor Position: 3 28
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.37371325492858887 seconds
+Received response: num = num * 2
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.23529411764705882
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 3 29
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3910646438598633 seconds
+Received response: TextWindow.ReadNumber()
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 3 31
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5165772438049316 seconds
+Received response: ```
+if num > 1 then
+    TextWindow.WriteLine("The number is greater than 1.")
+else
+    TextWindow.WriteLine("The number is 1 or less.")
+endIf
+```
+Actual result:  \n remainder = Math . Remainder ( num , 2 ) \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
+SACREBLEU Score: {'score': 24.576905015827727, 'counts': [22, 16, 12, 10], 'totals': [41, 40, 39, 38], 'precisions': [53.65853658536585, 40.0, 30.76923076923077, 26.31578947368421], 'bp': 0.6768917588119943, 'sys_len': 41, 'ref_len': 57}
+First element of precision:53.65853658536585
+Sequence Matcher Similarity Precision:0.3142857142857143
+Cosine Similarity Precision:0.7433762918125658
+
+Parse State: 11	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber()
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4251694679260254 seconds
+Received response: numSquared = num * num
+Actual result:  remainder = Math . Remainder ( num , 2 )
+SACREBLEU Score: {'score': 4.673289785800724, 'counts': [2, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 12.5, 8.333333333333334, 6.25], 'bp': 0.36787944117144233, 'sys_len': 5, 'ref_len': 10}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.3492063492063492
+Cosine Similarity Precision:0.36514837167011077
+
+Parse State: 6	Cursor Position: 4 11
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42446136474609375 seconds
+Received response: ```
+remainder = num % 10
+```
+Actual result:  = Math . Remainder ( num , 2 )
+SACREBLEU Score: {'score': 4.456882760699064, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.5084745762711864
+Cosine Similarity Precision:0.6666666666666669
+
+Parse State: 29	Cursor Position: 4 13
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40161919593811035 seconds
+Received response: num % 2
+Actual result:  Math . Remainder ( num , 2 )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.18887560283756186, 'sys_len': 3, 'ref_len': 8}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 22	Cursor Position: 4 17
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4235053062438965 seconds
+Received response: remainder = Math.Remainder(num, 2)
+Actual result:  . Remainder ( num , 2 )
+SACREBLEU Score: {'score': 63.894310424627285, 'counts': [7, 6, 5, 4], 'totals': [10, 9, 8, 7], 'precisions': [70.0, 66.66666666666667, 62.5, 57.142857142857146], 'bp': 1.0, 'sys_len': 10, 'ref_len': 7}
+First element of precision:70.0
+Sequence Matcher Similarity Precision:0.5862068965517241
+Cosine Similarity Precision:0.8660254037844387
+
+Parse State: 53	Cursor Position: 4 18
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3932311534881592 seconds
+Received response: Math.Mod(num, 2)
+Actual result:  Remainder ( num , 2 )
+SACREBLEU Score: {'score': 51.69731539571708, 'counts': [5, 4, 3, 2], 'totals': [8, 7, 6, 5], 'precisions': [62.5, 57.142857142857146, 50.0, 40.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 6}
+First element of precision:62.5
+Sequence Matcher Similarity Precision:0.5263157894736842
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 79	Cursor Position: 4 27
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3922417163848877 seconds
+Received response: num, 2
+Actual result:  ( num , 2 )
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 89	Cursor Position: 4 28
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39226651191711426 seconds
+Received response: num, 2
+Actual result:  num
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.6
+Cosine Similarity Precision:1.0
+
+Parse State: 91	Cursor Position: 4 31
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.46970200538635254 seconds
+Received response: TextWindow.Write("Enter a number: ")
+num = TextWindow.ReadNumber()
+remainder = Math.Remainder(num, 2)
+Actual result:  , 2
+SACREBLEU Score: {'score': 2.6707068119098887, 'counts': [2, 1, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [7.142857142857143, 3.7037037037037037, 1.9230769230769231, 1.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 2}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.0761904761904762
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 4 33
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4526793956756592 seconds
+Received response: 5
+Actual result:  2
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 4 34
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5628094673156738 seconds
+Received response: ```
+TextWindow.Write("Enter a number: ")
+num = TextWindow.ReadNumber()
+remainder = Math.Remainder(num, 2)
+TextWindow.WriteLine("The remainder is: " & remainder)
+```
+Actual result:  )
+SACREBLEU Score: {'score': 0.7772751558853214, 'counts': [1, 0, 0, 0], 'totals': [47, 46, 45, 44], 'precisions': [2.127659574468085, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091], 'bp': 1.0, 'sys_len': 47, 'ref_len': 1}
+First element of precision:2.127659574468085
+Sequence Matcher Similarity Precision:0.024096385542168676
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 4 36
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2)
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8373525142669678 seconds
+Received response: ```
+if remainder = 0 then
+    TextWindow.WriteLine("The number is even.")
+else
+    TextWindow.WriteLine("The number is odd.")
+endIf
+```
+Actual result:  \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
+SACREBLEU Score: {'score': 34.579731531793975, 'counts': [23, 18, 13, 10], 'totals': [37, 36, 35, 34], 'precisions': [62.16216216216216, 50.0, 37.142857142857146, 29.41176470588235], 'bp': 0.8055611076677214, 'sys_len': 37, 'ref_len': 45}
+First element of precision:62.16216216216216
+Sequence Matcher Similarity Precision:0.75
+Cosine Similarity Precision:0.9649012813540154
+
+Parse State: 11	Cursor Position: 5 1
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2)
+                'If Expression Then CRStmtCRs MoreThanZeroElseIf'
+                Complete the 'If Expression Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Small Basic programming language. Just show your answer in place of 'If Expression Then CRStmtCRs MoreThanZeroElseIf'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5183255672454834 seconds
+Received response: ```smallbasic
+If remainder = 0 Then
+    TextWindow.WriteLine("The number is even.")
+Else
+    TextWindow.WriteLine("The number is odd.")
+EndIf
+```
+Actual result:  If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf
+SACREBLEU Score: {'score': 42.3279403777762, 'counts': [27, 18, 13, 10], 'totals': [38, 37, 36, 35], 'precisions': [71.05263157894737, 48.648648648648646, 36.111111111111114, 28.571428571428573], 'bp': 0.9740274534203012, 'sys_len': 38, 'ref_len': 39}
+First element of precision:71.05263157894737
+Sequence Matcher Similarity Precision:0.7958477508650519
+Cosine Similarity Precision:0.9819805060619657
+
+Parse State: 10	Cursor Position: 5 4
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3909480571746826 seconds
+Received response: remainder = 0
+Actual result:  ( remainder = 0 )
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8387096774193549
+Cosine Similarity Precision:1.0
+
+Parse State: 23	Cursor Position: 5 5
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3950676918029785 seconds
+Received response: remainder = 0
+Actual result:  remainder
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.782608695652174
+Cosine Similarity Precision:1.0
+
+Parse State: 16	Cursor Position: 5 15
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder
+                '= CompExpr'
+                Complete the '= CompExpr' part of the code in the Small Basic programming language. Just show your answer in place of '= CompExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41333580017089844 seconds
+Received response: ```
+If (remainder = 0)
+```
+Actual result:  = 0
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 42	Cursor Position: 5 17
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41065549850463867 seconds
+Received response: If (remainder = 0)
+Actual result:  0
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 54	Cursor Position: 5 18
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4720613956451416 seconds
+Received response: TextWindow.WriteLine("The number is even.")
+Else
+TextWindow.WriteLine("The number is odd.")
+EndIf
+Actual result:  )
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.04040404040404041
+Cosine Similarity Precision:0.0
+
+Parse State: 36	Cursor Position: 5 20
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0)
+                'Then CRStmtCRs MoreThanZeroElseIf'
+                Complete the 'Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Small Basic programming language. Just show your answer in place of 'Then CRStmtCRs MoreThanZeroElseIf'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45457983016967773 seconds
+Received response: TextWindow.Write("The number is even.")
+Else
+TextWindow.Write("The number is odd.")
+EndIf
+Actual result:  Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf
+SACREBLEU Score: {'score': 27.19362315236382, 'counts': [20, 12, 6, 4], 'totals': [26, 25, 24, 23], 'precisions': [76.92307692307692, 48.0, 25.0, 17.391304347826086], 'bp': 0.7639669352423403, 'sys_len': 26, 'ref_len': 33}
+First element of precision:76.92307692307692
+Sequence Matcher Similarity Precision:0.7735849056603774
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 63	Cursor Position: 5 27
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4562549591064453 seconds
+Received response: TextWindow.Write("The number is even.")
+Else
+TextWindow.Write("The number is odd.")
+EndIf
+Actual result:  \n TextWindow . WriteLine ( "The number is Even" ) \n
+SACREBLEU Score: {'score': 17.33497197812503, 'counts': [9, 6, 3, 2], 'totals': [26, 25, 24, 23], 'precisions': [34.61538461538461, 24.0, 12.5, 8.695652173913043], 'bp': 1.0, 'sys_len': 26, 'ref_len': 15}
+First element of precision:34.61538461538461
+Sequence Matcher Similarity Precision:0.5314685314685315
+Cosine Similarity Precision:0.7500000000000002
+
+Parse State: 39	Cursor Position: 6 2
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.423145055770874 seconds
+Received response: TextWindow.WriteLine("The number is even.")
+Actual result:  TextWindow . WriteLine ( "The number is Even" )
+SACREBLEU Score: {'score': 67.0422683816333, 'counts': [10, 8, 6, 5], 'totals': [12, 11, 10, 9], 'precisions': [83.33333333333333, 72.72727272727273, 60.0, 55.55555555555556], 'bp': 1.0, 'sys_len': 12, 'ref_len': 11}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.9010989010989011
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 6	Cursor Position: 6 12
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4215810298919678 seconds
+Received response: Write("The number is even.")
+Actual result:  . WriteLine ( "The number is Even" )
+SACREBLEU Score: {'score': 46.713797772819994, 'counts': [8, 5, 3, 2], 'totals': [10, 9, 8, 7], 'precisions': [80.0, 55.55555555555556, 37.5, 28.571428571428573], 'bp': 1.0, 'sys_len': 10, 'ref_len': 10}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:0.7999999999999999
+
+Parse State: 30	Cursor Position: 6 13
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4878556728363037 seconds
+Received response: TextWindow.WriteLine("The number is even.")
+Actual result:  WriteLine ( "The number is Even" )
+SACREBLEU Score: {'score': 46.92470064105599, 'counts': [8, 6, 4, 3], 'totals': [12, 11, 10, 9], 'precisions': [66.66666666666667, 54.54545454545455, 40.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 9}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.7692307692307693
+Cosine Similarity Precision:0.9128709291752769
+
+Parse State: 58	Cursor Position: 6 22
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42447328567504883 seconds
+Received response: TextWindow.WriteLine("The number is even.")
+Actual result:  ( "The number is Even" )
+SACREBLEU Score: {'score': 36.46285861936466, 'counts': [7, 5, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [58.333333333333336, 45.45454545454545, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 8}
+First element of precision:58.333333333333336
+Sequence Matcher Similarity Precision:0.6176470588235294
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 83	Cursor Position: 6 23
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4220139980316162 seconds
+Received response: TextWindow.WriteLine("The number is even.")
+Actual result:  "The number is Even"
+SACREBLEU Score: {'score': 22.416933501922298, 'counts': [5, 3, 2, 1], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 27.272727272727273, 20.0, 11.11111111111111], 'bp': 1.0, 'sys_len': 12, 'ref_len': 6}
+First element of precision:41.666666666666664
+Sequence Matcher Similarity Precision:0.59375
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 92	Cursor Position: 6 43
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4693262577056885 seconds
+Received response: TextWindow.WriteLine("The number is Even")
+Else
+    TextWindow.WriteLine("The number is Odd")
+EndIf
+Actual result:  )
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.039603960396039604
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 6 45
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4379594326019287 seconds
+Received response: Else
+	TextWindow.WriteLine("The number is Odd")
+EndIf
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03571428571428571
+Cosine Similarity Precision:0.0
+
+Parse State: 87	Cursor Position: 7 1
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even")
+                'Else CRStmtCRs EndIf'
+                Complete the 'Else CRStmtCRs EndIf' part of the code in the Small Basic programming language. Just show your answer in place of 'Else CRStmtCRs EndIf'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44801831245422363 seconds
+Received response: Else
+	TextWindow.WriteLine("The number is Odd")
+EndIf
+Actual result:  Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf
+SACREBLEU Score: {'score': 63.17722848239986, 'counts': [13, 10, 9, 8], 'totals': [13, 12, 11, 10], 'precisions': [100.0, 83.33333333333333, 81.81818181818181, 80.0], 'bp': 0.7351414805916845, 'sys_len': 13, 'ref_len': 17}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8547008547008547
+Cosine Similarity Precision:0.9999999999999999
+
+Parse State: 100	Cursor Position: 7 8
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40842723846435547 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
+Actual result:  \n TextWindow . WriteLine ( "The number is Odd" ) \n
+SACREBLEU Score: {'score': 69.51439283988792, 'counts': [11, 10, 9, 8], 'totals': [11, 10, 9, 8], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.6951439283988788, 'sys_len': 11, 'ref_len': 15}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8723404255319149
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 39	Cursor Position: 8 2
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40682411193847656 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
+Actual result:  TextWindow . WriteLine ( "The number is Odd" )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [11, 10, 9, 8], 'totals': [11, 10, 9, 8], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9318181818181818
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 6	Cursor Position: 8 12
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40886998176574707 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
+Actual result:  . WriteLine ( "The number is Odd" )
+SACREBLEU Score: {'score': 89.31539818068698, 'counts': [10, 9, 8, 7], 'totals': [11, 10, 9, 8], 'precisions': [90.9090909090909, 90.0, 88.88888888888889, 87.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 10}
+First element of precision:90.9090909090909
+Sequence Matcher Similarity Precision:0.8051948051948052
+Cosine Similarity Precision:0.9128709291752769
+
+Parse State: 30	Cursor Position: 8 13
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42531824111938477 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
+Actual result:  WriteLine ( "The number is Odd" )
+SACREBLEU Score: {'score': 78.60753021519788, 'counts': [9, 8, 7, 6], 'totals': [11, 10, 9, 8], 'precisions': [81.81818181818181, 80.0, 77.77777777777777, 75.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
+First element of precision:81.81818181818181
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:0.9128709291752769
+
+Parse State: 58	Cursor Position: 8 22
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4248197078704834 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
+Actual result:  ( "The number is Odd" )
+SACREBLEU Score: {'score': 67.86502681586727, 'counts': [8, 7, 6, 5], 'totals': [11, 10, 9, 8], 'precisions': [72.72727272727273, 70.0, 66.66666666666667, 62.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 8}
+First element of precision:72.72727272727273
+Sequence Matcher Similarity Precision:0.6461538461538462
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 83	Cursor Position: 8 23
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4244091510772705 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
+Actual result:  "The number is Odd"
+SACREBLEU Score: {'score': 46.17366309441026, 'counts': [6, 5, 4, 3], 'totals': [11, 10, 9, 8], 'precisions': [54.54545454545455, 50.0, 44.44444444444444, 37.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 6}
+First element of precision:54.54545454545455
+Sequence Matcher Similarity Precision:0.6229508196721312
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 92	Cursor Position: 8 42
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4245719909667969 seconds
+Received response: ```
+TextWindow.WriteLine("The number is Odd")
+```
+Actual result:  )
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.0784313725490196
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 8 44
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5495269298553467 seconds
+Received response: ```
+TextWindow.Write("Do you want to check another number? (yes/no): ")
+response = TextWindow.Read()
+If (response = "yes") Then
+    Goto begin
+Else
+    TextWindow.WriteLine("Goodbye!")
+EndIf
+```
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [56, 55, 54, 53], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 56, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01015228426395939
+Cosine Similarity Precision:0.0
+
+Parse State: 107	Cursor Position: 9 1
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd")
+                'EndIf'
+                Complete the 'EndIf' part of the code in the Small Basic programming language. Just show your answer in place of 'EndIf'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3957641124725342 seconds
+Received response: EndIf
+Actual result:  EndIf
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9090909090909091
+Cosine Similarity Precision:1.0
+
+Parse State: 3	Cursor Position: 9 7
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd") 
+EndIf
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5475578308105469 seconds
+Received response: ```
+TextWindow.Write("Do you want to check another number? (yes/no): ")
+response = TextWindow.Read()
+If (response = "yes") Then
+    Goto begin
+Else
+    TextWindow.WriteLine("Goodbye!")
+EndIf
+```
+Actual result:  \n Goto begin
+SACREBLEU Score: {'score': 1.2977167662963665, 'counts': [2, 1, 0, 0], 'totals': [56, 55, 54, 53], 'precisions': [3.5714285714285716, 1.8181818181818181, 0.9259259259259259, 0.4716981132075472], 'bp': 1.0, 'sys_len': 56, 'ref_len': 4}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.11538461538461539
+Cosine Similarity Precision:0.2390457218668787
+
+Parse State: 11	Cursor Position: 10 1
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd") 
+EndIf
+                'Goto Identifier'
+                Complete the 'Goto Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Goto Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39174818992614746 seconds
+Received response: Goto begin
+Actual result:  Goto begin
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [100.0, 100.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9523809523809523
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 7	Cursor Position: 10 6
+
+                This is the incomplete Small Basic programming language code:
+                begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd") 
+EndIf 
+Goto
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.6271910667419434 seconds
+Received response: begin:
+TextWindow.Write("Enter a number: ")
+num = TextWindow.ReadNumber()
+remainder = Math.Remainder(num, 2)
+If (remainder = 0) Then
+	TextWindow.WriteLine("The number is Even")
+Else
+	TextWindow.WriteLine("The number is Odd")
+EndIf
+Goto begin
+Actual result:  begin
+SACREBLEU Score: {'score': 0.5749785925016119, 'counts': [1, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [1.5873015873015872, 0.8064516129032258, 0.4098360655737705, 0.20833333333333334], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:1.5873015873015872
+Sequence Matcher Similarity Precision:0.048582995951417005
+Cosine Similarity Precision:0.24806946917841693
+
+
+Average Precision: 46.98694059378894
+Average Sequence Matcher Similarity Precision: 46.39114335619951
+Average Cosine Similarity Precision: 49.0548075927581

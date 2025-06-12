@@ -1,0 +1,882 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42151856422424316 seconds
+Received response: ```
+TextWindow.Text = "Hello, World!"
+```
+Actual result:  GraphicsWindow . Width = 400
+SACREBLEU Score: {'score': 2.908317710573758, 'counts': [2, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [12.5, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 5}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.3142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4091014862060547 seconds
+Received response: GraphicsWindow.Title = "My Game"
+Actual result:  . Width = 400
+SACREBLEU Score: {'score': 6.567274736060396, 'counts': [2, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 4}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.30434782608695654
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 1 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4229423999786377 seconds
+Received response: GraphicsWindow.Width = 800
+GraphicsWindow.Height = 600
+Actual result:  Width = 400
+SACREBLEU Score: {'score': 8.392229812593097, 'counts': [2, 1, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 11.11111111111111, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.30303030303030304
+Cosine Similarity Precision:0.24999999999999994
+
+Parse State: 58	Cursor Position: 1 22
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4148552417755127 seconds
+Received response: GraphicsWindow.Width = 800
+Actual result:  = 400
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.3125
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 1 24
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39594078063964844 seconds
+Received response: 800
+Actual result:  400
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 28
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4053230285644531 seconds
+Received response: GraphicsWindow.Height = 300
+Actual result:  \n GraphicsWindow . Height = 300 \n GraphicsWindow . PenColor = "Red" \n GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 ) \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 0.006772873649085393, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 6.77287364908539e-05, 'sys_len': 5, 'ref_len': 53}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.09486166007905138
+Cosine Similarity Precision:0.7006490497453708
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41422224044799805 seconds
+Received response: GraphicsWindow.Height = 300
+Actual result:  GraphicsWindow . Height = 300
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9473684210526315
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 6	Cursor Position: 2 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40546631813049316 seconds
+Received response: GraphicsWindow.Height = 300
+Actual result:  . Height = 300
+SACREBLEU Score: {'score': 66.87403049764218, 'counts': [4, 3, 2, 1], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 75.0, 66.66666666666667, 50.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.6190476190476191
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 30	Cursor Position: 2 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40346455574035645 seconds
+Received response: GraphicsWindow.Height = 300
+Actual result:  Height = 300
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.6
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 58	Cursor Position: 2 23
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41350579261779785 seconds
+Received response: 400
+Actual result:  = 300
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 2 25
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3921337127685547 seconds
+Received response: 400
+Actual result:  300
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5044500827789307 seconds
+Received response: GraphicsWindow.Width = 400
+GraphicsWindow.Height = 300
+GraphicsWindow.DrawText("Hello, World!", 100, 100)
+Actual result:  \n GraphicsWindow . PenColor = "Red" \n GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 ) \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 4.6958522723576275, 'counts': [17, 5, 1, 0], 'totals': [25, 24, 23, 22], 'precisions': [68.0, 20.833333333333332, 4.3478260869565215, 2.272727272727273], 'bp': 0.4317105234290797, 'sys_len': 25, 'ref_len': 46}
+First element of precision:68.0
+Sequence Matcher Similarity Precision:0.47651006711409394
+Cosine Similarity Precision:0.565685424949238
+
+Parse State: 11	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40967488288879395 seconds
+Received response: GraphicsWindow.Title = "My Graphics Window"
+Actual result:  GraphicsWindow . PenColor = "Red"
+SACREBLEU Score: {'score': 14.25876976452075, 'counts': [5, 2, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [55.55555555555556, 25.0, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 7}
+First element of precision:55.55555555555556
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.25819888974716115
+
+Parse State: 6	Cursor Position: 3 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40297436714172363 seconds
+Received response: Background = "White"
+Actual result:  . PenColor = "Red"
+SACREBLEU Score: {'score': 19.357693493908812, 'counts': [3, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 25.0, 16.666666666666668, 12.5], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.358974358974359
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 3 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41813158988952637 seconds
+Received response: GraphicsWindow.Title = "My Graphics Window"
+Actual result:  PenColor = "Red"
+SACREBLEU Score: {'score': 10.552670315936318, 'counts': [3, 1, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [33.333333333333336, 12.5, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 5}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.23333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 3 25
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4102137088775635 seconds
+Received response: GraphicsWindow.PenColor = "Red"
+Actual result:  = "Red"
+SACREBLEU Score: {'score': 41.11336169005198, 'counts': [4, 3, 2, 1], 'totals': [7, 6, 5, 4], 'precisions': [57.142857142857146, 50.0, 40.0, 25.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 4}
+First element of precision:57.142857142857146
+Sequence Matcher Similarity Precision:0.41025641025641024
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 82	Cursor Position: 3 27
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41810011863708496 seconds
+Received response: GraphicsWindow.PenColor = "Red"
+Actual result:  "Red"
+SACREBLEU Score: {'score': 24.446151121745054, 'counts': [3, 2, 1, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 33.333333333333336, 20.0, 12.5], 'bp': 1.0, 'sys_len': 7, 'ref_len': 3}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.32432432432432434
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 3	Cursor Position: 3 33
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5381608009338379 seconds
+Received response: GraphicsWindow.DrawRectangle(50, 50, 300, 200)
+GraphicsWindow.DrawText(100, 150, "Hello, World!")
+Actual result:  \n GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 ) \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 12.113546902122772, 'counts': [19, 7, 3, 1], 'totals': [27, 26, 25, 24], 'precisions': [70.37037037037037, 26.923076923076923, 12.0, 4.166666666666667], 'bp': 0.6904785504771092, 'sys_len': 27, 'ref_len': 37}
+First element of precision:70.37037037037037
+Sequence Matcher Similarity Precision:0.5770750988142292
+Cosine Similarity Precision:0.44901325506693723
+
+Parse State: 11	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red"
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4408736228942871 seconds
+Received response: GraphicsWindow.DrawText("Hello, World!", 100, 100)
+Actual result:  GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 )
+SACREBLEU Score: {'score': 7.188959550044094, 'counts': [7, 1, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [46.666666666666664, 7.142857142857143, 3.8461538461538463, 2.0833333333333335], 'bp': 1.0, 'sys_len': 15, 'ref_len': 12}
+First element of precision:46.666666666666664
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:0.12499999999999997
+
+Parse State: 6	Cursor Position: 4 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4380004405975342 seconds
+Received response: DrawText("Hello, World!", 100, 100)
+Actual result:  . DrawRectangle ( 20 , 20 , 300 , 60 )
+SACREBLEU Score: {'score': 4.6192151051305474, 'counts': [5, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [38.46153846153846, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 11}
+First element of precision:38.46153846153846
+Sequence Matcher Similarity Precision:0.4594594594594595
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 4 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4418611526489258 seconds
+Received response: GraphicsWindow.DrawText("Hello, World!", 100, 100)
+Actual result:  DrawRectangle ( 20 , 20 , 300 , 60 )
+SACREBLEU Score: {'score': 3.9297193407553013, 'counts': [5, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [33.333333333333336, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 10}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.39080459770114945
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 4 29
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44121360778808594 seconds
+Received response: (10, 10, 300, 200)
+Actual result:  ( 20 , 20 , 300 , 60 )
+SACREBLEU Score: {'score': 21.10534063187263, 'counts': [6, 2, 1, 0], 'totals': [9, 8, 7, 6], 'precisions': [66.66666666666667, 25.0, 14.285714285714286, 8.333333333333334], 'bp': 1.0, 'sys_len': 9, 'ref_len': 9}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.6829268292682927
+Cosine Similarity Precision:0.1666666666666667
+
+Parse State: 83	Cursor Position: 4 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4556243419647217 seconds
+Received response: GraphicsWindow.DrawRectangle(10, 10, 300, 200)
+Actual result:  20
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.12244897959183673
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 4 32
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4334716796875 seconds
+Received response: 20, 20, 300, 200
+Actual result:  , 20 , 300 , 60
+SACREBLEU Score: {'score': 61.47881529512643, 'counts': [5, 4, 3, 2], 'totals': [7, 6, 5, 4], 'precisions': [71.42857142857143, 66.66666666666667, 60.0, 50.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 6}
+First element of precision:71.42857142857143
+Sequence Matcher Similarity Precision:0.75
+Cosine Similarity Precision:0.7071067811865477
+
+Parse State: 103	Cursor Position: 4 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4442918300628662 seconds
+Received response: GraphicsWindow.DrawRectangle(20, 20, 360, 260)
+Actual result:  20
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.12244897959183673
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 91	Cursor Position: 4 36
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40622687339782715 seconds
+Received response: 200, 100
+Actual result:  , 300 , 60
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 4 38
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45350098609924316 seconds
+Received response: GraphicsWindow.DrawRectangle(20, 20, 100, 100)
+Actual result:  300
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.12
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 4 41
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4184134006500244 seconds
+Received response: 300, 100)
+Actual result:  , 60
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 4 43
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3882427215576172 seconds
+Received response: 300
+Actual result:  60
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 4 45
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4405994415283203 seconds
+Received response: GraphicsWindow.DrawRectangle(20, 20, 300, 60)
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.0851063829787234
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 4 48
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.47206854820251465 seconds
+Received response: GraphicsWindow.PenColor = "Blue"
+GraphicsWindow.DrawRectangle(20, 100, 300, 60)
+Actual result:  \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 33.439653701853814, 'counts': [15, 9, 5, 4], 'totals': [19, 18, 17, 16], 'precisions': [78.94736842105263, 50.0, 29.41176470588235, 25.0], 'bp': 0.8101577349324267, 'sys_len': 19, 'ref_len': 23}
+First element of precision:78.94736842105263
+Sequence Matcher Similarity Precision:0.7528089887640449
+Cosine Similarity Precision:0.6689936080056726
+
+Parse State: 11	Cursor Position: 5 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4053213596343994 seconds
+Received response: GraphicsWindow.PenColor = "Blue"
+Actual result:  GraphicsWindow . BrushColor = "Green"
+SACREBLEU Score: {'score': 19.64073254502565, 'counts': [5, 2, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [71.42857142857143, 33.333333333333336, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:71.42857142857143
+Sequence Matcher Similarity Precision:0.7428571428571429
+Cosine Similarity Precision:0.3333333333333334
+
+Parse State: 6	Cursor Position: 5 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40044474601745605 seconds
+Received response: GraphicsWindow.PenColor = "Red"
+Actual result:  . BrushColor = "Green"
+SACREBLEU Score: {'score': 15.619699684601283, 'counts': [4, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [57.142857142857146, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 6}
+First element of precision:57.142857142857146
+Sequence Matcher Similarity Precision:0.48148148148148145
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 5 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39673900604248047 seconds
+Received response: GraphicsWindow.PenColor = "Blue"
+Actual result:  BrushColor = "Green"
+SACREBLEU Score: {'score': 14.535768424205482, 'counts': [3, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 5}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.49056603773584906
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 5 27
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4100372791290283 seconds
+Received response: GraphicsWindow.BrushColor = "Blue"
+Actual result:  = "Green"
+SACREBLEU Score: {'score': 14.535768424205482, 'counts': [3, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 4}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.2727272727272727
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 5 29
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3821594715118408 seconds
+Received response: "Blue"
+Actual result:  "Green"
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 5 37
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45032644271850586 seconds
+Received response: GraphicsWindow.FillRectangle(20, 20, 300, 60)
+Actual result:  \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 46.15415465297941, 'counts': [10, 7, 5, 3], 'totals': [12, 11, 10, 9], 'precisions': [83.33333333333333, 63.63636363636363, 50.0, 33.333333333333336], 'bp': 0.846481724890614, 'sys_len': 12, 'ref_len': 14}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.8349514563106796
+Cosine Similarity Precision:0.6249999999999999
+
+Parse State: 11	Cursor Position: 6 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green"
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7989370822906494 seconds
+Received response: GraphicsWindow.FillRectangle(20, 20, 300, 60)
+Actual result:  GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 54.52469119630863, 'counts': [10, 7, 5, 3], 'totals': [12, 11, 10, 9], 'precisions': [83.33333333333333, 63.63636363636363, 50.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 12}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.86
+Cosine Similarity Precision:0.6249999999999999
+
+Parse State: 6	Cursor Position: 6 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4403667449951172 seconds
+Received response: GraphicsWindow.FillRectangle(20, 20, 300, 60)
+Actual result:  . FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 43.66835442847811, 'counts': [9, 6, 4, 2], 'totals': [12, 11, 10, 9], 'precisions': [75.0, 54.54545454545455, 40.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 11}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.6823529411764706
+Cosine Similarity Precision:0.5345224838248487
+
+Parse State: 30	Cursor Position: 6 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4412713050842285 seconds
+Received response: GraphicsWindow.FillRectangle(20, 20, 300, 60)
+Actual result:  FillRectangle ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 37.7006380454947, 'counts': [8, 5, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [66.66666666666667, 45.45454545454545, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 10}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.6746987951807228
+Cosine Similarity Precision:0.5345224838248487
+
+Parse State: 58	Cursor Position: 6 29
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.443894624710083 seconds
+Received response: 20, 20, 300, 60
+Actual result:  ( 60 , 100 , 300 , 60 )
+SACREBLEU Score: {'score': 32.66828640925501, 'counts': [5, 3, 2, 1], 'totals': [7, 6, 5, 4], 'precisions': [71.42857142857143, 50.0, 40.0, 25.0], 'bp': 0.7514772930752859, 'sys_len': 7, 'ref_len': 9}
+First element of precision:71.42857142857143
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.5000000000000001
+
+Parse State: 83	Cursor Position: 6 30
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4318876266479492 seconds
+Received response: 20, 20, 300, 60
+Actual result:  60
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.4082482904638631
+
+Parse State: 91	Cursor Position: 6 32
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4287562370300293 seconds
+Received response: 20, 20, 300, 60)
+Actual result:  , 100 , 300 , 60
+SACREBLEU Score: {'score': 36.55552228545123, 'counts': [5, 3, 2, 1], 'totals': [8, 7, 6, 5], 'precisions': [62.5, 42.857142857142854, 33.333333333333336, 20.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 6}
+First element of precision:62.5
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:0.4714045207910318
+
+Parse State: 103	Cursor Position: 6 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3960564136505127 seconds
+Received response: 200
+Actual result:  100
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 6 37
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60, 100
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4092824459075928 seconds
+Received response: 300, 60)
+Actual result:  , 300 , 60
+SACREBLEU Score: {'score': 59.460355750136046, 'counts': [3, 2, 1, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 66.66666666666667, 50.0, 50.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.7368421052631579
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 103	Cursor Position: 6 39
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60, 100,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39873433113098145 seconds
+Received response: 200, 100
+Actual result:  300
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 6 42
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60, 100, 300
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4071650505065918 seconds
+Received response: 300, 60)
+Actual result:  , 60
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 103	Cursor Position: 6 44
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60, 100, 300,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3904860019683838 seconds
+Received response: 200
+Actual result:  60
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 6 46
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillRectangle(60, 100, 300, 60
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44788694381713867 seconds
+Received response: GraphicsWindow.FillRectangle(60, 100, 300, 60)
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 42.573402807559624
+Average Sequence Matcher Similarity Precision: 47.537529091097376
+Average Cosine Similarity Precision: 28.82704500043535

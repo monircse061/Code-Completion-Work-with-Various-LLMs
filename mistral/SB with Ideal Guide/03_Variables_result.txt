@@ -1,0 +1,378 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3938136100769043 seconds
+Received response: Text. Length
+Actual result:  TextWindow . Write ( "Enter your Name: " )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 0.06948345122280154, 'sys_len': 3, 'ref_len': 11}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.32727272727272727
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4013185501098633 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  . Write ( "Enter your Name: " )
+SACREBLEU Score: {'score': 27.901593935858266, 'counts': [6, 4, 2, 1], 'totals': [11, 10, 9, 8], 'precisions': [54.54545454545455, 40.0, 22.22222222222222, 12.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 10}
+First element of precision:54.54545454545455
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.25
+
+Parse State: 30	Cursor Position: 1 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40697336196899414 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  Write ( "Enter your Name: " )
+SACREBLEU Score: {'score': 17.542198478193427, 'counts': [5, 3, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 30.0, 11.11111111111111, 6.25], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.38095238095238093
+Cosine Similarity Precision:0.25
+
+Parse State: 58	Cursor Position: 1 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4080235958099365 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  ( "Enter your Name: " )
+SACREBLEU Score: {'score': 10.600313379512592, 'counts': [4, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 8}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.21052631578947367
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 1 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.425595760345459 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  "Enter your Name: "
+SACREBLEU Score: {'score': 4.456882760699064, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 6}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.1509433962264151
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 1 37
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4420928955078125 seconds
+Received response: TextWindow.Write("Enter your Name: ")
+TextWindow.Read()
+TextWindow.WriteLine("Hello, " + Input.Text)
+Actual result:  )
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.0392156862745098
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 39
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.47644972801208496 seconds
+Received response: ```smallbasic
+TextWindow.Write("Enter your Name: ")
+name = TextWindow.Read()
+TextWindow.WriteLine("Hello, " + name + "!")
+```
+Actual result:  \n name = TextWindow . Read ( ) \n TextWindow . WriteLine ( "Hello " + name )
+SACREBLEU Score: {'score': 28.979780965170836, 'counts': [17, 13, 10, 7], 'totals': [40, 39, 38, 37], 'precisions': [42.5, 33.333333333333336, 26.31578947368421, 18.91891891891892], 'bp': 1.0, 'sys_len': 40, 'ref_len': 21}
+First element of precision:42.5
+Sequence Matcher Similarity Precision:0.6305418719211823
+Cosine Similarity Precision:0.9045340337332908
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ")
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7715208530426025 seconds
+Received response: name = TextWindow.Read()
+Actual result:  name = TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [7, 6, 5, 4], 'totals': [7, 6, 5, 4], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9056603773584906
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 6	Cursor Position: 2 6
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41888928413391113 seconds
+Received response: TextWindow.Write("Enter your Name: ")
+name = TextWindow.Read()
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 26.46015952359329, 'counts': [6, 5, 4, 3], 'totals': [18, 17, 16, 15], 'precisions': [33.333333333333336, 29.41176470588235, 25.0, 20.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 6}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.46511627906976744
+Cosine Similarity Precision:0.6123724356957946
+
+Parse State: 29	Cursor Position: 2 8
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3982889652252197 seconds
+Received response: TextWindow.Read()
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8717948717948718
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 22	Cursor Position: 2 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.392932653427124 seconds
+Received response: .ReadText()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 35.35533905932737, 'counts': [3, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.6363636363636364
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 2 19
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3984060287475586 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 2 23
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4326350688934326 seconds
+Received response: TextWindow.WriteLine("Hello, " + name + "!")
+Actual result:  ( )
+SACREBLEU Score: {'score': 3.125190763972442, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 2 24
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4070167541503906 seconds
+Received response: TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 26
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43584656715393066 seconds
+Received response: TextWindow.Write("Hello, " + name + "! Nice to meet you.")
+Actual result:  \n TextWindow . WriteLine ( "Hello " + name )
+SACREBLEU Score: {'score': 14.025775160081468, 'counts': [9, 5, 2, 0], 'totals': [20, 19, 18, 17], 'precisions': [45.0, 26.31578947368421, 11.11111111111111, 2.9411764705882355], 'bp': 1.0, 'sys_len': 20, 'ref_len': 12}
+First element of precision:45.0
+Sequence Matcher Similarity Precision:0.6538461538461539
+Cosine Similarity Precision:0.5303300858899106
+
+Parse State: 11	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4028053283691406 seconds
+Received response: TextWindow.Write(name)
+Actual result:  TextWindow . WriteLine ( "Hello " + name )
+SACREBLEU Score: {'score': 12.462989337200145, 'counts': [5, 2, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [83.33333333333333, 40.0, 12.5, 8.333333333333334], 'bp': 0.513417119032592, 'sys_len': 6, 'ref_len': 10}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.676923076923077
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 6	Cursor Position: 3 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4242689609527588 seconds
+Received response: Write("Hello, " & name & "!")
+Actual result:  . WriteLine ( "Hello " + name )
+SACREBLEU Score: {'score': 13.67440667823257, 'counts': [6, 2, 1, 0], 'totals': [13, 12, 11, 10], 'precisions': [46.15384615384615, 16.666666666666668, 9.090909090909092, 5.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 9}
+First element of precision:46.15384615384615
+Sequence Matcher Similarity Precision:0.7213114754098361
+Cosine Similarity Precision:0.6666666666666669
+
+Parse State: 30	Cursor Position: 3 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4402034282684326 seconds
+Received response: TextWindow.WriteLine("Hello, " + name + "!")
+Actual result:  WriteLine ( "Hello " + name )
+SACREBLEU Score: {'score': 24.601372576927535, 'counts': [8, 5, 3, 1], 'totals': [15, 14, 13, 12], 'precisions': [53.333333333333336, 35.714285714285715, 23.076923076923077, 8.333333333333334], 'bp': 1.0, 'sys_len': 15, 'ref_len': 8}
+First element of precision:53.333333333333336
+Sequence Matcher Similarity Precision:0.7297297297297297
+Cosine Similarity Precision:0.8660254037844388
+
+Parse State: 58	Cursor Position: 3 21
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41149115562438965 seconds
+Received response: TextWindow.WriteLine(name)
+Actual result:  ( "Hello " + name )
+SACREBLEU Score: {'score': 15.207218222740094, 'counts': [3, 1, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [50.0, 20.0, 12.5, 8.333333333333334], 'bp': 0.846481724890614, 'sys_len': 6, 'ref_len': 7}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.30434782608695654
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 83	Cursor Position: 3 22
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45245957374572754 seconds
+Received response: TextWindow.WriteLine("Hello, " & name & "! Nice to meet you.")
+Actual result:  "Hello "
+SACREBLEU Score: {'score': 4.237713199752784, 'counts': [3, 1, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 5.2631578947368425, 2.7777777777777777, 1.4705882352941178], 'bp': 1.0, 'sys_len': 20, 'ref_len': 3}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.22535211267605634
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 18	Cursor Position: 3 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.WriteLine("Hello "
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3931460380554199 seconds
+Received response: name
+Actual result:  + name
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:1.0
+
+Parse State: 48	Cursor Position: 3 33
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.WriteLine("Hello " +
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3931002616882324 seconds
+Received response: name
+Actual result:  name
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:1.0
+
+Parse State: 92	Cursor Position: 3 37
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.WriteLine("Hello " + name
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42444705963134766 seconds
+Received response: TextWindow.WriteLine("Hello " + name + "!")
+Actual result:  )
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.08888888888888889
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 49.36770001612581
+Average Sequence Matcher Similarity Precision: 46.638043661647686
+Average Cosine Similarity Precision: 44.02690155305831

@@ -1,0 +1,780 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4118332862854004 seconds
+Received response: ```
+TextWindow.Text = "Hello, World!"
+```
+Actual result:  GraphicsWindow . BackgroundColor = "Black"
+SACREBLEU Score: {'score': 5.816635421147515, 'counts': [4, 1, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [25.0, 6.666666666666667, 3.5714285714285716, 1.9230769230769231], 'bp': 1.0, 'sys_len': 16, 'ref_len': 7}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.30952380952380953
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40445423126220703 seconds
+Received response: GraphicsWindow.Title = "My Game"
+Actual result:  . BackgroundColor = "Black"
+SACREBLEU Score: {'score': 13.134549472120788, 'counts': [4, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [50.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 6}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.36666666666666664
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 1 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45308876037597656 seconds
+Received response: GraphicsWindow.Width = 800
+GraphicsWindow.Height = 600
+Actual result:  BackgroundColor = "Black"
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 5}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.225
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 1 32
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3926997184753418 seconds
+Received response: = Color.Blue
+Actual result:  = "Black"
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.36363636363636365
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 1 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor =
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39976024627685547 seconds
+Received response: GraphicsWindow.BackgroundColor = "White"
+Actual result:  "Black"
+SACREBLEU Score: {'score': 7.809849842300641, 'counts': [2, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 3}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.20833333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 42
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black"
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.48802971839904785 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.Show()
+GraphicsWindow.DrawText(100, 100, "Hello, World!")
+Actual result:  \n GraphicsWindow . MouseDown = OnMouseDown \n Sub OnMouseDown \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndSub
+SACREBLEU Score: {'score': 3.220800813790632, 'counts': [15, 3, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [55.55555555555556, 11.538461538461538, 2.0, 1.0416666666666667], 'bp': 0.5327890937629327, 'sys_len': 27, 'ref_len': 44}
+First element of precision:55.55555555555556
+Sequence Matcher Similarity Precision:0.343042071197411
+Cosine Similarity Precision:0.29346959282671103
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black"
+                'Identifier . Identifier = Expression'
+                Complete the 'Identifier . Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4003260135650635 seconds
+Received response: GraphicsWindow.Title = "My Drawing"
+Actual result:  GraphicsWindow . MouseDown = OnMouseDown
+SACREBLEU Score: {'score': 12.223075560872525, 'counts': [3, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [37.5, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 5}
+First element of precision:37.5
+Sequence Matcher Similarity Precision:0.6052631578947368
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 6	Cursor Position: 2 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow
+                '. Identifier = Expression'
+                Complete the '. Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4212944507598877 seconds
+Received response: GraphicsWindow.Title = "My Graphics Window"
+Actual result:  . MouseDown = OnMouseDown
+SACREBLEU Score: {'score': 5.669791110976001, 'counts': [2, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [22.22222222222222, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 4}
+First element of precision:22.22222222222222
+Sequence Matcher Similarity Precision:0.2898550724637681
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 2 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40026283264160156 seconds
+Received response: GraphicsWindow.Title = "My Graphics Window"
+Actual result:  MouseDown = OnMouseDown
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 3}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.29850746268656714
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 2 26
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42704081535339355 seconds
+Received response: GraphicsWindow.MouseDown = Sub()
+    GraphicsWindow.BackgroundColor = "White"
+EndSub
+Actual result:  = OnMouseDown
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.20408163265306123
+Cosine Similarity Precision:0.0
+
+Parse State: 82	Cursor Position: 2 28
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown =
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41660141944885254 seconds
+Received response: GraphicsWindow.MouseDown = Sub()
+Actual result:  OnMouseDown
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.45454545454545453
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 40
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.6264376640319824 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+GraphicsWindow.MouseUp = OnMouseUp
+
+Sub OnMouseDown
+    GraphicsWindow.DrawText("Mouse Down", 10, 10)
+EndSub
+
+Sub OnMouseUp
+    GraphicsWindow.DrawText("Mouse Up", 10, 30)
+EndSub
+Actual result:  \n Sub OnMouseDown \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndSub
+SACREBLEU Score: {'score': 3.3461607101654023, 'counts': [17, 3, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [34.69387755102041, 6.25, 1.0638297872340425, 0.5434782608695652], 'bp': 1.0, 'sys_len': 49, 'ref_len': 37}
+First element of precision:34.69387755102041
+Sequence Matcher Similarity Precision:0.28292682926829266
+Cosine Similarity Precision:0.35228193837119165
+
+Parse State: 11	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown
+                'Sub Identifier CRStmtCRs EndSub'
+                Complete the 'Sub Identifier CRStmtCRs EndSub' part of the code in the Small Basic programming language. Just show your answer in place of 'Sub Identifier CRStmtCRs EndSub'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.46973323822021484 seconds
+Received response: Sub OnMouseDown
+    GraphicsWindow.DrawText("Mouse clicked!", 50, 50)
+EndSub
+Actual result:  Sub OnMouseDown \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndSub
+SACREBLEU Score: {'score': 3.1975527841222102, 'counts': [11, 3, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [64.70588235294117, 18.75, 3.3333333333333335, 1.7857142857142858], 'bp': 0.3468636452568924, 'sys_len': 17, 'ref_len': 35}
+First element of precision:64.70588235294117
+Sequence Matcher Similarity Precision:0.5066666666666667
+Cosine Similarity Precision:0.3113995776646092
+
+Parse State: 9	Cursor Position: 3 5
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub
+                'Identifier CRStmtCRs EndSub'
+                Complete the 'Identifier CRStmtCRs EndSub' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier CRStmtCRs EndSub'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45398664474487305 seconds
+Received response: Sub OnMouseDown
+    GraphicsWindow.DrawText("Hello, World!", 50, 50)
+EndSub
+Actual result:  OnMouseDown \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n EndSub
+SACREBLEU Score: {'score': 3.215958730554084, 'counts': [11, 2, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [61.111111111111114, 11.764705882352942, 3.125, 1.6666666666666667], 'bp': 0.41111229050718745, 'sys_len': 18, 'ref_len': 34}
+First element of precision:61.111111111111114
+Sequence Matcher Similarity Precision:0.4727272727272727
+Cosine Similarity Precision:0.24174688920761409
+
+Parse State: 35	Cursor Position: 3 21
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5798971652984619 seconds
+Received response: GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+
+Sub OnMouseDown
+    'CR TheRest
+    GraphicsWindow.Clear()
+    GraphicsWindow.DrawText(10, 10, "Mouse clicked at: " & Mouse.X & ", " & Mouse.Y)
+EndSub
+Actual result:  \n pic = Flickr . GetRandomPicture ( "mountains, river" ) \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n
+SACREBLEU Score: {'score': 2.377607103299354, 'counts': [13, 1, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [26.53061224489796, 2.0833333333333335, 1.0638297872340425, 0.5434782608695652], 'bp': 1.0, 'sys_len': 49, 'ref_len': 32}
+First element of precision:26.53061224489796
+Sequence Matcher Similarity Precision:0.2969187675070028
+Cosine Similarity Precision:0.17407765595569785
+
+Parse State: 39	Cursor Position: 4 2
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4530909061431885 seconds
+Received response: ```
+GraphicsWindow.MouseX = Mouse.X
+GraphicsWindow.MouseY = Mouse.Y
+```
+Actual result:  pic = Flickr . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 2.276859592073037, 'counts': [2, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [10.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 12}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.23809523809523808
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 4 6
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5241439342498779 seconds
+Received response: ```
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+
+Sub OnMouseDown
+    pic = GraphicsWindow.MouseX + " " + GraphicsWindow.MouseY
+EndSub
+```
+Actual result:  = Flickr . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 1.5883027492953543, 'counts': [4, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [12.121212121212121, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 11}
+First element of precision:12.121212121212121
+Sequence Matcher Similarity Precision:0.16071428571428573
+Cosine Similarity Precision:0.0
+
+Parse State: 29	Cursor Position: 4 8
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40674710273742676 seconds
+Received response: GraphicsWindow.MouseX
+Actual result:  Flickr . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 0.09697196786440505, 'sys_len': 3, 'ref_len': 10}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2571428571428571
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 4 14
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.438889741897583 seconds
+Received response: pic = Flickr.GetImage("https://example.com/image.jpg")
+Actual result:  . GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 5.7259987315337755, 'counts': [5, 2, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [25.0, 10.526315789473685, 2.7777777777777777, 1.4705882352941178], 'bp': 1.0, 'sys_len': 20, 'ref_len': 9}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2916666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 53	Cursor Position: 4 15
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4688398838043213 seconds
+Received response: pic = Flickr.GetPhoto("https://www.flickr.com/photos/yourusername/yourphotourl")
+Actual result:  GetRandomPicture ( "mountains, river" )
+SACREBLEU Score: {'score': 4.449945957170705, 'counts': [4, 2, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [16.666666666666668, 8.695652173913043, 2.272727272727273, 1.1904761904761905], 'bp': 1.0, 'sys_len': 24, 'ref_len': 8}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 79	Cursor Position: 4 31
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4310941696166992 seconds
+Received response: ```
+GraphicsWindow.DrawImage(pic, Mouse.X, Mouse.Y)
+```
+Actual result:  ( "mountains, river" )
+SACREBLEU Score: {'score': 2.5197593442434796, 'counts': [3, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 7}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.20512820512820512
+Cosine Similarity Precision:0.0
+
+Parse State: 89	Cursor Position: 4 32
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5205044746398926 seconds
+Received response: ```
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+Sub OnMouseDown
+    pic = Flickr.GetRandomPicture("nature")
+EndSub
+```
+Actual result:  "mountains, river"
+SACREBLEU Score: {'score': 1.4262733286728255, 'counts': [2, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [6.451612903225806, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 5}
+First element of precision:6.451612903225806
+Sequence Matcher Similarity Precision:0.11560693641618497
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 4 50
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river"
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5489857196807861 seconds
+Received response: ```
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+Sub OnMouseDown
+	pic = Flickr.GetRandomPicture("mountains, river")
+```
+Actual result:  )
+SACREBLEU Score: {'score': 0.8733042428534794, 'counts': [1, 0, 0, 0], 'totals': [42, 41, 40, 39], 'precisions': [2.380952380952381, 1.2195121951219512, 0.625, 0.32051282051282054], 'bp': 1.0, 'sys_len': 42, 'ref_len': 1}
+First element of precision:2.380952380952381
+Sequence Matcher Similarity Precision:0.016
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 4 56
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.48556089401245117 seconds
+Received response: ```smallbasic
+GraphicsWindow.DrawPicture(pic, 0, 0)
+```
+Actual result:  \n GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 ) \n
+SACREBLEU Score: {'score': 30.771592144901796, 'counts': [9, 6, 4, 3], 'totals': [17, 16, 15, 14], 'precisions': [52.94117647058823, 37.5, 26.666666666666668, 21.428571428571427], 'bp': 0.9428731438548749, 'sys_len': 17, 'ref_len': 18}
+First element of precision:52.94117647058823
+Sequence Matcher Similarity Precision:0.5203252032520326
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 88	Cursor Position: 5 2
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43672776222229004 seconds
+Received response: pic = Flickr.GetRandomPicture("mountains, river")
+Actual result:  GraphicsWindow . DrawResizedImage ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 4.286580497900371, 'counts': [5, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 0.846481724890614, 'sys_len': 12, 'ref_len': 14}
+First element of precision:41.666666666666664
+Sequence Matcher Similarity Precision:0.12612612612612611
+Cosine Similarity Precision:0.19999999999999998
+
+Parse State: 6	Cursor Position: 5 16
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.433701753616333 seconds
+Received response: .GraphicsWindow.DrawImage(pic, 0, 0)
+Actual result:  . DrawResizedImage ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 41.36817680097795, 'counts': [8, 5, 4, 3], 'totals': [11, 10, 9, 8], 'precisions': [72.72727272727273, 50.0, 44.44444444444444, 37.5], 'bp': 0.8337529180751805, 'sys_len': 11, 'ref_len': 13}
+First element of precision:72.72727272727273
+Sequence Matcher Similarity Precision:0.5060240963855421
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 30	Cursor Position: 5 17
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4190068244934082 seconds
+Received response: GraphicsWindow.DrawImage(pic, 0, 0)
+Actual result:  DrawResizedImage ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 43.98917247584221, 'counts': [7, 5, 4, 3], 'totals': [10, 9, 8, 7], 'precisions': [70.0, 55.55555555555556, 50.0, 42.857142857142854], 'bp': 0.8187307530779819, 'sys_len': 10, 'ref_len': 12}
+First element of precision:70.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 58	Cursor Position: 5 33
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43239879608154297 seconds
+Received response: pic, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height
+Actual result:  ( pic , 0 , 0 , 640 , 480 )
+SACREBLEU Score: {'score': 39.553325358771794, 'counts': [7, 5, 4, 3], 'totals': [13, 12, 11, 10], 'precisions': [53.84615384615385, 41.666666666666664, 36.36363636363637, 30.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 11}
+First element of precision:53.84615384615385
+Sequence Matcher Similarity Precision:0.3170731707317073
+Cosine Similarity Precision:0.2182178902359924
+
+Parse State: 83	Cursor Position: 5 34
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5032579898834229 seconds
+Received response: pic = Flickr.GetRandomPicture("mountains, river")
+GraphicsWindow.DrawResizedImage(pic, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
+Actual result:  pic
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 91	Cursor Position: 5 37
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42914295196533203 seconds
+Received response: , 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
+Actual result:  , 0 , 0 , 640 , 480
+SACREBLEU Score: {'score': 30.266437266858635, 'counts': [6, 4, 3, 2], 'totals': [13, 12, 11, 10], 'precisions': [46.15384615384615, 33.333333333333336, 27.272727272727273, 20.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 8}
+First element of precision:46.15384615384615
+Sequence Matcher Similarity Precision:0.2777777777777778
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 5 39
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4530041217803955 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 100, 100)
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 5 40
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5966944694519043 seconds
+Received response: ```
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+Sub OnMouseDown
+	pic = Flickr.GetRandomPicture("mountains, river")
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
+EndSub
+```
+Actual result:  , 0 , 640 , 480
+SACREBLEU Score: {'score': 2.8577262451992183, 'counts': [4, 2, 1, 0], 'totals': [51, 50, 49, 48], 'precisions': [7.8431372549019605, 4.0, 2.0408163265306123, 1.0416666666666667], 'bp': 1.0, 'sys_len': 51, 'ref_len': 6}
+First element of precision:7.8431372549019605
+Sequence Matcher Similarity Precision:0.06766917293233082
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 5 42
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4534718990325928 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 0, 0)
+Actual result:  0
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 5 43
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4617300033569336 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
+Actual result:  , 640 , 480
+SACREBLEU Score: {'score': 2.55404966647159, 'counts': [2, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [11.11111111111111, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 4}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 103	Cursor Position: 5 45
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4558446407318115 seconds
+Received response: GraphicsWindow.DrawResizedImage(pic, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
+Actual result:  640
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.04395604395604396
+Cosine Similarity Precision:0.0
+
+Parse State: 91	Cursor Position: 5 48
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640
+                ', MoreThanOneExpr'
+                Complete the ', MoreThanOneExpr' part of the code in the Small Basic programming language. Just show your answer in place of ', MoreThanOneExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3935253620147705 seconds
+Received response: 480
+Actual result:  , 480
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 103	Cursor Position: 5 50
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640,
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4084467887878418 seconds
+Received response: 480
+Actual result:  480
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8571428571428571
+Cosine Similarity Precision:1.0
+
+Parse State: 92	Cursor Position: 5 53
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7047932147979736 seconds
+Received response: ```
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+Sub OnMouseDown
+	pic = Flickr.GetRandomPicture("mountains, river")
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+EndSub
+```
+Actual result:  )
+SACREBLEU Score: {'score': 0.7772751558853214, 'counts': [1, 0, 0, 0], 'totals': [47, 46, 45, 44], 'precisions': [2.127659574468085, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091], 'bp': 1.0, 'sys_len': 47, 'ref_len': 1}
+First element of precision:2.127659574468085
+Sequence Matcher Similarity Precision:0.018433179723502304
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 5 55
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7086551189422607 seconds
+Received response: ```smallbasic
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.MouseDown = OnMouseDown
+Sub OnMouseDown
+	pic = Flickr.GetRandomPicture("mountains, river")
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+	GraphicsWindow.Show()
+EndSub
+```
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 53, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.00796812749003984
+Cosine Similarity Precision:0.0
+
+Parse State: 62	Cursor Position: 6 1
+
+                This is the incomplete Small Basic programming language code:
+                GraphicsWindow.BackgroundColor = "Black" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown     
+	pic = Flickr.GetRandomPicture("mountains, river")     
+	GraphicsWindow.DrawResizedImage(pic, 0, 0, 640, 480)
+                'EndSub'
+                Complete the 'EndSub' part of the code in the Small Basic programming language. Just show your answer in place of 'EndSub'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39301037788391113 seconds
+Received response: EndSub
+Actual result:  EndSub
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9230769230769231
+Cosine Similarity Precision:1.0
+
+
+Average Precision: 31.28431504826718
+Average Sequence Matcher Similarity Precision: 29.872406247014922
+Average Cosine Similarity Precision: 16.379115347615432

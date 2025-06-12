@@ -1,0 +1,2149 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.38782262802124023 seconds
+Received response: Text. Length
+Actual result:  TextWindow . Write ( "Enter name: " )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 0.09697196786440505, 'sys_len': 3, 'ref_len': 10}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.36
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4254148006439209 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  . Write ( "Enter name: " )
+SACREBLEU Score: {'score': 27.901593935858266, 'counts': [6, 4, 2, 1], 'totals': [11, 10, 9, 8], 'precisions': [54.54545454545455, 40.0, 22.22222222222222, 12.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
+First element of precision:54.54545454545455
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 30	Cursor Position: 1 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41988587379455566 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  Write ( "Enter name: " )
+SACREBLEU Score: {'score': 17.542198478193427, 'counts': [5, 3, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 30.0, 11.11111111111111, 6.25], 'bp': 1.0, 'sys_len': 11, 'ref_len': 8}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.3793103448275862
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 58	Cursor Position: 1 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40355372428894043 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  ( "Enter name: " )
+SACREBLEU Score: {'score': 10.600313379512592, 'counts': [4, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 7}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.23076923076923078
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 1 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41645169258117676 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  "Enter name: "
+SACREBLEU Score: {'score': 4.456882760699064, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 5}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 1 32
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4748096466064453 seconds
+Received response: TextWindow.Write("Enter name: ")
+name = TextWindow.Read()
+TextWindow.WriteLine("Hello, " + name + "!")
+Actual result:  )
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.038461538461538464
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 34
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.48287153244018555 seconds
+Received response: ```smallbasic
+TextWindow.Write("Enter name: ")
+name = TextWindow.Read()
+TextWindow.WriteLine("Hello, " + name + "!")
+```
+Actual result:  \n user [ "name" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter age: " ) \n user [ "age" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter city: " ) \n user [ "city" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter zip: " ) \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 3.3771694852294125, 'counts': [27, 19, 11, 7], 'totals': [39, 38, 37, 36], 'precisions': [69.23076923076923, 50.0, 29.72972972972973, 19.444444444444443], 'bp': 0.08979226796179253, 'sys_len': 39, 'ref_len': 133}
+First element of precision:69.23076923076923
+Sequence Matcher Similarity Precision:0.118491921005386
+Cosine Similarity Precision:0.6590284933204408
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ")
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4274113178253174 seconds
+Received response: TextWindow.Write("Enter name: ")
+Idxs = TextWindow.Read()
+Actual result:  user [ "name" ] = TextWindow . Read ( )
+SACREBLEU Score: {'score': 31.18181497809656, 'counts': [9, 5, 4, 3], 'totals': [17, 16, 15, 14], 'precisions': [52.94117647058823, 31.25, 26.666666666666668, 21.428571428571427], 'bp': 1.0, 'sys_len': 17, 'ref_len': 12}
+First element of precision:52.94117647058823
+Sequence Matcher Similarity Precision:0.5773195876288659
+Cosine Similarity Precision:0.6666666666666666
+
+Parse State: 6	Cursor Position: 2 5
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.47345805168151855 seconds
+Received response: TextWindow.Write("Enter name: ")
+user = TextWindow.Read()
+TextWindow.WriteLine("Hello, " + user + "!")
+Actual result:  [ "name" ]
+SACREBLEU Score: {'score': 1.5266081935888858, 'counts': [3, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [9.375, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 5}
+First element of precision:9.375
+Sequence Matcher Similarity Precision:0.12389380530973451
+Cosine Similarity Precision:0.22941573387056174
+
+Parse State: 32	Cursor Position: 2 6
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4372138977050781 seconds
+Received response: TextWindow.Write("Enter name: ")
+userInput = TextWindow.Read()
+Actual result:  "name"
+SACREBLEU Score: {'score': 3.009804384352828, 'counts': [3, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 3}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.17391304347826086
+Cosine Similarity Precision:0.3333333333333333
+
+Parse State: 60	Cursor Position: 2 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44518041610717773 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+Actual result:  ]
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.05970149253731343
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 2 14
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43813300132751465 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 21.27988282044162, 'counts': [6, 5, 4, 3], 'totals': [22, 21, 20, 19], 'precisions': [27.272727272727273, 23.80952380952381, 20.0, 15.789473684210526], 'bp': 1.0, 'sys_len': 22, 'ref_len': 6}
+First element of precision:27.272727272727273
+Sequence Matcher Similarity Precision:0.449438202247191
+Cosine Similarity Precision:0.6123724356957946
+
+Parse State: 56	Cursor Position: 2 16
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8015639781951904 seconds
+Received response: TextWindow.Read()
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8717948717948718
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 22	Cursor Position: 2 26
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4100067615509033 seconds
+Received response: TextWindow.Read()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 66.87403049764218, 'counts': [4, 3, 2, 1], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 75.0, 66.66666666666667, 50.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 53	Cursor Position: 2 27
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.392009973526001 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 2 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39934444427490234 seconds
+Received response: user["name"] = TextWindow.Read()
+Actual result:  ( )
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 2 32
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4341611862182617 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.05970149253731343
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 34
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.6520035266876221 seconds
+Received response: TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.ReadNumber()
+TextWindow.Write("Enter favorite color: ")
+user["color"] = TextWindow.Read()
+TextWindow.WriteLine("User Information:")
+TextWindow.WriteLine("Name: " & user["name"])
+TextWindow.WriteLine("Age: " & user["age"])
+TextWindow.WriteLine("Favorite Color: " & user["color"])
+Actual result:  \n TextWindow . Write ( "Enter age: " ) \n user [ "age" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter city: " ) \n user [ "city" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter zip: " ) \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 33.38021842024506, 'counts': [73, 49, 31, 22], 'totals': [104, 103, 102, 101], 'precisions': [70.1923076923077, 47.57281553398058, 30.392156862745097, 21.782178217821784], 'bp': 0.8656879508640621, 'sys_len': 104, 'ref_len': 119}
+First element of precision:70.1923076923077
+Sequence Matcher Similarity Precision:0.15363511659807957
+Cosine Similarity Precision:0.7590499175643075
+
+Parse State: 11	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5107038021087646 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.WriteLine("Hello, " & user["name"] & "!")
+Actual result:  TextWindow . Write ( "Enter age: " )
+SACREBLEU Score: {'score': 13.695204315019666, 'counts': [9, 7, 5, 3], 'totals': [42, 41, 40, 39], 'precisions': [21.428571428571427, 17.073170731707318, 12.5, 7.6923076923076925], 'bp': 1.0, 'sys_len': 42, 'ref_len': 10}
+First element of precision:21.428571428571427
+Sequence Matcher Similarity Precision:0.3096774193548387
+Cosine Similarity Precision:0.4811252243246882
+
+Parse State: 6	Cursor Position: 3 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4397695064544678 seconds
+Received response: Write("Hello, " & user["name"] & "!")
+Actual result:  . Write ( "Enter age: " )
+SACREBLEU Score: {'score': 10.052686727030013, 'counts': [5, 3, 1, 0], 'totals': [18, 17, 16, 15], 'precisions': [27.77777777777778, 17.647058823529413, 6.25, 3.3333333333333335], 'bp': 1.0, 'sys_len': 18, 'ref_len': 9}
+First element of precision:27.77777777777778
+Sequence Matcher Similarity Precision:0.38095238095238093
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 30	Cursor Position: 3 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.433258056640625 seconds
+Received response: TextWindow.WriteLine("Hello, " & user["name"] & "!")
+Actual result:  Write ( "Enter age: " )
+SACREBLEU Score: {'score': 5.415315253510896, 'counts': [4, 2, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [20.0, 10.526315789473685, 2.7777777777777777, 1.4705882352941178], 'bp': 1.0, 'sys_len': 20, 'ref_len': 8}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.3157894736842105
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 3 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40137720108032227 seconds
+Received response: TextWindow.Write(user["name"])
+Actual result:  ( "Enter age: " )
+SACREBLEU Score: {'score': 5.300156689756297, 'counts': [4, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 7}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 3 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4825105667114258 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Hello, " & user["name"] & "!")
+Actual result:  "Enter age: "
+SACREBLEU Score: {'score': 2.470077408642715, 'counts': [4, 2, 0, 0], 'totals': [42, 41, 40, 39], 'precisions': [9.523809523809524, 4.878048780487805, 1.25, 0.6410256410256411], 'bp': 1.0, 'sys_len': 42, 'ref_len': 5}
+First element of precision:9.523809523809524
+Sequence Matcher Similarity Precision:0.1875
+Cosine Similarity Precision:0.13130643285972254
+
+Parse State: 92	Cursor Position: 3 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4070875644683838 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 3 33
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4223060607910156 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  \n user [ "age" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter city: " ) \n user [ "city" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter zip: " ) \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 0.03646156887302737, 'counts': [12, 11, 10, 9], 'totals': [12, 11, 10, 9], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.00036461568873027354, 'sys_len': 12, 'ref_len': 107}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.14545454545454545
+Cosine Similarity Precision:0.7370434740955021
+
+Parse State: 11	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ")
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4172635078430176 seconds
+Received response: user["age"] = TextWindow.ReadNumber()
+Actual result:  user [ "age" ] = TextWindow . Read ( )
+SACREBLEU Score: {'score': 76.91605673134588, 'counts': [11, 9, 7, 6], 'totals': [12, 11, 10, 9], 'precisions': [91.66666666666667, 81.81818181818181, 70.0, 66.66666666666667], 'bp': 1.0, 'sys_len': 12, 'ref_len': 12}
+First element of precision:91.66666666666667
+Sequence Matcher Similarity Precision:0.8157894736842105
+Cosine Similarity Precision:0.75
+
+Parse State: 6	Cursor Position: 4 5
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4070627689361572 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  [ "age" ]
+SACREBLEU Score: {'score': 31.702331385234313, 'counts': [5, 4, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 36.36363636363637, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 5}
+First element of precision:41.666666666666664
+Sequence Matcher Similarity Precision:0.34146341463414637
+Cosine Similarity Precision:0.5
+
+Parse State: 32	Cursor Position: 4 6
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.417203426361084 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  "age"
+SACREBLEU Score: {'score': 12.605968092174914, 'counts': [3, 2, 1, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 18.181818181818183, 10.0, 5.555555555555555], 'bp': 1.0, 'sys_len': 12, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2702702702702703
+Cosine Similarity Precision:0.5
+
+Parse State: 60	Cursor Position: 4 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4171903133392334 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  ]
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.06060606060606061
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 4 13
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4254119396209717 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 41.72261448611506, 'counts': [6, 5, 4, 3], 'totals': [12, 11, 10, 9], 'precisions': [50.0, 45.45454545454545, 40.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 6}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 56	Cursor Position: 4 15
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41634368896484375 seconds
+Received response: user["age"] = TextWindow.ReadNumber()
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 9.578464408619825, 'counts': [4, 2, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [33.333333333333336, 18.181818181818183, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 5}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.6101694915254238
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 22	Cursor Position: 4 25
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39079713821411133 seconds
+Received response: Read()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.7058823529411765
+Cosine Similarity Precision:1.0
+
+Parse State: 53	Cursor Position: 4 26
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4015529155731201 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 4 30
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4188878536224365 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  ( )
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.17142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 4 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41808557510375977 seconds
+Received response: user["age"] = TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 4 33
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5140984058380127 seconds
+Received response: TextWindow.Write("Enter height: ")
+user["height"] = TextWindow.Read()
+TextWindow.Write("Enter weight: ")
+user["weight"] = TextWindow.Read()
+Actual result:  \n TextWindow . Write ( "Enter city: " ) \n user [ "city" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter zip: " ) \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 20.464474693375493, 'counts': [40, 32, 24, 16], 'totals': [44, 43, 42, 41], 'precisions': [90.9090909090909, 74.4186046511628, 57.142857142857146, 39.02439024390244], 'bp': 0.32836274111662506, 'sys_len': 44, 'ref_len': 93}
+First element of precision:90.9090909090909
+Sequence Matcher Similarity Precision:0.2261640798226164
+Cosine Similarity Precision:0.7789711910621949
+
+Parse State: 11	Cursor Position: 5 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5206043720245361 seconds
+Received response: user["name"] = TextWindow.Read()
+user["age"] = TextWindow.Read()
+TextWindow.Write("Name: " + user["name"])
+TextWindow.Write("Age: " + user["age"])
+Actual result:  TextWindow . Write ( "Enter city: " )
+SACREBLEU Score: {'score': 7.2235007788037615, 'counts': [8, 5, 3, 2], 'totals': [56, 55, 54, 53], 'precisions': [14.285714285714286, 9.090909090909092, 5.555555555555555, 3.7735849056603774], 'bp': 1.0, 'sys_len': 56, 'ref_len': 10}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.2826086956521739
+Cosine Similarity Precision:0.39391929857916763
+
+Parse State: 6	Cursor Position: 5 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5819566249847412 seconds
+Received response: Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("User details: ")
+TextWindow.WriteLine("Name: " + user["name"])
+TextWindow.WriteLine("Age: " + user["age"])
+Actual result:  . Write ( "Enter city: " )
+SACREBLEU Score: {'score': 5.366223337500222, 'counts': [8, 6, 4, 2], 'totals': [84, 83, 82, 81], 'precisions': [9.523809523809524, 7.228915662650603, 4.878048780487805, 2.4691358024691357], 'bp': 1.0, 'sys_len': 84, 'ref_len': 9}
+First element of precision:9.523809523809524
+Sequence Matcher Similarity Precision:0.14814814814814814
+Cosine Similarity Precision:0.2691909510290828
+
+Parse State: 30	Cursor Position: 5 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5631422996520996 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("User name is " & user["name"] & " and age is " & user["age"])
+Actual result:  Write ( "Enter city: " )
+SACREBLEU Score: {'score': 4.415815997725597, 'counts': [7, 5, 3, 1], 'totals': [74, 73, 72, 71], 'precisions': [9.45945945945946, 6.8493150684931505, 4.166666666666667, 1.408450704225352], 'bp': 1.0, 'sys_len': 74, 'ref_len': 8}
+First element of precision:9.45945945945946
+Sequence Matcher Similarity Precision:0.1452991452991453
+Cosine Similarity Precision:0.283069258536149
+
+Parse State: 58	Cursor Position: 5 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4611380100250244 seconds
+Received response: TextWindow.Write("Name: " & user["name"] & ", Age: " & user["age"])
+Actual result:  ( "Enter city: " )
+SACREBLEU Score: {'score': 3.848169719653079, 'counts': [5, 2, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [17.24137931034483, 7.142857142857143, 1.8518518518518519, 0.9615384615384616], 'bp': 1.0, 'sys_len': 29, 'ref_len': 7}
+First element of precision:17.24137931034483
+Sequence Matcher Similarity Precision:0.20930232558139536
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 5 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5811617374420166 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Hello, " & user["name"] & "! You are " & user["age"] & " years old.")
+Actual result:  "Enter city: "
+SACREBLEU Score: {'score': 1.2904568792919262, 'counts': [4, 2, 0, 0], 'totals': [79, 78, 77, 76], 'precisions': [5.063291139240507, 2.5641025641025643, 0.6493506493506493, 0.32894736842105265], 'bp': 1.0, 'sys_len': 79, 'ref_len': 5}
+First element of precision:5.063291139240507
+Sequence Matcher Similarity Precision:0.08620689655172414
+Cosine Similarity Precision:0.15713484026367722
+
+Parse State: 92	Cursor Position: 5 32
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8250823020935059 seconds
+Received response: TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.05970149253731343
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 5 34
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4139876365661621 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  \n user [ "city" ] = TextWindow . Read ( ) \n TextWindow . Write ( "Enter zip: " ) \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 0.3182780796509668, 'counts': [12, 11, 10, 9], 'totals': [12, 11, 10, 9], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.003182780796509667, 'sys_len': 12, 'ref_len': 81}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.19141914191419143
+Cosine Similarity Precision:0.7313071356019156
+
+Parse State: 11	Cursor Position: 6 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ")
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4038863182067871 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  user [ "city" ] = TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [12, 11, 10, 9], 'totals': [12, 11, 10, 9], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 12}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:1.0
+
+Parse State: 6	Cursor Position: 6 5
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41543149948120117 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  [ "city" ]
+SACREBLEU Score: {'score': 31.702331385234313, 'counts': [5, 4, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 36.36363636363637, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 5}
+First element of precision:41.666666666666664
+Sequence Matcher Similarity Precision:0.37209302325581395
+Cosine Similarity Precision:0.5
+
+Parse State: 32	Cursor Position: 6 6
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41561388969421387 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  "city"
+SACREBLEU Score: {'score': 12.605968092174914, 'counts': [3, 2, 1, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 18.181818181818183, 10.0, 5.555555555555555], 'bp': 1.0, 'sys_len': 12, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.5
+
+Parse State: 60	Cursor Position: 6 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4187288284301758 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  ]
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 6 14
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4126853942871094 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 41.72261448611506, 'counts': [6, 5, 4, 3], 'totals': [12, 11, 10, 9], 'precisions': [50.0, 45.45454545454545, 40.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 6}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7142857142857143
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 56	Cursor Position: 6 16
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40778255462646484 seconds
+Received response: TextWindow.Read()
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8717948717948718
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 22	Cursor Position: 6 26
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.48743557929992676 seconds
+Received response: TextWindow.Read()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 66.87403049764218, 'counts': [4, 3, 2, 1], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 75.0, 66.66666666666667, 50.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 53	Cursor Position: 6 27
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41016411781311035 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 6 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4427957534790039 seconds
+Received response: TextWindow.Write("Enter country: ")
+user["country"] = TextWindow.Read()
+Actual result:  ( )
+SACREBLEU Score: {'score': 3.4544475984335747, 'counts': [2, 1, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [9.090909090909092, 4.761904761904762, 2.5, 1.3157894736842106], 'bp': 1.0, 'sys_len': 22, 'ref_len': 2}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 6 32
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42427515983581543 seconds
+Received response: user["city"] = TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 6 34
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7700700759887695 seconds
+Received response: ```smallbasic
+TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+
+TextWindow.Write("User Information:")
+TextWindow.Write("Name: " + user["name"])
+TextWindow.Write("Age: " + user["age"])
+TextWindow.Write("City: " + user["city"])
+```
+Actual result:  \n TextWindow . Write ( "Enter zip: " ) \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 19.542350691762035, 'counts': [45, 31, 21, 14], 'totals': [131, 130, 129, 128], 'precisions': [34.35114503816794, 23.846153846153847, 16.27906976744186, 10.9375], 'bp': 1.0, 'sys_len': 131, 'ref_len': 67}
+First element of precision:34.35114503816794
+Sequence Matcher Similarity Precision:0.13245033112582782
+Cosine Similarity Precision:0.7065469182474735
+
+Parse State: 11	Cursor Position: 7 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7668321132659912 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+TextWindow.Write("User Information: ")
+TextWindow.WriteLine("Name: " + user["name"])
+TextWindow.WriteLine("Age: " + user["age"])
+TextWindow.WriteLine("City: " + user["city"])
+Actual result:  TextWindow . Write ( "Enter zip: " )
+SACREBLEU Score: {'score': 4.526264746261142, 'counts': [9, 7, 5, 3], 'totals': [124, 123, 122, 121], 'precisions': [7.258064516129032, 5.691056910569106, 4.098360655737705, 2.479338842975207], 'bp': 1.0, 'sys_len': 124, 'ref_len': 10}
+First element of precision:7.258064516129032
+Sequence Matcher Similarity Precision:0.15233415233415235
+Cosine Similarity Precision:0.5475331324407062
+
+Parse State: 6	Cursor Position: 7 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5051412582397461 seconds
+Received response: Write("User Information: " & "Name: " & user["name"] & ", Age: " & user["age"] & ", City: " & user["city"])
+Actual result:  . Write ( "Enter zip: " )
+SACREBLEU Score: {'score': 3.893478295041711, 'counts': [6, 3, 1, 0], 'totals': [46, 45, 44, 43], 'precisions': [13.043478260869565, 6.666666666666667, 2.272727272727273, 1.1627906976744187], 'bp': 1.0, 'sys_len': 46, 'ref_len': 9}
+First element of precision:13.043478260869565
+Sequence Matcher Similarity Precision:0.24060150375939848
+Cosine Similarity Precision:0.10540925533894599
+
+Parse State: 30	Cursor Position: 7 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4901607036590576 seconds
+Received response: TextWindow.Write("User information: " & user["name"] & ", " & user["age"] & ", " & user["city"])
+Actual result:  Write ( "Enter zip: " )
+SACREBLEU Score: {'score': 4.620856909230221, 'counts': [6, 3, 1, 0], 'totals': [39, 38, 37, 36], 'precisions': [15.384615384615385, 7.894736842105263, 2.7027027027027026, 1.3888888888888888], 'bp': 1.0, 'sys_len': 39, 'ref_len': 8}
+First element of precision:15.384615384615385
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.12309149097933274
+
+Parse State: 58	Cursor Position: 7 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5001637935638428 seconds
+Received response: TextWindow.Write("Name: " & user["name"] & ", Age: " & user["age"] & ", City: " & user["city"])
+Actual result:  ( "Enter zip: " )
+SACREBLEU Score: {'score': 2.6117888703725423, 'counts': [5, 2, 0, 0], 'totals': [42, 41, 40, 39], 'precisions': [11.904761904761905, 4.878048780487805, 1.25, 0.6410256410256411], 'bp': 1.0, 'sys_len': 42, 'ref_len': 7}
+First element of precision:11.904761904761905
+Sequence Matcher Similarity Precision:0.1415929203539823
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 7 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7525367736816406 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+TextWindow.Write("User Information: ")
+TextWindow.Write("Name: " & user["name"] & ", Age: " & user["age"] & ", City: " & user["city"])
+Actual result:  "Enter zip: "
+SACREBLEU Score: {'score': 0.8584086303716454, 'counts': [4, 2, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [3.389830508474576, 1.7094017094017093, 0.43103448275862066, 0.21739130434782608], 'bp': 1.0, 'sys_len': 118, 'ref_len': 5}
+First element of precision:3.389830508474576
+Sequence Matcher Similarity Precision:0.05813953488372093
+Cosine Similarity Precision:0.14815943949743843
+
+Parse State: 92	Cursor Position: 7 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44048213958740234 seconds
+Received response: TextWindow.Write("Enter zip: ") user["zip"] = TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.06153846153846154
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 7 33
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4228689670562744 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  \n user [ "zip" ] = TextWindow . Read ( ) \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 2.7782933954124274, 'counts': [12, 11, 10, 9], 'totals': [12, 11, 10, 9], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.02778293395412426, 'sys_len': 12, 'ref_len': 55}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.2831050228310502
+Cosine Similarity Precision:0.7027819284987273
+
+Parse State: 11	Cursor Position: 8 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ")
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4193878173828125 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  user [ "zip" ] = TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [12, 11, 10, 9], 'totals': [12, 11, 10, 9], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 12}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8857142857142857
+Cosine Similarity Precision:1.0
+
+Parse State: 6	Cursor Position: 8 5
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43788719177246094 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  [ "zip" ]
+SACREBLEU Score: {'score': 31.702331385234313, 'counts': [5, 4, 3, 2], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 36.36363636363637, 30.0, 22.22222222222222], 'bp': 1.0, 'sys_len': 12, 'ref_len': 5}
+First element of precision:41.666666666666664
+Sequence Matcher Similarity Precision:0.34146341463414637
+Cosine Similarity Precision:0.5
+
+Parse State: 32	Cursor Position: 8 6
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user[
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42616724967956543 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  "zip"
+SACREBLEU Score: {'score': 12.605968092174914, 'counts': [3, 2, 1, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 18.181818181818183, 10.0, 5.555555555555555], 'bp': 1.0, 'sys_len': 12, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2702702702702703
+Cosine Similarity Precision:0.5
+
+Parse State: 60	Cursor Position: 8 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4235363006591797 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  ]
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.06060606060606061
+Cosine Similarity Precision:0.0
+
+Parse State: 27	Cursor Position: 8 13
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"]
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4125795364379883 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 41.72261448611506, 'counts': [6, 5, 4, 3], 'totals': [12, 11, 10, 9], 'precisions': [50.0, 45.45454545454545, 40.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 6}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 56	Cursor Position: 8 15
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40704870223999023 seconds
+Received response: TextWindow.Read()
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8717948717948718
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 22	Cursor Position: 8 25
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41045355796813965 seconds
+Received response: TextWindow.Read()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 66.87403049764218, 'counts': [4, 3, 2, 1], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 75.0, 66.66666666666667, 50.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 53	Cursor Position: 8 26
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40630602836608887 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 8 30
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4167201519012451 seconds
+Received response: user["zip"] = TextWindow.Read()
+Actual result:  ( )
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.17142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 8 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.6126046180725098 seconds
+Received response: ```
+TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+TextWindow.Write("Enter zip: ")
+user["zip"] = TextWindow.Read()
+```
+Actual result:  )
+SACREBLEU Score: {'score': 0.38224780572840267, 'counts': [1, 0, 0, 0], 'totals': [94, 93, 92, 91], 'precisions': [1.0638297872340425, 0.5376344086021505, 0.2717391304347826, 0.13736263736263737], 'bp': 1.0, 'sys_len': 94, 'ref_len': 1}
+First element of precision:1.0638297872340425
+Sequence Matcher Similarity Precision:0.01486988847583643
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 8 34
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7393500804901123 seconds
+Received response: TextWindow.Write("Enter country: ")
+user["country"] = TextWindow.Read()
+TextWindow.Write("User Information:")
+TextWindow.Write("Name: " + user["name"])
+TextWindow.Write("Age: " + user["age"])
+TextWindow.Write("City: " + user["city"])
+TextWindow.Write("Zip: " + user["zip"])
+TextWindow.Write("Country: " + user["country"])
+Actual result:  \n TextWindow . Write ( "What info do you want? " ) \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 10.686463801687589, 'counts': [24, 15, 9, 6], 'totals': [112, 111, 110, 109], 'precisions': [21.428571428571427, 13.513513513513514, 8.181818181818182, 5.504587155963303], 'bp': 1.0, 'sys_len': 112, 'ref_len': 41}
+First element of precision:21.428571428571427
+Sequence Matcher Similarity Precision:0.3640256959314775
+Cosine Similarity Precision:0.5347485453633226
+
+Parse State: 11	Cursor Position: 9 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.405289888381958 seconds
+Received response: user["name"]
+Actual result:  TextWindow . Write ( "What info do you want? " )
+SACREBLEU Score: {'score': 3.005799339448764, 'counts': [2, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 10.0, 6.25, 4.166666666666667], 'bp': 0.31140322391459774, 'sys_len': 6, 'ref_len': 13}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.06557377049180328
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 9 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7697908878326416 seconds
+Received response: Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+TextWindow.Write("Enter zip: ")
+user["zip"] = TextWindow.Read()
+TextWindow.Write("User Information: ")
+TextWindow.WriteLine("Name: " + user["name"])
+TextWindow.WriteLine("Age: " + user["age"])
+TextWindow.WriteLine("City: " + user["city"])
+TextWindow.WriteLine("Zip: " + user["zip"])
+Actual result:  . Write ( "What info do you want? " )
+SACREBLEU Score: {'score': 1.660702531784185, 'counts': [6, 4, 2, 1], 'totals': [160, 159, 158, 157], 'precisions': [3.75, 2.5157232704402515, 1.2658227848101267, 0.6369426751592356], 'bp': 1.0, 'sys_len': 160, 'ref_len': 12}
+First element of precision:3.75
+Sequence Matcher Similarity Precision:0.09108910891089109
+Cosine Similarity Precision:0.10713739108887085
+
+Parse State: 30	Cursor Position: 9 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5177631378173828 seconds
+Received response: TextWindow.Write("User information: " & user["name"] & ", " & user["age"] & ", " & user["city"] & ", " & user["zip"])
+Actual result:  Write ( "What info do you want? " )
+SACREBLEU Score: {'score': 3.0840130433625754, 'counts': [5, 2, 1, 0], 'totals': [50, 49, 48, 47], 'precisions': [10.0, 4.081632653061225, 2.0833333333333335, 1.0638297872340425], 'bp': 1.0, 'sys_len': 50, 'ref_len': 11}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.23529411764705882
+Cosine Similarity Precision:0.07216878364870323
+
+Parse State: 58	Cursor Position: 9 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.534538984298706 seconds
+Received response: TextWindow.Write("User Information: " & "Name: " & user["name"] & ", Age: " & user["age"] & ", City: " & user["city"] & ", Zip: " & user["zip"])
+Actual result:  ( "What info do you want? " )
+SACREBLEU Score: {'score': 1.4135208810613689, 'counts': [4, 1, 0, 0], 'totals': [61, 60, 59, 58], 'precisions': [6.557377049180328, 1.6666666666666667, 0.847457627118644, 0.43103448275862066], 'bp': 1.0, 'sys_len': 61, 'ref_len': 10}
+First element of precision:6.557377049180328
+Sequence Matcher Similarity Precision:0.12643678160919541
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 9 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7551465034484863 seconds
+Received response: TextWindow.Write("Enter name: ")
+user["name"] = TextWindow.Read()
+TextWindow.Write("Enter age: ")
+user["age"] = TextWindow.Read()
+TextWindow.Write("Enter city: ")
+user["city"] = TextWindow.Read()
+TextWindow.Write("Enter zip: ")
+user["zip"] = TextWindow.Read()
+TextWindow.Write("User Information: " & "Name: " & user["name"] & ", Age: " & user["age"] & ", City: " & user["city"] & ", Zip: " & user["zip"])
+Actual result:  "What info do you want? "
+SACREBLEU Score: {'score': 0.2850578215211531, 'counts': [2, 0, 0, 0], 'totals': [149, 148, 147, 146], 'precisions': [1.342281879194631, 0.33783783783783783, 0.17006802721088435, 0.08561643835616438], 'bp': 1.0, 'sys_len': 149, 'ref_len': 8}
+First element of precision:1.342281879194631
+Sequence Matcher Similarity Precision:0.05581395348837209
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 9 43
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4550309181213379 seconds
+Received response: TextWindow.Write("What info do you want? (name, age, city, zip) ")
+Actual result:  )
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 9 45
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7380449771881104 seconds
+Received response: ```
+userChoice = TextWindow.Read()
+If userChoice = "name" Then
+    TextWindow.Write("Name: " + user["name"])
+ElseIf userChoice = "age" Then
+    TextWindow.Write("Age: " + user["age"])
+ElseIf userChoice = "city" Then
+    TextWindow.Write("City: " + user["city"])
+ElseIf userChoice = "zip" Then
+    TextWindow.Write("Zip: " + user["zip"])
+Else
+    TextWindow.Write("Invalid choice")
+EndIf
+```
+Actual result:  \n index = TextWindow . Read ( ) \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 7.2516081249236075, 'counts': [18, 11, 6, 4], 'totals': [116, 115, 114, 113], 'precisions': [15.517241379310345, 9.565217391304348, 5.2631578947368425, 3.5398230088495577], 'bp': 1.0, 'sys_len': 116, 'ref_len': 26}
+First element of precision:15.517241379310345
+Sequence Matcher Similarity Precision:0.25206611570247933
+Cosine Similarity Precision:0.3269230769230769
+
+Parse State: 11	Cursor Position: 10 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ")
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42058372497558594 seconds
+Received response: user["info"] = TextWindow.Read()
+Actual result:  index = TextWindow . Read ( )
+SACREBLEU Score: {'score': 41.72261448611506, 'counts': [6, 5, 4, 3], 'totals': [12, 11, 10, 9], 'precisions': [50.0, 45.45454545454545, 40.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 7}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7096774193548387
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 6	Cursor Position: 10 7
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39106154441833496 seconds
+Received response: user["name"]
+Actual result:  = TextWindow . Read ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 29	Cursor Position: 10 9
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4040684700012207 seconds
+Received response: user[index]
+Actual result:  TextWindow . Read ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.7788007830714049, 'sys_len': 4, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.30303030303030304
+Cosine Similarity Precision:0.0
+
+Parse State: 22	Cursor Position: 10 19
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3916027545928955 seconds
+Received response: .Read()
+Actual result:  . Read ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.7777777777777778
+Cosine Similarity Precision:1.0
+
+Parse State: 53	Cursor Position: 10 20
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4106762409210205 seconds
+Received response: TextWindow.Read()
+Actual result:  Read ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 10 24
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40236520767211914 seconds
+Received response: user["name"]
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 10 25
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4078638553619385 seconds
+Received response: TextWindow.Read()
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 10 27
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.7709863185882568 seconds
+Received response: ```smallbasic
+If index = "name" Then
+    TextWindow.Write("Name: " + user["name"])
+ElseIf index = "age" Then
+    TextWindow.Write("Age: " + user["age"])
+ElseIf index = "city" Then
+    TextWindow.Write("City: " + user["city"])
+ElseIf index = "zip" Then
+    TextWindow.Write("Zip: " + user["zip"])
+Else
+    TextWindow.Write("Invalid info requested.")
+EndIf
+```
+Actual result:  \n TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 3.2582715346696434, 'counts': [14, 6, 2, 1], 'totals': [112, 111, 110, 109], 'precisions': [12.5, 5.405405405405405, 1.8181818181818181, 0.9174311926605505], 'bp': 1.0, 'sys_len': 112, 'ref_len': 17}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.1909307875894988
+Cosine Similarity Precision:0.5246313898711125
+
+Parse State: 11	Cursor Position: 11 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read()
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40409016609191895 seconds
+Received response: user[index]
+Actual result:  TextWindow . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 6.39278612067076, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.06392786120670757, 'sys_len': 4, 'ref_len': 15}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.2318840579710145
+Cosine Similarity Precision:0.801783725737273
+
+Parse State: 6	Cursor Position: 11 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4093449115753174 seconds
+Received response: Write(user[index])
+Actual result:  . WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 23.671529472186084, 'counts': [6, 4, 3, 2], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 66.66666666666667, 60.0, 50.0], 'bp': 0.36787944117144233, 'sys_len': 7, 'ref_len': 14}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865477
+
+Parse State: 30	Cursor Position: 11 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4090099334716797 seconds
+Received response: TextWindow.Write(user[index])
+Actual result:  WriteLine ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 29.951971001015085, 'counts': [6, 4, 3, 2], 'totals': [9, 8, 7, 6], 'precisions': [66.66666666666667, 50.0, 42.857142857142854, 33.333333333333336], 'bp': 0.6411803884299546, 'sys_len': 9, 'ref_len': 13}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.35135135135135137
+Cosine Similarity Precision:0.6123724356957946
+
+Parse State: 58	Cursor Position: 11 21
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40907907485961914 seconds
+Received response: user[index]
+Actual result:  ( index + " = " + user [ index ] )
+SACREBLEU Score: {'score': 13.533528323661276, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.1353352832366127, 'sys_len': 4, 'ref_len': 12}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.2608695652173913
+Cosine Similarity Precision:0.9486832980505137
+
+Parse State: 83	Cursor Position: 11 22
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4088935852050781 seconds
+Received response: TextWindow.WriteLine(user[index])
+Actual result:  index
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.2564102564102564
+Cosine Similarity Precision:0.5
+
+Parse State: 18	Cursor Position: 11 28
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4548666477203369 seconds
+Received response: TextWindow.WriteLine(index & " " & user[index])
+Actual result:  + " = "
+SACREBLEU Score: {'score': 3.377156414337854, 'counts': [2, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 4}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 48	Cursor Position: 11 30
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index +
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44101524353027344 seconds
+Received response: TextWindow.WriteLine(index + " " + user[index])
+Actual result:  " = "
+SACREBLEU Score: {'score': 3.377156414337854, 'counts': [2, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 3}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.1509433962264151
+Cosine Similarity Precision:0.0
+
+Parse State: 18	Cursor Position: 11 36
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index + " = "
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40831470489501953 seconds
+Received response: user[index]
+Actual result:  + user [ index ]
+SACREBLEU Score: {'score': 77.88007830714052, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.7788007830714049, 'sys_len': 4, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.7857142857142857
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 48	Cursor Position: 11 38
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index + " = " +
+                'Identifier Idxs'
+                Complete the 'Identifier Idxs' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier Idxs'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40832018852233887 seconds
+Received response: user[index]
+Actual result:  user [ index ]
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8461538461538461
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 22	Cursor Position: 11 42
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index + " = " + user
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code in the Small Basic programming language. Just show your answer in place of '[ Expression ]'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3933830261230469 seconds
+Received response: user[index]
+Actual result:  [ index ]
+SACREBLEU Score: {'score': 59.460355750136046, 'counts': [3, 2, 1, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 66.66666666666667, 50.0, 50.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 32	Cursor Position: 11 43
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index + " = " + user[
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3913145065307617 seconds
+Received response: user[index]
+Actual result:  index
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.5882352941176471
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 60	Cursor Position: 11 48
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index + " = " + user[index
+                ']'
+                Complete the ']' part of the code in the Small Basic programming language. Just show your answer in place of ']'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44341015815734863 seconds
+Received response: ```
+TextWindow.WriteLine(index + " = " + user[index])
+```
+Actual result:  ]
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.06779661016949153
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 11 49
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter name: ") 
+user["name"] = TextWindow.Read() 
+TextWindow.Write("Enter age: ") 
+user["age"] = TextWindow.Read() 
+TextWindow.Write("Enter city: ") 
+user["city"] = TextWindow.Read() 
+TextWindow.Write("Enter zip: ") 
+user["zip"] = TextWindow.Read()  
+TextWindow.Write("What info do you want? ") 
+index = TextWindow.Read() 
+TextWindow.WriteLine(index + " = " + user[index]
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4246950149536133 seconds
+Received response: TextWindow.WriteLine(index + " = " + user[index])
+Actual result:  )
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.0784313725490196
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 38.10374142870251
+Average Sequence Matcher Similarity Precision: 31.480804785675883
+Average Cosine Similarity Precision: 38.43132919836348
