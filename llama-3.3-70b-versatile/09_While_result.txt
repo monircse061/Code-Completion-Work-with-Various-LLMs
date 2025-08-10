@@ -1,0 +1,445 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4338724613189697 seconds
+Received response: name = "John"
+Actual result:  number = 100
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.0
+
+Parse State: 6	Cursor Position: 1 8
+
+                This is the incomplete Small Basic programming language code:
+                number
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40762829780578613 seconds
+Received response: 10 * 5
+Actual result:  = 100
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 29	Cursor Position: 1 10
+
+                This is the incomplete Small Basic programming language code:
+                number =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4672389030456543 seconds
+Received response: TextWindow.WriteLine("Enter a number: ")
+number = TextWindow.ReadNumber()
+Actual result:  100
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.025974025974025976
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 14
+
+                This is the incomplete Small Basic programming language code:
+                number = 100
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.47180604934692383 seconds
+Received response: TextWindow.WriteLine("The number is: " + number)
+TextWindow.WriteLine("Is the number greater than 50? " + (number > 50))
+Actual result:  \n While ( number > 1 ) \n TextWindow . WriteLine ( number ) \n number = number / 2 \n EndWhile
+SACREBLEU Score: {'score': 12.178021069411955, 'counts': [12, 6, 3, 1], 'totals': [33, 32, 31, 30], 'precisions': [36.36363636363637, 18.75, 9.67741935483871, 3.3333333333333335], 'bp': 1.0, 'sys_len': 33, 'ref_len': 26}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.7254762501100117
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                number = 100
+                'While Expression CRStmtCRs EndWhile'
+                Complete the 'While Expression CRStmtCRs EndWhile' part of the code in the Small Basic programming language. Just show your answer in place of 'While Expression CRStmtCRs EndWhile'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4847714900970459 seconds
+Received response: While ("number > 0") 
+  TextWindow.WriteLine(number)
+  number = number - 1
+EndWhile
+Actual result:  While ( number > 1 ) \n TextWindow . WriteLine ( number ) \n number = number / 2 \n EndWhile
+SACREBLEU Score: {'score': 30.225833495747157, 'counts': [16, 9, 5, 3], 'totals': [20, 19, 18, 17], 'precisions': [80.0, 47.36842105263158, 27.77777777777778, 17.647058823529413], 'bp': 0.8187307530779819, 'sys_len': 20, 'ref_len': 24}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.8409090909090909
+Cosine Similarity Precision:1.0
+
+Parse State: 5	Cursor Position: 2 7
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40389204025268555 seconds
+Received response: number > 0
+Actual result:  ( number > 1 )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.72
+Cosine Similarity Precision:1.0
+
+Parse State: 23	Cursor Position: 2 8
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3993508815765381 seconds
+Received response: number > 0
+Actual result:  number
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.7058823529411765
+Cosine Similarity Precision:1.0
+
+Parse State: 17	Cursor Position: 2 15
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number
+                '> AdditiveExpr'
+                Complete the '> AdditiveExpr' part of the code in the Small Basic programming language. Just show your answer in place of '> AdditiveExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.41956543922424316 seconds
+Received response: number = 100 
+While (number > 0)
+Actual result:  > 1
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 46	Cursor Position: 2 17
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number >
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5067863464355469 seconds
+Received response: 0) 
+                number = number - 1
+                TextWindow.WriteLine(number)
+                EndWhile
+Actual result:  1
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.036036036036036036
+Cosine Similarity Precision:0.0
+
+Parse State: 54	Cursor Position: 2 18
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.48678112030029297 seconds
+Received response: number = 100 
+While (number > 1)
+  TextWindow.WriteLine(number)
+  number = number - 1
+Actual result:  )
+SACREBLEU Score: {'score': 1.9146030690102513, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.04597701149425287
+Cosine Similarity Precision:0.0
+
+Parse State: 12	Cursor Position: 2 22
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.46429920196533203 seconds
+Received response: number = number / 2 
+TextWindow.WriteLine(number)
+Actual result:  \n TextWindow . WriteLine ( number ) \n number = number / 2 \n
+SACREBLEU Score: {'score': 47.1364221970258, 'counts': [11, 9, 7, 5], 'totals': [11, 10, 9, 8], 'precisions': [100.0, 90.0, 77.77777777777777, 62.5], 'bp': 0.5795782787848095, 'sys_len': 11, 'ref_len': 17}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.375
+Cosine Similarity Precision:1.0
+
+Parse State: 39	Cursor Position: 3 2
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4350004196166992 seconds
+Received response: TextWindow.WriteLine(number)
+Actual result:  TextWindow . WriteLine ( number )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [6, 5, 4, 3], 'totals': [6, 5, 4, 3], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9032258064516129
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 6	Cursor Position: 3 12
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.44394755363464355 seconds
+Received response: WriteLine(number)
+number = number / 2
+Actual result:  . WriteLine ( number )
+SACREBLEU Score: {'score': 29.84745896009822, 'counts': [4, 3, 2, 1], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 37.5, 28.571428571428573, 16.666666666666668], 'bp': 1.0, 'sys_len': 9, 'ref_len': 5}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.6
+Cosine Similarity Precision:0.8944271909999157
+
+Parse State: 30	Cursor Position: 3 13
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4261322021484375 seconds
+Received response: WriteLine(number)
+number = number / 2
+Actual result:  WriteLine ( number )
+SACREBLEU Score: {'score': 29.84745896009822, 'counts': [4, 3, 2, 1], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 37.5, 28.571428571428573, 16.666666666666668], 'bp': 1.0, 'sys_len': 9, 'ref_len': 4}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.6206896551724138
+Cosine Similarity Precision:0.8944271909999157
+
+Parse State: 58	Cursor Position: 3 22
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4565718173980713 seconds
+Received response: number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number)
+	number = number - 1
+Actual result:  ( number )
+SACREBLEU Score: {'score': 7.12695567709093, 'counts': [3, 2, 1, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 10.526315789473685, 5.555555555555555, 2.9411764705882355], 'bp': 1.0, 'sys_len': 20, 'ref_len': 3}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.20618556701030927
+Cosine Similarity Precision:0.9284766908852594
+
+Parse State: 83	Cursor Position: 3 23
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.46388888359069824 seconds
+Received response: number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number)
+	number = number - 1
+Actual result:  number
+SACREBLEU Score: {'score': 1.9146030690102513, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.15053763440860216
+Cosine Similarity Precision:0.9284766908852594
+
+Parse State: 92	Cursor Position: 3 29
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4655628204345703 seconds
+Received response: number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number)
+	number = number - 1
+Actual result:  )
+SACREBLEU Score: {'score': 1.9146030690102513, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.045454545454545456
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 3 31
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3952445983886719 seconds
+Received response: number = number - 1
+Actual result:  \n number = number / 2 \n
+SACREBLEU Score: {'score': 17.86690863748234, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 0.44932896411722156, 'sys_len': 5, 'ref_len': 9}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.7555555555555555
+Cosine Similarity Precision:1.0
+
+Parse State: 88	Cursor Position: 4 4
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number)
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40584516525268555 seconds
+Received response: number = number - 1
+Actual result:  number = number / 2
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.8717948717948718
+Cosine Similarity Precision:1.0
+
+Parse State: 6	Cursor Position: 4 11
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.401106595993042 seconds
+Received response: number = number - 1
+Actual result:  = number / 2
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.6875
+Cosine Similarity Precision:1.0
+
+Parse State: 29	Cursor Position: 4 13
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number =
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3887593746185303 seconds
+Received response: number = number - 1
+Actual result:  number
+SACREBLEU Score: {'score': 10.682175159905853, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.5384615384615384
+Cosine Similarity Precision:1.0
+
+Parse State: 19	Cursor Position: 4 20
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number = number
+                '/ UnaryExpr'
+                Complete the '/ UnaryExpr' part of the code in the Small Basic programming language. Just show your answer in place of '/ UnaryExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4672861099243164 seconds
+Received response: number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number = number - 1
+Actual result:  / 2
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 20, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.043010752688172046
+Cosine Similarity Precision:0.0
+
+Parse State: 51	Cursor Position: 4 22
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number = number /
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3915119171142578 seconds
+Received response: 2
+Actual result:  2
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 4 24
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number = number / 2
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code in the Small Basic programming language. Just show your answer in place of 'CR TheRest'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4221222400665283 seconds
+Received response: TextWindow.WriteLine("Done!")
+Actual result:  \n
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 38	Cursor Position: 5 1
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number = number / 2
+                'EndWhile'
+                Complete the 'EndWhile' part of the code in the Small Basic programming language. Just show your answer in place of 'EndWhile'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40784168243408203 seconds
+Received response: EndWhile
+Actual result:  EndWhile
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9411764705882353
+Cosine Similarity Precision:1.0
+
+
+Average Precision: 38.140259740259744
+Average Sequence Matcher Similarity Precision: 44.99408195036004
+Average Cosine Similarity Precision: 57.485136055521444

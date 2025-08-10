@@ -1,0 +1,614 @@
+Parse State: 0	Cursor Position: 1 1
+
+                This is the incomplete Small Basic programming language code:
+                
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4374053478240967 seconds
+Received response: TextWindow.WriteLine("Hello, World!")
+Actual result:  TextWindow . Write ( "Enter temperature in Fahrenheit: " )
+SACREBLEU Score: {'score': 11.854493902046322, 'counts': [6, 3, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [54.54545454545455, 30.0, 5.555555555555555, 3.125], 'bp': 0.9131007162822624, 'sys_len': 11, 'ref_len': 12}
+First element of precision:54.54545454545455
+Sequence Matcher Similarity Precision:0.4583333333333333
+Cosine Similarity Precision:0.20412414523193154
+
+Parse State: 6	Cursor Position: 1 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42176222801208496 seconds
+Received response: WriteLine("Hello, World!")
+Actual result:  . Write ( "Enter temperature in Fahrenheit: " )
+SACREBLEU Score: {'score': 10.798033448421627, 'counts': [4, 2, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 25.0, 7.142857142857143, 4.166666666666667], 'bp': 0.800737402916808, 'sys_len': 9, 'ref_len': 11}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.2972972972972973
+Cosine Similarity Precision:0.0
+
+Parse State: 30	Cursor Position: 1 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40615010261535645 seconds
+Received response: WriteLine("Hello, World!")
+Actual result:  Write ( "Enter temperature in Fahrenheit: " )
+SACREBLEU Score: {'score': 12.06700828352363, 'counts': [4, 2, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 25.0, 7.142857142857143, 4.166666666666667], 'bp': 0.8948393168143697, 'sys_len': 9, 'ref_len': 10}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.3055555555555556
+Cosine Similarity Precision:0.0
+
+Parse State: 58	Cursor Position: 1 17
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40615034103393555 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  ( "Enter temperature in Fahrenheit: " )
+SACREBLEU Score: {'score': 10.600313379512592, 'counts': [4, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
+First element of precision:36.36363636363637
+Sequence Matcher Similarity Precision:0.273972602739726
+Cosine Similarity Precision:0.0
+
+Parse State: 83	Cursor Position: 1 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4061460494995117 seconds
+Received response: TextWindow.Write("Hello, World!")
+Actual result:  "Enter temperature in Fahrenheit: "
+SACREBLEU Score: {'score': 4.456882760699064, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 7}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.2318840579710145
+Cosine Similarity Precision:0.0
+
+Parse State: 92	Cursor Position: 1 53
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: "
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.45309948921203613 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ")
+fahrenheit = TextWindow.ReadNumber()
+Actual result:  )
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.043478260869565216
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 1 55
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5623681545257568 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ")
+fahrenheit = TextWindow.ReadNumber()
+celsius = (fahrenheit - 32) * 5 / 9
+TextWindow.WriteLine("Temperature in Celsius: " + celsius)
+Actual result:  \n fahr = TextWindow . ReadNumber ( ) \n celsius = 5 * ( fahr - 32 ) / 9 \n TextWindow . WriteLine ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 38.07447950090451, 'counts': [28, 19, 13, 9], 'totals': [43, 42, 41, 40], 'precisions': [65.11627906976744, 45.23809523809524, 31.70731707317073, 22.5], 'bp': 1.0, 'sys_len': 43, 'ref_len': 37}
+First element of precision:65.11627906976744
+Sequence Matcher Similarity Precision:0.7033639143730887
+Cosine Similarity Precision:0.7253185207353658
+
+Parse State: 11	Cursor Position: 2 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ")
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4061741828918457 seconds
+Received response: fahrenheit = TextWindow.ReadNumber()
+Actual result:  fahr = TextWindow . ReadNumber ( )
+SACREBLEU Score: {'score': 80.91067115702207, 'counts': [6, 5, 4, 3], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 83.33333333333333, 80.0, 75.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.8450704225352113
+Cosine Similarity Precision:0.6666666666666669
+
+Parse State: 6	Cursor Position: 2 6
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4531090259552002 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber()
+Actual result:  = TextWindow . ReadNumber ( )
+SACREBLEU Score: {'score': 24.941747177008256, 'counts': [6, 5, 4, 3], 'totals': [19, 18, 17, 16], 'precisions': [31.57894736842105, 27.77777777777778, 23.529411764705884, 18.75], 'bp': 1.0, 'sys_len': 19, 'ref_len': 6}
+First element of precision:31.57894736842105
+Sequence Matcher Similarity Precision:0.45217391304347826
+Cosine Similarity Precision:0.6396021490668312
+
+Parse State: 29	Cursor Position: 2 8
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.42177629470825195 seconds
+Received response: TextWindow.ReadNumber()
+Actual result:  TextWindow . ReadNumber ( )
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9019607843137255
+Cosine Similarity Precision:0.9999999999999998
+
+Parse State: 22	Cursor Position: 2 18
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.40615105628967285 seconds
+Received response: ReadNumber()
+Actual result:  . ReadNumber ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8275862068965517
+Cosine Similarity Precision:1.0
+
+Parse State: 53	Cursor Position: 2 19
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4061391353607178 seconds
+Received response: TextWindow.ReadNumber()
+Actual result:  ReadNumber ( )
+SACREBLEU Score: {'score': 39.76353643835254, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.631578947368421
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 79	Cursor Position: 2 29
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.8441803455352783 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber()
+cel = (fahr - 32) * 5 / 9
+TextWindow.WriteLine("Temperature in Celsius: " + cel)
+Actual result:  ( )
+SACREBLEU Score: {'score': 1.7044905731413862, 'counts': [2, 1, 0, 0], 'totals': [43, 42, 41, 40], 'precisions': [4.651162790697675, 2.380952380952381, 1.2195121951219512, 0.625], 'bp': 1.0, 'sys_len': 43, 'ref_len': 2}
+First element of precision:4.651162790697675
+Sequence Matcher Similarity Precision:0.047058823529411764
+Cosine Similarity Precision:0.0
+
+Parse State: 102	Cursor Position: 2 30
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber(
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43748903274536133 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber()
+Actual result:  )
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.04597701149425287
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 2 32
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber()
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5623762607574463 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber()
+cel = (fahr - 32) * 5 / 9
+TextWindow.WriteLine("Temperature in Celsius: " + cel)
+Actual result:  \n celsius = 5 * ( fahr - 32 ) / 9 \n TextWindow . WriteLine ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 27.60485057308776, 'counts': [21, 13, 9, 7], 'totals': [43, 42, 41, 40], 'precisions': [48.83720930232558, 30.952380952380953, 21.951219512195124, 17.5], 'bp': 1.0, 'sys_len': 43, 'ref_len': 28}
+First element of precision:48.83720930232558
+Sequence Matcher Similarity Precision:0.4962962962962963
+Cosine Similarity Precision:0.6187184335382291
+
+Parse State: 11	Cursor Position: 3 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber()
+                'Identifier = Expression'
+                Complete the 'Identifier = Expression' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier = Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.437408447265625 seconds
+Received response: celsius = (fahr - 32) * 5 / 9
+Actual result:  celsius = 5 * ( fahr - 32 ) / 9
+SACREBLEU Score: {'score': 47.2870804501588, 'counts': [11, 6, 3, 2], 'totals': [11, 10, 9, 8], 'precisions': [100.0, 60.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.819672131147541
+Cosine Similarity Precision:1.0000000000000002
+
+Parse State: 6	Cursor Position: 3 9
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius
+                '= Expression'
+                Complete the '= Expression' part of the code in the Small Basic programming language. Just show your answer in place of '= Expression'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5155055522918701 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = (fahr - 32) * 5 / 9
+Actual result:  = 5 * ( fahr - 32 ) / 9
+SACREBLEU Score: {'score': 14.614031921776125, 'counts': [10, 5, 3, 2], 'totals': [30, 29, 28, 27], 'precisions': [33.333333333333336, 17.24137931034483, 10.714285714285714, 7.407407407407407], 'bp': 1.0, 'sys_len': 30, 'ref_len': 10}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.5303300858899106
+
+Parse State: 29	Cursor Position: 3 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius =
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5311238765716553 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = (fahr - 32) * 5 / 9
+Actual result:  5
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.03389830508474576
+Cosine Similarity Precision:0.0
+
+Parse State: 19	Cursor Position: 3 13
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5
+                '* UnaryExpr'
+                Complete the '* UnaryExpr' part of the code in the Small Basic programming language. Just show your answer in place of '* UnaryExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4998912811279297 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = (fahr - 32) * 5 / 9
+Actual result:  * ( fahr - 32 )
+SACREBLEU Score: {'score': 12.16411062125622, 'counts': [6, 4, 3, 2], 'totals': [30, 29, 28, 27], 'precisions': [20.0, 13.793103448275861, 10.714285714285714, 7.407407407407407], 'bp': 1.0, 'sys_len': 30, 'ref_len': 6}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.19696969696969696
+Cosine Similarity Precision:0.5303300858899106
+
+Parse State: 50	Cursor Position: 3 15
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 *
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4998917579650879 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9
+Actual result:  ( fahr - 32 )
+SACREBLEU Score: {'score': 11.622111816655837, 'counts': [5, 4, 3, 2], 'totals': [30, 29, 28, 27], 'precisions': [16.666666666666668, 13.793103448275861, 10.714285714285714, 7.407407407407407], 'bp': 1.0, 'sys_len': 30, 'ref_len': 5}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.18461538461538463
+Cosine Similarity Precision:0.5303300858899106
+
+Parse State: 23	Cursor Position: 3 16
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4374234676361084 seconds
+Received response: (fahr - 32) / 9
+Actual result:  fahr
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 18	Cursor Position: 3 21
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr
+                '- MultiplicativeExpr'
+                Complete the '- MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '- MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5155012607574463 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9
+Actual result:  - 32
+SACREBLEU Score: {'score': 2.4829886830705856, 'counts': [2, 1, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [6.666666666666667, 3.4482758620689653, 1.7857142857142858, 0.9259259259259259], 'bp': 1.0, 'sys_len': 30, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.08264462809917356
+Cosine Similarity Precision:0.25
+
+Parse State: 49	Cursor Position: 3 23
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr -
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4842557907104492 seconds
+Received response: 9) / 9 
+TextWindow.WriteLine("Temperature in Celsius: " + celsius)
+Actual result:  32
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 54	Cursor Position: 3 25
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43736839294433594 seconds
+Received response: / 9)
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 19	Cursor Position: 3 27
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32)
+                '/ UnaryExpr'
+                Complete the '/ UnaryExpr' part of the code in the Small Basic programming language. Just show your answer in place of '/ UnaryExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5155632495880127 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) 
+celsius = celsius / 9
+Actual result:  / 9
+SACREBLEU Score: {'score': 2.246199289207964, 'counts': [2, 1, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [6.0606060606060606, 3.125, 1.6129032258064515, 0.8333333333333334], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:6.0606060606060606
+Sequence Matcher Similarity Precision:0.05755395683453238
+Cosine Similarity Precision:0.0
+
+Parse State: 51	Cursor Position: 3 29
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) /
+                'Number'
+                Complete the 'Number' part of the code in the Small Basic programming language. Just show your answer in place of 'Number'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.39054369926452637 seconds
+Received response: 9
+Actual result:  9
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 3	Cursor Position: 3 31
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code in the Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.562368631362915 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9
+TextWindow.WriteLine("Temperature in Celsius: " + celsius)
+Actual result:  \n TextWindow . WriteLine ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 20.999803083678785, 'counts': [12, 10, 8, 6], 'totals': [43, 42, 41, 40], 'precisions': [27.906976744186046, 23.80952380952381, 19.51219512195122, 15.0], 'bp': 1.0, 'sys_len': 43, 'ref_len': 15}
+First element of precision:27.906976744186046
+Sequence Matcher Similarity Precision:0.4918032786885246
+Cosine Similarity Precision:0.7777777777777777
+
+Parse State: 11	Cursor Position: 4 1
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier . Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4217827320098877 seconds
+Received response: TextWindow.WriteLine("Temperature in Celsius: " + celsius)
+Actual result:  TextWindow . WriteLine ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 76.11606003349888, 'counts': [12, 10, 8, 6], 'totals': [13, 12, 11, 10], 'precisions': [92.3076923076923, 83.33333333333333, 72.72727272727273, 60.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 13}
+First element of precision:92.3076923076923
+Sequence Matcher Similarity Precision:0.9193548387096774
+Cosine Similarity Precision:0.9428090415820634
+
+Parse State: 6	Cursor Position: 4 11
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '. Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4218466281890869 seconds
+Received response: Write("The temperature in Celsius is: " + celsius)
+Actual result:  . WriteLine ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 31.170906522700683, 'counts': [9, 6, 3, 1], 'totals': [13, 12, 11, 10], 'precisions': [69.23076923076923, 50.0, 27.272727272727273, 10.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 12}
+First element of precision:69.23076923076923
+Sequence Matcher Similarity Precision:0.8571428571428571
+Cosine Similarity Precision:0.8249579113843054
+
+Parse State: 30	Cursor Position: 4 12
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier ( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4374239444732666 seconds
+Received response: TextWindow.WriteLine("Temperature in Celsius: " + celsius)
+Actual result:  WriteLine ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 57.83569866465144, 'counts': [10, 8, 6, 4], 'totals': [13, 12, 11, 10], 'precisions': [76.92307692307692, 66.66666666666667, 54.54545454545455, 40.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 11}
+First element of precision:76.92307692307692
+Sequence Matcher Similarity Precision:0.8288288288288288
+Cosine Similarity Precision:0.8749999999999999
+
+Parse State: 58	Cursor Position: 4 21
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code in the Small Basic programming language. Just show your answer in place of '( Expression )'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.4373900890350342 seconds
+Received response: TextWindow.WriteLine("Temperature in Celsius: " + celsius)
+Actual result:  ( "Temperature in Celsius is " + celsius )
+SACREBLEU Score: {'score': 48.44273237963863, 'counts': [9, 7, 5, 3], 'totals': [13, 12, 11, 10], 'precisions': [69.23076923076923, 58.333333333333336, 45.45454545454545, 30.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 10}
+First element of precision:69.23076923076923
+Sequence Matcher Similarity Precision:0.7326732673267327
+Cosine Similarity Precision:0.801783725737273
+
+Parse State: 83	Cursor Position: 4 22
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code in the Small Basic programming language. Just show your answer in place of 'String'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43739819526672363 seconds
+Received response: TextWindow.WriteLine("The temperature in Celsius is: " + celsius)
+Actual result:  "Temperature in Celsius is "
+SACREBLEU Score: {'score': 11.114924776032007, 'counts': [5, 2, 1, 0], 'totals': [15, 14, 13, 12], 'precisions': [33.333333333333336, 14.285714285714286, 7.6923076923076925, 4.166666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 6}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5957446808510638
+Cosine Similarity Precision:0.7905694150420949
+
+Parse State: 18	Cursor Position: 4 51
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.WriteLine("Temperature in Celsius is "
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code in the Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.3904910087585449 seconds
+Received response: celsius
+Actual result:  + celsius
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8235294117647058
+Cosine Similarity Precision:1.0
+
+Parse State: 48	Cursor Position: 4 53
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.WriteLine("Temperature in Celsius is " +
+                'Identifier'
+                Complete the 'Identifier' part of the code in the Small Basic programming language. Just show your answer in place of 'Identifier'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.5623664855957031 seconds
+Received response: TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.WriteLine("Temperature in Celsius is " + celsius)
+Actual result:  celsius
+SACREBLEU Score: {'score': 0.8522452865706931, 'counts': [1, 0, 0, 0], 'totals': [43, 42, 41, 40], 'precisions': [2.3255813953488373, 1.1904761904761905, 0.6097560975609756, 0.3125], 'bp': 1.0, 'sys_len': 43, 'ref_len': 1}
+First element of precision:2.3255813953488373
+Sequence Matcher Similarity Precision:0.08602150537634409
+Cosine Similarity Precision:0.4931969619160719
+
+Parse State: 92	Cursor Position: 4 60
+
+                This is the incomplete Small Basic programming language code:
+                TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr - 32) / 9 
+TextWindow.WriteLine("Temperature in Celsius is " + celsius
+                ')'
+                Complete the ')' part of the code in the Small Basic programming language. Just show your answer in place of ')'. Only respond with the completed code snippet. Do not explain. 
+                
+Time taken: 0.43741822242736816 seconds
+Received response: TextWindow.WriteLine("Temperature in Celsius is " + celsius + ")")
+Actual result:  )
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 43.29212010859358
+Average Sequence Matcher Similarity Precision: 43.93970529932143
+Average Cosine Similarity Precision: 44.6163673392041
